@@ -1,0 +1,1 @@
+../../iroha/docs/source/core_concepts/index.rst
