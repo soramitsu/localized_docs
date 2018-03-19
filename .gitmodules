@@ -1,0 +1,4 @@
+[submodule "iroha"]
+	path = iroha
+	url = https://github.com/hyperledger/iroha.git
+	branch = develop
