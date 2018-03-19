@@ -1,0 +1,1 @@
+../../iroha/docs/source/guides/deployment.rst
