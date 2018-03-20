@@ -1,1 +1,1 @@
-../../iroha/docs/source/api/java_library.rst
+../../../iroha/docs/source/api/java_library.rst

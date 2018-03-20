@@ -1,1 +1,1 @@
-../../iroha/docs/source/guides/index.rst
+../../../iroha/docs/source/guides/index.rst

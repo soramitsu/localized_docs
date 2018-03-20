@@ -1,1 +1,1 @@
-../../iroha/docs/source/guides/deployment.rst
+../../../iroha/docs/source/guides/deployment.rst

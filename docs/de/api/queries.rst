@@ -1,1 +1,1 @@
-../../iroha/docs/source/api/queries.rst
+../../../iroha/docs/source/api/queries.rst

@@ -1,1 +1,1 @@
-../../iroha/docs/source/api/commands.rst
+../../../iroha/docs/source/api/commands.rst

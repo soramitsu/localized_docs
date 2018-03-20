@@ -1,1 +1,1 @@
-../../iroha/docs/source/api/swift_library.rst
+../../../iroha/docs/source/api/swift_library.rst

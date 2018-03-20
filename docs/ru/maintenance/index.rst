@@ -1,1 +1,1 @@
-../../iroha/docs/source/maintenance/index.rst
+../../../iroha/docs/source/maintenance/index.rst

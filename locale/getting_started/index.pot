@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Creative Commons Attribution-NonCommercial 3.0 Unported
+# This file is distributed under the same license as the Iroha package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Iroha 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-20 11:41+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../iroha/docs/source/getting_started/index.rst:2
+msgid "Getting started"
+msgstr ""
+
+#: ../iroha/docs/source/getting_started/index.rst:4
+msgid "In this section, we will create an environment to run Iroha instance, play around with settings a bit, launch it, create a couple of transactions, and check the data written in the ledger. Also, we will deploy a network of peers and will try to emulate rainy day scenarios happening in the network."
+msgstr ""
+
+#: ../iroha/docs/source/getting_started/index.rst:6
+msgid "Ledger is the synonym for a blockchain, and Hyperledger Iroha is known also as Distributed Ledger Technology — which in essence is the same as \"blockchain framework\". You can check the rest of terminology used in the Glossary section."
+msgstr ""
+
+#: ../iroha/docs/source/getting_started/index.rst:9
+msgid "Let's prepare the environment"
+msgstr ""
+
+#: ../iroha/docs/source/getting_started/index.rst:11
+msgid "Having troubles? Check FAQ section or communicate to us directly, in case you were stuck on something. We don't expect this to happen, but some issues with an environment are possible."
+msgstr ""
+
+#: ../iroha/docs/source/getting_started/index.rst:14
+msgid "Prerequisite 1"
+msgstr ""
+
+#: ../iroha/docs/source/getting_started/index.rst:17
+msgid "Prerequisite 2"
+msgstr ""
+
+#: ../iroha/docs/source/getting_started/index.rst:20
+msgid "Prerequisite 3"
+msgstr ""
+
+#: ../iroha/docs/source/getting_started/index.rst:23
+msgid "Getting Iroha build"
+msgstr ""
+
+#: ../iroha/docs/source/getting_started/index.rst:27
+#: ../iroha/docs/source/getting_started/index.rst:40
+#: ../iroha/docs/source/getting_started/index.rst:53
+#: ../iroha/docs/source/getting_started/index.rst:66
+#: ../iroha/docs/source/getting_started/index.rst:79
+msgid "Step 1"
+msgstr ""
+
+#: ../iroha/docs/source/getting_started/index.rst:30
+#: ../iroha/docs/source/getting_started/index.rst:43
+#: ../iroha/docs/source/getting_started/index.rst:56
+#: ../iroha/docs/source/getting_started/index.rst:69
+#: ../iroha/docs/source/getting_started/index.rst:82
+msgid "Step 2"
+msgstr ""
+
+#: ../iroha/docs/source/getting_started/index.rst:33
+#: ../iroha/docs/source/getting_started/index.rst:46
+#: ../iroha/docs/source/getting_started/index.rst:59
+#: ../iroha/docs/source/getting_started/index.rst:72
+#: ../iroha/docs/source/getting_started/index.rst:85
+msgid "Step 3"
+msgstr ""
+
+#: ../iroha/docs/source/getting_started/index.rst:36
+msgid "Playing around with settings"
+msgstr ""
+
+#: ../iroha/docs/source/getting_started/index.rst:49
+msgid "Running a single instance"
+msgstr ""
+
+#: ../iroha/docs/source/getting_started/index.rst:62
+msgid "Sending transactions and queries"
+msgstr ""
+
+#: ../iroha/docs/source/getting_started/index.rst:75
+msgid "Deploy a network of Iroha peers"
+msgstr ""
+
+#: ../iroha/docs/source/getting_started/index.rst:89
+msgid "What if bad things will happen?"
+msgstr ""
+
+#: ../iroha/docs/source/getting_started/index.rst:93
+msgid "Case 1"
+msgstr ""
+
+#: ../iroha/docs/source/getting_started/index.rst:96
+msgid "Case 2"
+msgstr ""
+
+#: ../iroha/docs/source/getting_started/index.rst:99
+msgid "Case 3"
+msgstr ""
+

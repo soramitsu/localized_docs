@@ -1,1 +1,1 @@
-../../iroha/docs/source/api/cpp_library.rst
+../../../iroha/docs/source/api/cpp_library.rst

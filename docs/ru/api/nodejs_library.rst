@@ -1,1 +1,1 @@
-../../iroha/docs/source/api/nodejs_library.rst
+../../../iroha/docs/source/api/nodejs_library.rst

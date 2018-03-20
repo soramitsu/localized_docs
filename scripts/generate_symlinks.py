@@ -27,7 +27,10 @@ for root, dirs, files in os.walk("../docs"):
 # In each language folder create a symlink for .rst file
 for lang in langs:
     for rst in rst_files:
-        src = "../" + rst_files[rst][0]
+        if "/" in rst_files[rst][1]:
+            src = "../../" + rst_files[rst][0]
+        else:
+            src = "../" + rst_files[rst][0]
         dest = langs[lang] + "/" + rst_files[rst][1]
         print("Create symlink from " + src + " in " + dest)
         try:

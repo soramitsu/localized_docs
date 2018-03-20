@@ -1,1 +1,1 @@
-../../iroha/docs/source/use_cases/index.rst
+../../../iroha/docs/source/use_cases/index.rst
