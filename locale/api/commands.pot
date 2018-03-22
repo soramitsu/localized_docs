@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Iroha 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-20 14:48+0300\n"
+"POT-Creation-Date: 2018-03-22 11:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,66 +21,62 @@ msgid "Commands"
 msgstr ""
 
 #: ../iroha/docs/source/api/commands.rst:5
-msgid "Remove asset quantity"
-msgstr ""
-
-#: ../iroha/docs/source/api/commands.rst:8
 msgid "Add asset quantity"
 msgstr ""
 
-#: ../iroha/docs/source/api/commands.rst:11
-msgid "Add peeeeeararararara"
+#: ../iroha/docs/source/api/commands.rst:8
+msgid "Add peer"
 msgstr ""
 
-#: ../iroha/docs/source/api/commands.rst:14
+#: ../iroha/docs/source/api/commands.rst:11
 msgid "Add signatory"
 msgstr ""
 
-#: ../iroha/docs/source/api/commands.rst:17
+#: ../iroha/docs/source/api/commands.rst:14
 msgid "Append role"
 msgstr ""
 
-#: ../iroha/docs/source/api/commands.rst:20
+#: ../iroha/docs/source/api/commands.rst:17
 msgid "Create account"
 msgstr ""
 
-#: ../iroha/docs/source/api/commands.rst:23
+#: ../iroha/docs/source/api/commands.rst:20
 msgid "Create asset"
 msgstr ""
 
-#: ../iroha/docs/source/api/commands.rst:26
+#: ../iroha/docs/source/api/commands.rst:23
 msgid "Create domain"
 msgstr ""
 
-#: ../iroha/docs/source/api/commands.rst:29
+#: ../iroha/docs/source/api/commands.rst:26
 msgid "Create role"
 msgstr ""
 
-#: ../iroha/docs/source/api/commands.rst:32
+#: ../iroha/docs/source/api/commands.rst:29
 msgid "Detach role"
 msgstr ""
 
-#: ../iroha/docs/source/api/commands.rst:35
+#: ../iroha/docs/source/api/commands.rst:32
 msgid "Grant permission"
 msgstr ""
 
-#: ../iroha/docs/source/api/commands.rst:38
+#: ../iroha/docs/source/api/commands.rst:35
 msgid "Revoke permission"
 msgstr ""
 
-#: ../iroha/docs/source/api/commands.rst:41
+#: ../iroha/docs/source/api/commands.rst:38
 msgid "Set account detail"
 msgstr ""
 
-#: ../iroha/docs/source/api/commands.rst:44
+#: ../iroha/docs/source/api/commands.rst:41
 msgid "Set account quorum"
 msgstr ""
 
-#: ../iroha/docs/source/api/commands.rst:47
+#: ../iroha/docs/source/api/commands.rst:44
 msgid "Subtract asset quantity"
 msgstr ""
 
-#: ../iroha/docs/source/api/commands.rst:50
+#: ../iroha/docs/source/api/commands.rst:47
 msgid "Transfer asset"
 msgstr ""
 
