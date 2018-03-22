@@ -28,7 +28,7 @@ First of all, *do not contribute to this repository directly*, please. We are us
     * French
     * German
     
-Please join at our (POEditor project)[https://poeditor.com/join/project/SFpZw7o33o] and contribute by reviewing and translating documentation strings.
+Please join at our [POEditor project](https://poeditor.com/join/project/SFpZw7o33o) and contribute by reviewing and translating documentation strings.
     
 ## Current issues
 
