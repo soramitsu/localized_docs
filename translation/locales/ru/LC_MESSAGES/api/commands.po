@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Iroha 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-20 11:41+0300\n"
+"POT-Creation-Date: 2018-03-20 14:48+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,62 +22,66 @@ msgid "Commands"
 msgstr ""
 
 #: ../iroha/docs/source/api/commands.rst:5
-msgid "Add asset quantity"
+msgid "Remove asset quantity"
 msgstr ""
 
 #: ../iroha/docs/source/api/commands.rst:8
-msgid "Add peer"
+msgid "Add asset quantity"
 msgstr ""
 
 #: ../iroha/docs/source/api/commands.rst:11
-msgid "Add signatory"
+msgid "Add peeeeeararararara"
 msgstr ""
 
 #: ../iroha/docs/source/api/commands.rst:14
-msgid "Append role"
+msgid "Add signatory"
 msgstr ""
 
 #: ../iroha/docs/source/api/commands.rst:17
-msgid "Create account"
+msgid "Append role"
 msgstr ""
 
 #: ../iroha/docs/source/api/commands.rst:20
-msgid "Create asset"
+msgid "Create account"
 msgstr ""
 
 #: ../iroha/docs/source/api/commands.rst:23
-msgid "Create domain"
+msgid "Create asset"
 msgstr ""
 
 #: ../iroha/docs/source/api/commands.rst:26
-msgid "Create role"
+msgid "Create domain"
 msgstr ""
 
 #: ../iroha/docs/source/api/commands.rst:29
-msgid "Detach role"
+msgid "Create role"
 msgstr ""
 
 #: ../iroha/docs/source/api/commands.rst:32
-msgid "Grant permission"
+msgid "Detach role"
 msgstr ""
 
 #: ../iroha/docs/source/api/commands.rst:35
-msgid "Revoke permission"
+msgid "Grant permission"
 msgstr ""
 
 #: ../iroha/docs/source/api/commands.rst:38
-msgid "Set account detail"
+msgid "Revoke permission"
 msgstr ""
 
 #: ../iroha/docs/source/api/commands.rst:41
-msgid "Set account quorum"
+msgid "Set account detail"
 msgstr ""
 
 #: ../iroha/docs/source/api/commands.rst:44
-msgid "Subtract asset quantity"
+msgid "Set account quorum"
 msgstr ""
 
 #: ../iroha/docs/source/api/commands.rst:47
+msgid "Subtract asset quantity"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:50
 msgid "Transfer asset"
 msgstr ""
 

@@ -18,7 +18,7 @@ gettext:
 	$(SPHINXBUILD) -b gettext "$(SOURCEDIR)" ../locale
 
 translate:
-	$(foreach l, $(LANGS), sphinx-intl update -p ../locale -l $(l); mv -f locales/$(l) ../translated/$(l);)
+	$(foreach l, $(LANGS), sphinx-intl update -p ../locale -l $(l);)
 	
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
