@@ -28,8 +28,8 @@ First of all, *do not contribute to this repository directly*, please. We are us
     * French
     * German
     
-(After integration I will describe how the service works and what people should do in order to join the project, and where they should collaborate).            
-
+Please join at our (POEditor project)[https://poeditor.com/join/project/SFpZw7o33o] and contribute by reviewing and translating documentation strings.
+    
 ## Current issues
 
 1. Update of localized strings is done manually, there is no CI which triggers for update of documentation. In the future, we should use https://github.com/sporteasy/python-poeditor for a better automated pipeline, so that we don't need to import new terms manually or export them (the interface of website is awful).
