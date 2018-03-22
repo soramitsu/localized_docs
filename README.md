@@ -32,7 +32,7 @@ First of all, *do not contribute to this repository directly*, please. We are us
 
 ## Current issues
 
-1. Update of localized strings is done manually, there is no CI which triggers for update of documentation.
+1. Update of localized strings is done manually, there is no CI which triggers for update of documentation. In the future, we should use https://github.com/sporteasy/python-poeditor for a better automated pipeline, so that we don't need to import new terms manually or export them (the interface of website is awful).
 2. Scripts are stored next to translation, since I was not able to specify target folder in `sphinx-intl`. 
 
 ### How to update .po files in documentation manually 
