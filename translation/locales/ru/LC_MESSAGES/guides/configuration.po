@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Creative Commons Attribution-NonCommercial 3.0 Unported
+# This file is distributed under the same license as the Iroha package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Iroha 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-23 18:14+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: ../iroha/docs/source/guides/configuration.rst:2
+msgid "Configuration"
+msgstr ""
+
+#: ../iroha/docs/source/guides/configuration.rst:4
+msgid ""
+"In this section we will understand how to configure Iroha. Let's take a "
+"look at ``example/config.sample``"
+msgstr ""
+
+#: ../iroha/docs/source/guides/configuration.rst:21
+msgid ""
+"As you can see, configuration file is a valid ``json`` structure. Let's "
+"go line-by-line and understand what every parameter means."
+msgstr ""
+
+#: ../iroha/docs/source/guides/configuration.rst:25
+msgid "Deployment-specific parameters"
+msgstr ""
+
+#: ../iroha/docs/source/guides/configuration.rst:27
+msgid "``block_store_path`` sets path to the folder where blocks are stored."
+msgstr ""
+
+#: ../iroha/docs/source/guides/configuration.rst:28
+msgid ""
+"``torii_port`` sets the port for external communications. Queries and "
+"transactions are sent here."
+msgstr ""
+
+#: ../iroha/docs/source/guides/configuration.rst:30
+msgid ""
+"``internal_port`` sets the port for internal communications: ordering "
+"service, consensus and block loader."
+msgstr ""
+
+#: ../iroha/docs/source/guides/configuration.rst:32
+msgid ""
+"``pg_opt`` is used for setting credentials of PostgreSQL: hostname, port,"
+" username and password."
+msgstr ""
+
+#: ../iroha/docs/source/guides/configuration.rst:36
+msgid "Environment-specific parameters"
+msgstr ""
+
+#: ../iroha/docs/source/guides/configuration.rst:38
+msgid ""
+"``max_proposal_size`` is the maximum amount of transactions that can be "
+"in one proposal, and as a result in a single block as well. So, by "
+"changing this value you define the size of potential block. For a starter"
+" you can stick to ``10``. However, we recommend to increase this number "
+"if you have a lot of transactions per second."
+msgstr ""
+
+#: ../iroha/docs/source/guides/configuration.rst:43
+msgid ""
+"``proposal_delay`` is a maximum waiting time in milliseconds before "
+"emitting a new proposal. Proposal is emitted if the ``max_proposal_size``"
+" is reached or ``proposal_delay`` milliseconds had passed. You can start "
+"with ``5000`` and increase this number if you have a lot of transactions "
+"per second since it is likely that with an intense load (over 100 "
+"transactions per second) and low value of ``proposal_delay`` there will "
+"be many proposals of small size."
+msgstr ""
+
+#: ../iroha/docs/source/guides/configuration.rst:50
+msgid ""
+"``vote_delay`` is a waiting time in milliseconds before sending vote to "
+"the next peer. Optimal value depends heavily on the amount of Iroha peers"
+" in the network (higher amount of nodes requires longer ``vote_delay``). "
+"We recommend to start with 100-1000 milliseconds."
+msgstr ""
+
+#: ../iroha/docs/source/guides/configuration.rst:54
+msgid ""
+"``load_delay`` is a waiting time in milliseconds before loading committed"
+" block from next peer. We recommend setting this number the same value as"
+" ``proposal_delay`` or even higher."
+msgstr ""
+
