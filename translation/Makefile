@@ -6,7 +6,7 @@ SPHINXBUILD   = sphinx-build
 SPHINXPROJ    = Iroha
 SOURCEDIR     = ../iroha/docs/source
 BUILDDIR      = _build
-LANGS := ru de fr ja
+LANGS := ru de fr ja zh_CN
 
 # Put it first so that "make" without argument is like "make help".
 help:
