@@ -17,7 +17,7 @@ msgstr "このセクションでは、Irohaの設定方法を説明します。 
 
 #: ../iroha/docs/source/guides/configuration.rst:21
 msgid "As you can see, configuration file is a valid ``json`` structure. Let's go line-by-line and understand what every parameter means."
-msgstr "ご覧の通り、設定ファイルは有効な ``json``の構造体です。 それでは、行ごとに各パラメータが何を意味するのかを見てゆきましょう。"
+msgstr "ご覧の通り、設定ファイルは有効な `json`の構造体です。 それでは、行ごとに各パラメータが何を意味するのかを見てゆきましょう。"
 
 #: ../iroha/docs/source/guides/configuration.rst:25
 msgid "Deployment-specific parameters"
@@ -25,15 +25,15 @@ msgstr "運用時のパラメーター"
 
 #: ../iroha/docs/source/guides/configuration.rst:27
 msgid "``block_store_path`` sets path to the folder where blocks are stored."
-msgstr "``block_store_path``は、ブロックが格納されているフォルダへのパスを設定します。"
+msgstr "`block_store_path`は、ブロックが格納されているフォルダへのパスを設定します。"
 
 #: ../iroha/docs/source/guides/configuration.rst:28
 msgid "``torii_port`` sets the port for external communications. Queries and transactions are sent here."
-msgstr "``torii_port``は、外部通信用のポートを設定します。 クエリーとトランザクションがここに送られます。"
+msgstr "`torii_port`は、外部通信用のポートを設定します。 クエリーとトランザクションがここに送られます。"
 
 #: ../iroha/docs/source/guides/configuration.rst:30
 msgid "``internal_port`` sets the port for internal communications: ordering service, consensus and block loader."
-msgstr "``internal_port``は、内部通信用のポートを設定します。内部通信には、注文サービス（ordering service）、コンセンサス（consensus）、ブロックローダー（block loader）があります。"
+msgstr "`internal_port`は、内部通信用のポートを設定します。内部通信には、注文サービス（ordering service）、コンセンサス（consensus）、ブロックローダー（block loader）があります。"
 
 #: ../iroha/docs/source/guides/configuration.rst:32
 msgid "``pg_opt`` is used for setting credentials of PostgreSQL: hostname, port, username and password."
@@ -45,19 +45,19 @@ msgstr "環境設定用パラメーター"
 
 #: ../iroha/docs/source/guides/configuration.rst:38
 msgid "``max_proposal_size`` is the maximum amount of transactions that can be in one proposal, and as a result in a single block as well. So, by changing this value you define the size of potential block. For a starter you can stick to ``10``. However, we recommend to increase this number if you have a lot of transactions per second."
-msgstr "``max_proposal_size``は1つのプロポーザルに入れることができるトランザクションの最大数であり、それらは全て1つのブロックに格納されます。 したがって、この値を変更することによって、新規作成されるブロックのサイズが定義されます。 はじめは「10」に設定しておくと良いでしょう。 ただし、秒間取引量が多い場合には、この値を大きくすることをお勧めします。"
+msgstr "`max_proposal_size`は1つのプロポーザルに入れることができるトランザクションの最大数であり、それらは全て1つのブロックに格納されます。 したがって、この値を変更することによって、新規作成されるブロックのサイズが定義されます。 はじめは「10」に設定しておくと良いでしょう。 ただし、秒間取引量が多い場合には、この値を大きくすることをお勧めします。"
 
 #: ../iroha/docs/source/guides/configuration.rst:43
 msgid "``proposal_delay`` is a maximum waiting time in milliseconds before emitting a new proposal. Proposal is emitted if the ``max_proposal_size`` is reached or ``proposal_delay`` milliseconds had passed. You can start with ``5000`` and increase this number if you have a lot of transactions per second since it is likely that with an intense load (over 100 transactions per second) and low value of ``proposal_delay`` there will be many proposals of small size."
-msgstr "``proposal_delay``は、新規ブロックの生成を発信するまでの最大待ち時間（ミリ秒単位）です。新規ブロック生成のプロポーザルは、``max_proposal_size``に達するか、 ``proposal_delay``ミリ秒が経過した場合に生成されます。 はじめは「5000」に設定しておくとよいでしょう。多くの取引量がある場合は、この値を大きくしてください。負荷が大きく（毎秒100トランザクション以上）、かつ``proposal_delay``の値が小さい場合は、小さなサイズの新規ブロック生成要求が発信される可能性が高くなることが予想されるためです。"
+msgstr "`proposal_delay`は、新規ブロックの生成を発信するまでの最大待ち時間（ミリ秒単位）です。新規ブロック生成のプロポーザルは、``max_proposal_size``に達するか、 `proposal_delay`ミリ秒が経過した場合に生成されます。 はじめは「5000」に設定しておくとよいでしょう。多くの取引量がある場合は、この値を大きくしてください。負荷が大きく（毎秒100トランザクション以上）、かつ`proposal_delay`の値が小さい場合は、小さなサイズの新規ブロック生成要求が発信される可能性が高くなることが予想されるためです。"
 
 #: ../iroha/docs/source/guides/configuration.rst:50
 msgid "``vote_delay`` is a waiting time in milliseconds before sending vote to the next peer. Optimal value depends heavily on the amount of Iroha peers in the network (higher amount of nodes requires longer ``vote_delay``). We recommend to start with 100-1000 milliseconds."
-msgstr "``vote_delay``は、次のピア（ネットワークノード）に投票を送るまでの待ち時間（ミリ秒）です。 最適な値は、ネットワーク内のいろはピア数に大きく依存します（ノード数が多いほど、「vote_delay」には長い値が必要）。 はじめは100〜1000ミリ秒で設定することをお勧めします。"
+msgstr "`vote_delay`は、次のピア（ネットワークノード）に投票を送るまでの待ち時間（ミリ秒）です。 最適な値は、ネットワーク内のいろはピア数に大きく依存します（ノード数が多いほど、「vote_delay」には長い値が必要）。 はじめは100〜1000ミリ秒で設定することをお勧めします。"
 
 #: ../iroha/docs/source/guides/configuration.rst:54
 msgid "``load_delay`` is a waiting time in milliseconds before loading committed block from next peer. We recommend setting this number the same value as ``proposal_delay`` or even higher."
-msgstr "``load_delay``は、次のピアからコミットされたブロックをロードするまでの待ち時間（ミリ秒単位）です。 この数値は ``proposal_delay``またはそれ以上の値に設定することをお勧めします。"
+msgstr "`load_delay`は、次のピアからコミットされたブロックをロードするまでの待ち時間（ミリ秒単位）です。 この数値は `proposal_delay`またはそれ以上の値に設定することをお勧めします。"
 
 #: ../iroha/docs/source/api/commands.rst:2
 msgid "Commands"
@@ -128,7 +128,7 @@ msgstr "資産を移転させる"
 msgid "С++ library"
 msgstr "C++ライブラリ"
 
-#: ../iroha/docs/source/api/cpp_library.rst:4
+#: ../iroha/docs/source/api/python_library.rst:4
 msgid "This section only contains code reference (autogenerated docs are possible with a description of arguments and return values)"
 msgstr "このセクションには、参照コードのみが含まれています（引数と戻り値の説明がされたドキュメントの自動生成も可能です）"
 
@@ -140,7 +140,7 @@ msgstr "いろは（Hyperledger Iroha）のAPIリファレンス"
 msgid "In API section we will take a look at building blocks of an application interacting with Iroha. We will overview commands and queries that the system have, and the set of client libraries encompassing transport and application layer logic."
 msgstr "APIセクションでは、実際にいろはでの動作を見ながら、いろはを構成する要素について見ていきます。 システムが持つコマンドやクエリの種類、およびトランスポート層とアプリケーション層にわたるクライアントライブラリを概観します。"
 
-#: ../iroha/docs/source/api/index.rst:8
+#: ../iroha/docs/source/guides/libraries.rst:4
 msgid "Table of contents"
 msgstr "目次"
 
@@ -285,7 +285,22 @@ msgstr "トランザクションの状態"
 msgid "Query"
 msgstr "クエリー（問い合わせ）"
 
-#: ../iroha/docs/source/api/queries.rst:9
+#: ../iroha/docs/source/api/commands.rst:51
+#: ../iroha/docs/source/api/commands.rst:92
+#: ../iroha/docs/source/api/commands.rst:127
+#: ../iroha/docs/source/api/commands.rst:164
+#: ../iroha/docs/source/api/commands.rst:201
+#: ../iroha/docs/source/api/commands.rst:239
+#: ../iroha/docs/source/api/commands.rst:273
+#: ../iroha/docs/source/api/commands.rst:309
+#: ../iroha/docs/source/api/commands.rst:344
+#: ../iroha/docs/source/api/commands.rst:379
+#: ../iroha/docs/source/api/commands.rst:413
+#: ../iroha/docs/source/api/commands.rst:453
+#: ../iroha/docs/source/api/commands.rst:488
+#: ../iroha/docs/source/api/commands.rst:526
+#: ../iroha/docs/source/api/commands.rst:579
+#: ../iroha/docs/source/api/commands.rst:621
 msgid "Validation"
 msgstr "検証"
 
@@ -313,13 +328,14 @@ msgstr "このガイドでは、基本的ないろはネットワークを作成
 msgid "Ledger is the synonym for a blockchain, and Hyperledger Iroha is known also as Distributed Ledger Technology — which in essence is the same as \"blockchain framework\". You can check the rest of terminology used in the Glossary section."
 msgstr "台帳はブロックチェーンの同義語で、ハイパーレジャーいろは（Hyperledger Iroha）は分散型台帳技術（Distributed Ledger Technology）としても知られています。本質的には「ブロックチェーンフレームワーク」と同じです。 その他の用語は、「用語集」で確認できます。"
 
-#: ../iroha/docs/source/guides/deployment.rst:165
+#: ../iroha/docs/source/guides/libraries/python.rst:10
+#: ../iroha/docs/source/guides/libraries/python.rst:60
 msgid "Prerequisites"
 msgstr "前提となる環境"
 
 #: ../iroha/docs/source/getting_started/index.rst:15
 msgid "For this guide, you need a computer running Unix-like system with ``docker`` installed. You can read how to install it on a `Docker's website <https://www.docker.com/community-edition/>`_."
-msgstr "このガイドでは、dockerがインストールされたUnix系システムが起動されているコンピュータが必要です。`Dockerのウェブサイト<https://www.docker.com/community-edition/>`_でインストール方法を読むことができます。"
+msgstr "このガイドでは、dockerがインストールされたUnix系システムが起動されているコンピュータが必要です。`Dockerのウェブサイト<https://www.docker.com/community-edition/>`_ でインストール方法を読むことができます。"
 
 #: ../iroha/docs/source/getting_started/index.rst:19
 msgid "Please note that you can use Iroha without ``docker`` as well. You can read about it in other parts of documentation."
@@ -335,7 +351,7 @@ msgstr "Dockerネットワークを作成する"
 
 #: ../iroha/docs/source/getting_started/index.rst:31
 msgid "To operate, Iroha requires a ``PostgreSQL`` database. Let's start with creating a Docker network, so containers for Postgres and Iroha can run on the same virtual network and successfully communicate. In this guide we will call it ``iroha-network``, but you can use any name. In your terminal write following command:"
-msgstr "Irohaが動作するためには ``PostgreSQL``データベースが必要です。 PostgresとIroha用のコンテナが同じ仮想ネットワーク上で実行され、正常に通信が行われるようにするため、まずはDockerネットワークの作成から始めましょう。 本ガイドでは、「iroha-network」と呼んでいますが、任意の名前を使用することができます。任意の名前を使用するためには、ターミナル上で次のコマンドを実行します。"
+msgstr "Irohaが動作するためには  `PostgreSQL` データベースが必要です。 PostgresとIroha用のコンテナが同じ仮想ネットワーク上で実行され、正常に通信が行われるようにするため、まずはDockerネットワークの作成から始めましょう。 本ガイドでは、「iroha-network」と呼んでいますが、任意の名前を使用することができます。任意の名前を使用するためには、ターミナル上で次のコマンドを実行します。"
 
 #: ../iroha/docs/source/getting_started/index.rst:42
 msgid "Starting PostgreSQL Container"
@@ -348,7 +364,7 @@ msgstr "では次に、コンテナ内でPostgreSQLを実行し、これまで�
 #: ../iroha/docs/source/getting_started/index.rst:56
 #, fuzzy
 msgid "If you already have Postgres running on a host system on default port (5432), then you should pick another free port that will be occupied. For example, 5433: ``-p 5433:5432 \\``"
-msgstr "ホストシステム上のデフォルトポート（5432番）で既にPostgresを実行している場合は、別の空きポートをもう1つ選択する必要があります。 たとえば、5433番を指定する場合は、以下のコマンドを実行します。``-p 5433:5432 \\``"
+msgstr "ホストシステム上のデフォルトポート（5432番）で既にPostgresを実行している場合は、別の空きポートをもう1つ選択する必要があります。 たとえば、5433番を指定する場合は、以下のコマンドを実行します。`-p 5433:5432`"
 
 #: ../iroha/docs/source/getting_started/index.rst:61
 msgid "Creating Blockstore"
@@ -368,11 +384,11 @@ msgstr "単純化のために、このガイドでは1つのノードだけで�
 
 #: ../iroha/docs/source/getting_started/index.rst:76
 msgid "Now we need to configure our Iroha network. This includes creating a configuration file, generating keypairs for a users, writing a list of peers and creating a genesis block. However, we have prepared an example configuration for this guide, so you can start playing with Iroha faster. In order to get those files, you need to clone the `Iroha repository <github.com/hyperledger/iroha>`_ from Github."
-msgstr "それでは次に、Irohaネットワークを設定する必要があります。 そのためには、設定ファイルの作成、ユーザーの鍵ペアの生成、ピアノリストの作成、genesis blockの作成が必要です。 しかし、私たちはこのガイドの設定例を用意していますので、すぐにIrohaを試してみることができます。 これらのファイルを取得するには、Githubの `Iroha repository <github.com/hyperledger/iroha>`_をクローンする必要があります。"
+msgstr "それでは次に、Irohaネットワークを設定する必要があります。 そのためには、設定ファイルの作成、ユーザーの鍵ペアの生成、ピアノリストの作成、genesis blockの作成が必要です。 しかし、私たちはこのガイドの設定例を用意していますので、すぐにIrohaを試してみることができます。 これらのファイルを取得するには、Githubの `Iroha repository <github.com/hyperledger/iroha>`_ をクローンする必要があります。"
 
-#: ../iroha/docs/source/getting_started/index.rst:87
+#: ../iroha/docs/source/guides/build.rst:41
 msgid "``--depth-1`` option allows us to download only latest commit and save some time and bandwidth. If you want to get a full commit history, you can omit this option."
-msgstr "``--depth-1`` オプションを使うと、最新のコミットだけをダウンロードし、時間と帯域を節約することができます。 コミット履歴全てを取得する場合は、このオプションを省略してください。"
+msgstr "`--depth-1` オプションを使うと、最新のコミットだけをダウンロードし、時間と帯域を節約することができます。 コミット履歴全てを取得する場合は、このオプションを省略してください。"
 
 #: ../iroha/docs/source/getting_started/index.rst:92
 msgid "Starting Iroha Container"
@@ -388,27 +404,27 @@ msgstr "このコマンドが何を行っているのか詳しくみてみまし
 
 #: ../iroha/docs/source/getting_started/index.rst:108
 msgid "``docker run -it --name iroha \\`` attaches you to docker container called ``iroha``"
-msgstr "``docker run -it --name iroha \\`` は、irohaと名づけられたDockerコンテナへの接続を実行します。"
+msgstr "`docker run -it --name iroha` は、irohaと名づけられたDockerコンテナへの接続を実行します。"
 
 #: ../iroha/docs/source/getting_started/index.rst:110
 msgid "with ``$(pwd)/iroha/example:/opt/iroha_data \\`` we add a folder containing our prepared configuration to a docker container into ``/opt/iroha_data``."
-msgstr "``$(pwd)/iroha/example:/opt/iroha_data \\`` で、すでに準備されている設定を含むフォルダをDockerのコンテナに``/opt/iroha_data``を追加します。"
+msgstr "`$(pwd)/iroha/example:/opt/iroha_data` で、すでに準備されている設定を含むフォルダをDockerのコンテナに``/opt/iroha_data``を追加します。"
 
 #: ../iroha/docs/source/getting_started/index.rst:112
 msgid "``-v blockstore:/tmp/block_store \\`` adds a persistent block storage which we created before to a container, so our blocks won't be lost after we stop the container"
-msgstr "``-v blockstore:/tmp/block_store \\``では、コンテナに先ほど作成した永続的なブロックストレージを追加するので、コンテナが停止された後でもブロックは失われません。"
+msgstr "`-v blockstore:/tmp/block_store` では、コンテナに先ほど作成した永続的なブロックストレージを追加するので、コンテナが停止された後でもブロックは失われません。"
 
 #: ../iroha/docs/source/getting_started/index.rst:115
 msgid "``--network=iroha-network \\`` adds our container to previously created ``iroha-network``, so Iroha and Postgres could see each other."
-msgstr "``--network=iroha-network \\``で、先ほど作成したiroha-networkにコンテナが追加されるので、IrohaとPostgresはお互いを認識することができるようになります。"
+msgstr "`--network=iroha-network` で、先ほど作成したiroha-networkにコンテナが追加されるので、IrohaとPostgresはお互いを認識することができるようになります。"
 
 #: ../iroha/docs/source/getting_started/index.rst:117
 msgid "``--entrypoint=/bin/bash \\`` Because ``hyperledger/iroha-docker`` has the custom script which runs after starting the container, we want to override it so we can start Iroha Daemon manually."
-msgstr "\"--entrypoint =/bin/bash \\`` hyperledger / iroha-dockerはコンテナを起動した後に実行するカスタムスクリプトを持っているので、手動でIrohaデーモンを起動できるようにオーバーライドします。"
+msgstr "`--entrypoint =/bin/bash` hyperledger / iroha-dockerはコンテナを起動した後に実行するカスタムスクリプトを持っているので、手動でIrohaデーモンを起動できるようにオーバーライドします。"
 
 #: ../iroha/docs/source/getting_started/index.rst:120
 msgid "``hyperledger/iroha-docker:develop`` is the image which has the ``develop`` branch."
-msgstr "``hyperledger/iroha-docker:develop``は、developブランチを持つイメージです。"
+msgstr "`hyperledger/iroha-docker:develop` は、developブランチを持つイメージです。"
 
 #: ../iroha/docs/source/getting_started/index.rst:124
 msgid "Launching Iroha Daemon"
@@ -599,7 +615,8 @@ msgstr ""
 msgid "In case of valid assumptions, the only thing that remains is to launch the daemon process with following parameters:"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:46
+#: ../iroha/docs/source/guides/build.rst:180
+#: ../iroha/docs/source/guides/build.rst:197
 msgid "Parameter"
 msgstr ""
 
@@ -639,7 +656,7 @@ msgstr ""
 msgid "If you have stopped the daemon and want to use existing chain — you should not pass the genesis block parameter."
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:67
+#: ../iroha/docs/source/guides/build.rst:24
 msgid "Docker"
 msgstr ""
 
@@ -909,7 +926,7 @@ msgstr ""
 msgid "By using Hyperledger Iroha each education or medical certificate can be verified that it was issued by certain certifying authorities. Immutability and clear validation rules provide transparency to health and education significantly reducing the usage of fake certificates."
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "Example"
 msgstr ""
 
@@ -1073,15 +1090,22 @@ msgstr ""
 msgid "A command changes the state, called World State View, by performing an action over an entity (asset, account) in the system. Any command should be included in a transaction to perform an action."
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:22
-#: ../iroha/docs/source/api/queries.rst:78
-#: ../iroha/docs/source/api/queries.rst:122
-#: ../iroha/docs/source/api/queries.rst:166
-#: ../iroha/docs/source/api/queries.rst:210
-#: ../iroha/docs/source/api/queries.rst:256
-#: ../iroha/docs/source/api/queries.rst:306
-#: ../iroha/docs/source/api/queries.rst:355
-#: ../iroha/docs/source/api/queries.rst:389
+#: ../iroha/docs/source/api/commands.rst:11
+#: ../iroha/docs/source/api/commands.rst:62
+#: ../iroha/docs/source/api/commands.rst:101
+#: ../iroha/docs/source/api/commands.rst:139
+#: ../iroha/docs/source/api/commands.rst:174
+#: ../iroha/docs/source/api/commands.rst:211
+#: ../iroha/docs/source/api/commands.rst:248
+#: ../iroha/docs/source/api/commands.rst:283
+#: ../iroha/docs/source/api/commands.rst:318
+#: ../iroha/docs/source/api/commands.rst:353
+#: ../iroha/docs/source/api/commands.rst:388
+#: ../iroha/docs/source/api/commands.rst:428
+#: ../iroha/docs/source/api/commands.rst:461
+#: ../iroha/docs/source/api/commands.rst:500
+#: ../iroha/docs/source/api/commands.rst:540
+#: ../iroha/docs/source/api/commands.rst:590
 msgid "Purpose"
 msgstr ""
 
@@ -1127,19 +1151,19 @@ msgstr ""
 msgid "Structure"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "Field"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "Description"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "Constraint"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "Account ID"
 msgstr ""
 
@@ -1147,15 +1171,15 @@ msgstr ""
 msgid "account id in which to add asset"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "<account_name>@<domain_id>"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "alex@morgan"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "Asset ID"
 msgstr ""
 
@@ -1163,7 +1187,7 @@ msgstr ""
 msgid "id of the asset"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "<asset_name>#<domain_id>"
 msgstr ""
 
@@ -1237,7 +1261,7 @@ msgstr ""
 msgid "ed25519 public key"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "292a8714694095edce6be799398ed5d6244cd7be37eb813106b217d850d261f2"
 msgstr ""
 
@@ -1257,7 +1281,7 @@ msgstr ""
 msgid "Account to which to add signatory"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "makoto@soramitsu"
 msgstr ""
 
@@ -1308,7 +1332,7 @@ msgstr ""
 msgid "name of already created role"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "MoneyCreator"
 msgstr ""
 
@@ -1344,7 +1368,7 @@ msgstr ""
 msgid "morgan_stanley"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "Domain ID"
 msgstr ""
 
@@ -1400,15 +1424,15 @@ msgstr ""
 msgid "soracoin"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "RFC1035 [#f1]_, RFC1123 [#f2]_"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "japan"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "Precision"
 msgstr ""
 
@@ -1420,7 +1444,7 @@ msgstr ""
 msgid "0 <= precision <= uint32 max"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "2"
 msgstr ""
 
@@ -1484,7 +1508,7 @@ msgstr ""
 msgid "name of role to create"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "Permissions"
 msgstr ""
 
@@ -1661,7 +1685,7 @@ msgstr ""
 msgid "ID of account to set quorum"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "Quorum"
 msgstr ""
 
@@ -1673,7 +1697,7 @@ msgstr ""
 msgid "0 < quorum ≤ public-key set up to account ≤ 128"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "5"
 msgstr ""
 
@@ -1761,7 +1785,7 @@ msgstr ""
 msgid "0 < amount < max_uint256"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "200.20"
 msgstr ""
 
@@ -1781,15 +1805,15 @@ msgstr ""
 msgid "Source account can transfer money, and destination account can receive money (their roles have these permissions)"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:429
+#: ../iroha/docs/source/api/commands.rst:628
 msgid "https://www.ietf.org/rfc/rfc1035.txt"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:430
+#: ../iroha/docs/source/api/commands.rst:629
 msgid "https://www.ietf.org/rfc/rfc1123.txt"
 msgstr ""
 
-#: ../iroha/docs/source/api/cpp_library.rst:6
+#: ../iroha/docs/source/api/python_library.rst:6
 msgid "Contents are missing for now."
 msgstr ""
 
