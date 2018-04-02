@@ -140,7 +140,7 @@ msgstr "いろは（Hyperledger Iroha）のAPIリファレンス"
 msgid "In API section we will take a look at building blocks of an application interacting with Iroha. We will overview commands and queries that the system have, and the set of client libraries encompassing transport and application layer logic."
 msgstr "APIセクションでは、実際にいろはでの動作を見ながら、いろはを構成する要素について見ていきます。 システムが持つコマンドやクエリの種類、およびトランスポート層とアプリケーション層にわたるクライアントライブラリを概観します。"
 
-#: ../iroha/docs/source/api/index.rst:8
+#: ../iroha/docs/source/guides/libraries.rst:4
 msgid "Table of contents"
 msgstr "目次"
 
@@ -285,7 +285,22 @@ msgstr "トランザクションの状態"
 msgid "Query"
 msgstr "クエリー（問い合わせ）"
 
-#: ../iroha/docs/source/api/queries.rst:9
+#: ../iroha/docs/source/api/commands.rst:51
+#: ../iroha/docs/source/api/commands.rst:92
+#: ../iroha/docs/source/api/commands.rst:127
+#: ../iroha/docs/source/api/commands.rst:164
+#: ../iroha/docs/source/api/commands.rst:201
+#: ../iroha/docs/source/api/commands.rst:239
+#: ../iroha/docs/source/api/commands.rst:273
+#: ../iroha/docs/source/api/commands.rst:309
+#: ../iroha/docs/source/api/commands.rst:344
+#: ../iroha/docs/source/api/commands.rst:379
+#: ../iroha/docs/source/api/commands.rst:413
+#: ../iroha/docs/source/api/commands.rst:453
+#: ../iroha/docs/source/api/commands.rst:488
+#: ../iroha/docs/source/api/commands.rst:526
+#: ../iroha/docs/source/api/commands.rst:579
+#: ../iroha/docs/source/api/commands.rst:621
 msgid "Validation"
 msgstr "検証"
 
@@ -862,7 +877,7 @@ msgstr ""
 msgid "How to use/import"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/nodejs.rst:75
+#: ../iroha/docs/source/guides/libraries/java.rst:125
 msgid "Example code"
 msgstr ""
 
@@ -910,7 +925,7 @@ msgstr ""
 msgid "By using Hyperledger Iroha each education or medical certificate can be verified that it was issued by certain certifying authorities. Immutability and clear validation rules provide transparency to health and education significantly reducing the usage of fake certificates."
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "Example"
 msgstr ""
 
@@ -1074,15 +1089,22 @@ msgstr ""
 msgid "A command changes the state, called World State View, by performing an action over an entity (asset, account) in the system. Any command should be included in a transaction to perform an action."
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:22
-#: ../iroha/docs/source/api/queries.rst:78
-#: ../iroha/docs/source/api/queries.rst:122
-#: ../iroha/docs/source/api/queries.rst:166
-#: ../iroha/docs/source/api/queries.rst:210
-#: ../iroha/docs/source/api/queries.rst:256
-#: ../iroha/docs/source/api/queries.rst:306
-#: ../iroha/docs/source/api/queries.rst:355
-#: ../iroha/docs/source/api/queries.rst:389
+#: ../iroha/docs/source/api/commands.rst:11
+#: ../iroha/docs/source/api/commands.rst:62
+#: ../iroha/docs/source/api/commands.rst:101
+#: ../iroha/docs/source/api/commands.rst:139
+#: ../iroha/docs/source/api/commands.rst:174
+#: ../iroha/docs/source/api/commands.rst:211
+#: ../iroha/docs/source/api/commands.rst:248
+#: ../iroha/docs/source/api/commands.rst:283
+#: ../iroha/docs/source/api/commands.rst:318
+#: ../iroha/docs/source/api/commands.rst:353
+#: ../iroha/docs/source/api/commands.rst:388
+#: ../iroha/docs/source/api/commands.rst:428
+#: ../iroha/docs/source/api/commands.rst:461
+#: ../iroha/docs/source/api/commands.rst:500
+#: ../iroha/docs/source/api/commands.rst:540
+#: ../iroha/docs/source/api/commands.rst:590
 msgid "Purpose"
 msgstr ""
 
@@ -1128,19 +1150,19 @@ msgstr ""
 msgid "Structure"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "Field"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "Description"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "Constraint"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "Account ID"
 msgstr ""
 
@@ -1148,15 +1170,15 @@ msgstr ""
 msgid "account id in which to add asset"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "<account_name>@<domain_id>"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "alex@morgan"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "Asset ID"
 msgstr ""
 
@@ -1164,7 +1186,7 @@ msgstr ""
 msgid "id of the asset"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "<asset_name>#<domain_id>"
 msgstr ""
 
@@ -1238,7 +1260,7 @@ msgstr ""
 msgid "ed25519 public key"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "292a8714694095edce6be799398ed5d6244cd7be37eb813106b217d850d261f2"
 msgstr ""
 
@@ -1258,7 +1280,7 @@ msgstr ""
 msgid "Account to which to add signatory"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "makoto@soramitsu"
 msgstr ""
 
@@ -1309,7 +1331,7 @@ msgstr ""
 msgid "name of already created role"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "MoneyCreator"
 msgstr ""
 
@@ -1345,7 +1367,7 @@ msgstr ""
 msgid "morgan_stanley"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "Domain ID"
 msgstr ""
 
@@ -1401,15 +1423,15 @@ msgstr ""
 msgid "soracoin"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "RFC1035 [#f1]_, RFC1123 [#f2]_"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "japan"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "Precision"
 msgstr ""
 
@@ -1421,7 +1443,7 @@ msgstr ""
 msgid "0 <= precision <= uint32 max"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/guides/libraries/android.rst:49
 msgid "2"
 msgstr ""
 
@@ -1674,7 +1696,7 @@ msgstr ""
 msgid "0 < quorum ≤ public-key set up to account ≤ 128"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/guides/libraries/android.rst:59
 msgid "5"
 msgstr ""
 
@@ -2565,7 +2587,7 @@ msgstr ""
 msgid "Compile the library on your own."
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/java.rst:44
+#: ../iroha/docs/source/guides/libraries/android.rst:19
 msgid "Both options are described in the following sections."
 msgstr ""
 
@@ -2793,11 +2815,11 @@ msgstr ""
 msgid "Gradle"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/nodejs.rst:58
+#: ../iroha/docs/source/guides/libraries/java.rst:11
 msgid "Build Process"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/nodejs.rst:59
+#: ../iroha/docs/source/guides/libraries/java.rst:13
 msgid "Clone Iroha repository"
 msgstr ""
 
@@ -2879,11 +2901,11 @@ msgstr ""
 msgid "Explore ``example/java/TransactionExample.java`` file to get an idea of how to work with a library."
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/nodejs.rst:81
+#: ../iroha/docs/source/guides/libraries/java.rst:131
 msgid "To run this example, you need an Iroha node up and running. Please check out :ref:`getting-started` if you want to learn how to start it."
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/nodejs.rst:85
+#: ../iroha/docs/source/guides/libraries/java.rst:135
 msgid "Running the Example"
 msgstr ""
 
@@ -2891,7 +2913,7 @@ msgstr ""
 msgid "To start the example, you need to build the example:"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/nodejs.rst:96
+#: ../iroha/docs/source/guides/libraries/java.rst:143
 msgid "Now, to run this example please write:"
 msgstr ""
 
@@ -3089,5 +3111,371 @@ msgstr ""
 
 #: ../iroha/docs/source/guides/libraries/python.rst:301
 msgid "Get account asset:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:2
+#: ../iroha/docs/source/guides/build.rst:145
+msgid "Building Iroha"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:4
+msgid "In this guide we will learn how to install all dependencies, required to build Iroha and how to build it."
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:8
+msgid "Preparing the Environment"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:10
+msgid "In order to successfully build Iroha, we need to configure the environment. There are several ways to do it and we will describe all of them."
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:13
+msgid "Currently, we support Unix-like systems (we are basically targeting popular Linux distros and macOS). If you happen to have Windows or you don't want to spend time installing all dependencies you might want to consider using Docker environment. Also, Windows users might consider using `WSL <https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux>`_"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:19
+msgid "Having troubles? Check FAQ section or communicate to us directly, in case you were stuck on something. We don't expect this to happen, but some issues with an environment are possible."
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:25
+msgid "You don't need Docker to run Iroha, it is just one of the possible choices."
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:28
+msgid "First of all, you need to install ``docker`` and ``docker-compose``. You can read how to install it on a `Docker's website <https://www.docker.com/community-edition/>`_"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:32
+msgid "Please, use the latest available docker daemon and docker-compose."
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:34
+msgid "Then you should clone the `Iroha repository <https://github.com/hyperledger/iroha>`_ to the directory of your choice."
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:45
+msgid "After it, you need to run the development environment. Run the ``scripts/run-iroha-dev.sh`` script:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:52
+msgid "Please make sure that Docker is running before executing the script. macOS users could find a Docker icon in system tray, Linux user could use ``systemctl start docker``"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:56
+msgid "After you execute this script, following things happen:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:58
+msgid "1. The script checks if you don't have containers with Iroha already running. Successful completion finishes with the new container shell. 2. The script will download ``iroha-docker-develop`` and ``postgres`` images. ``iroha-docker-develop`` image contains all development dependencies and is based on top of ``ubuntu:16.04``. ``postgres`` image is required for starting and running Iroha. 3. Two containers are created and launched. 4. The user is attached to the interactive environment for development and testing with ``iroha`` folder mounted from the host machine. Iroha folder is mounted to ``/opt/iroha`` in Docker container."
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:69
+msgid "Now your are ready to build Iroha! Please go to `Building Iroha` section."
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:72
+msgid "Linux"
+msgstr ""
+
+#: ../iroha/docs/source/guides/dependencies.rst:165
+msgid "Boost"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:77
+msgid "Iroha requires Boost of at least 1.65 version. To install Boost libraries (``libboost-all-dev``), use `current release <http://www.boost.org/users/download/>`_ from Boost webpage. The only dependencies are system and filesystem, so use ``./bootstrap.sh --with-libraries=system,filesystem`` when you are building the project."
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:85
+msgid "Other Dependencies"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:87
+msgid "To build Iroha, you need following packages:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:89
+msgid "``build-essential`` ``automake`` ``libtool`` ``libssl-dev`` ``zlib1g-dev`` ``libc6-dbg`` ``golang`` ``git`` ``tar`` ``gzip`` ``ca-certificates`` ``wget`` ``curl`` ``file`` ``unzip`` ``python`` ``cmake``"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:93
+msgid "Use this code to install dependencies on Debian-based Linux distro."
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:106
+msgid "If you are willing to actively develop Iroha and to build shared libraries, please consider installing the `latest release <https://cmake.org/download/>`_ of CMake."
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:111
+msgid "macOS"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:113
+msgid "If you want to build it from scratch and actively develop it, please use this code to install all dependencies with Homebrew."
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:121
+msgid "To install the Homebrew itself please run"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:123
+msgid "``ruby -e \"$(curl -fsSL https://raw.githubusercontent.com/homebrew/install/master/install)\"``"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:129
+msgid "Cloning the Repository"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:130
+msgid "Clone the `Iroha repository <https://github.com/hyperledger/iroha>`_ to the directory of your choice."
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:138
+msgid "If you have installed the prerequisites with Docker, you don't need to clone Iroha again, because when you run ``run-iroha-dev.sh`` it attaches to Iroha source code folder. Feel free to edit source code files with your host environment and build it within docker container."
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:146
+msgid "To build Iroha, use those commands"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:152
+msgid "Alternatively, you can use these shorthand parameters (they are not documented though)"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:160
+msgid "On macOS ``$(nproc)`` variable does not work. Check the number of logical cores with ``sysctl -n hw.ncpu`` and put it explicitly in the command above, e.g. ``cmake --build build -- -j4``"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:165
+msgid "CMake Parameters"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:167
+msgid "We use CMake to build platform-dependent build files. It has numerous flags for configuring the final build. Note that besides the listed parameters cmake's variables can be useful as well. Also as long as this page can be deprecated (or just not complete) you can browse custom flags via ``cmake -L``, ``cmake-gui``, or ``ccmake``."
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:173
+msgid "You can specify parameters at the cmake configuring stage (e.g cmake -DTESTING=ON)."
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:177
+msgid "Main Parameters"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:180
+#: ../iroha/docs/source/guides/build.rst:197
+msgid "Possible values"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:180
+#: ../iroha/docs/source/guides/build.rst:197
+msgid "Default"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:182
+msgid "TESTING"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:182
+#: ../iroha/docs/source/guides/build.rst:199
+msgid "ON/OFF"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:182
+#: ../iroha/docs/source/guides/build.rst:199
+msgid "ON"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:182
+msgid "Enables or disables build of the tests"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:184
+msgid "BENCHMARKING"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:184
+#: ../iroha/docs/source/guides/build.rst:186
+#: ../iroha/docs/source/guides/build.rst:188
+#: ../iroha/docs/source/guides/build.rst:190
+#: ../iroha/docs/source/guides/build.rst:201
+#: ../iroha/docs/source/guides/build.rst:203
+#: ../iroha/docs/source/guides/build.rst:205
+#: ../iroha/docs/source/guides/build.rst:207
+msgid "OFF"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:184
+msgid "Enables or disables build of the Google Benchmarks library"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:186
+msgid "COVERAGE"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:186
+msgid "Enables or disables lcov setting for code coverage generation"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:188
+msgid "SWIG_PYTHON"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:188
+msgid "Enables of disables the library building and Python bindings"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:190
+msgid "SWIG_JAVA"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:190
+msgid "Enables of disables the library building and Java bindings"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:194
+msgid "Packaging Specific Parameters"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:199
+msgid "ENABLE_LIBS_PACKAGING"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:199
+msgid "Enables or disables all types of packaging"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:201
+msgid "PACKAGE_ZIP"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:201
+msgid "Enables or disables zip packaging"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:203
+msgid "PACKAGE_TGZ"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:203
+msgid "Enables or disables tar.gz packaging"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:205
+msgid "PACKAGE_RPM"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:205
+msgid "Enables or disables rpm packaging"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:207
+msgid "PACKAGE_DEB"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:207
+msgid "Enables or disables deb packaging"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:211
+msgid "Running Tests (optional)"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:213
+msgid "After building Iroha, it is a good idea to run tests to check the operability of the daemon. You can run tests with this code:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:220
+msgid "Alternatively, you can run following command in the ``build`` folder"
+msgstr ""
+
+#: ../iroha/docs/source/guides/build.rst:227
+msgid "Some of the tests will fail without PostgreSQL storage running, so if you are not using ``scripts/run-iroha-dev.sh`` script please run Docker container or create a local connection with following parameters:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/dependencies.rst:2
+msgid "Installing Dependencies"
+msgstr ""
+
+#: ../iroha/docs/source/guides/dependencies.rst:4
+msgid "This page contains references and guides about installation of various tools you may need during build of different targets of Iroha project."
+msgstr ""
+
+#: ../iroha/docs/source/guides/dependencies.rst:7
+msgid "Please note that most likely you do not need to install all the listed tools. Some of them are required only for building specific versions of Iroha Client Library."
+msgstr ""
+
+#: ../iroha/docs/source/guides/dependencies.rst:11
+msgid "Automake"
+msgstr ""
+
+#: ../iroha/docs/source/guides/dependencies.rst:14
+#: ../iroha/docs/source/guides/dependencies.rst:26
+#: ../iroha/docs/source/guides/dependencies.rst:40
+#: ../iroha/docs/source/guides/dependencies.rst:69
+#: ../iroha/docs/source/guides/dependencies.rst:81
+#: ../iroha/docs/source/guides/dependencies.rst:124
+#: ../iroha/docs/source/guides/dependencies.rst:168
+#: ../iroha/docs/source/guides/dependencies.rst:191
+msgid "Installation on Ubuntu"
+msgstr ""
+
+#: ../iroha/docs/source/guides/dependencies.rst:23
+msgid "Bison"
+msgstr ""
+
+#: ../iroha/docs/source/guides/dependencies.rst:35
+msgid "CMake"
+msgstr ""
+
+#: ../iroha/docs/source/guides/dependencies.rst:37
+msgid "Minimum required version is 3.8, but we recommend to install the latest available version (3.10.3 at the moment)."
+msgstr ""
+
+#: ../iroha/docs/source/guides/dependencies.rst:42
+msgid "Since Ubuntu repositories contain unsuitable version of CMake, you need to install the new one manually. Here is how to build and install CMake from sources."
+msgstr ""
+
+#: ../iroha/docs/source/guides/dependencies.rst:57
+#: ../iroha/docs/source/guides/dependencies.rst:101
+#: ../iroha/docs/source/guides/dependencies.rst:144
+#: ../iroha/docs/source/guides/dependencies.rst:181
+#: ../iroha/docs/source/guides/dependencies.rst:205
+#: ../iroha/docs/source/guides/dependencies.rst:223
+msgid "Installation on macOS"
+msgstr ""
+
+#: ../iroha/docs/source/guides/dependencies.rst:66
+msgid "Git"
+msgstr ""
+
+#: ../iroha/docs/source/guides/dependencies.rst:78
+msgid "Python"
+msgstr ""
+
+#: ../iroha/docs/source/guides/dependencies.rst:83
+#: ../iroha/docs/source/guides/dependencies.rst:103
+#: ../iroha/docs/source/guides/dependencies.rst:126
+#: ../iroha/docs/source/guides/dependencies.rst:146
+msgid "For Python 2:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/dependencies.rst:92
+#: ../iroha/docs/source/guides/dependencies.rst:112
+#: ../iroha/docs/source/guides/dependencies.rst:135
+#: ../iroha/docs/source/guides/dependencies.rst:155
+msgid "For Python 3:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/dependencies.rst:121
+msgid "PIP"
+msgstr ""
+
+#: ../iroha/docs/source/guides/dependencies.rst:188
+msgid "SWIG"
+msgstr ""
+
+#: ../iroha/docs/source/guides/dependencies.rst:220
+msgid "Protobuf"
 msgstr ""
 
