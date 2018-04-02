@@ -140,7 +140,7 @@ msgstr "いろは（Hyperledger Iroha）のAPIリファレンス"
 msgid "In API section we will take a look at building blocks of an application interacting with Iroha. We will overview commands and queries that the system have, and the set of client libraries encompassing transport and application layer logic."
 msgstr "APIセクションでは、実際にいろはでの動作を見ながら、いろはを構成する要素について見ていきます。 システムが持つコマンドやクエリの種類、およびトランスポート層とアプリケーション層にわたるクライアントライブラリを概観します。"
 
-#: ../iroha/docs/source/guides/index.rst:12
+#: ../iroha/docs/source/api/index.rst:8
 msgid "Table of contents"
 msgstr "目次"
 
@@ -313,7 +313,8 @@ msgstr "このガイドでは、基本的ないろはネットワークを作成
 msgid "Ledger is the synonym for a blockchain, and Hyperledger Iroha is known also as Distributed Ledger Technology — which in essence is the same as \"blockchain framework\". You can check the rest of terminology used in the Glossary section."
 msgstr "台帳はブロックチェーンの同義語で、ハイパーレジャーいろは（Hyperledger Iroha）は分散型台帳技術（Distributed Ledger Technology）としても知られています。本質的には「ブロックチェーンフレームワーク」と同じです。 その他の用語は、「用語集」で確認できます。"
 
-#: ../iroha/docs/source/guides/deployment.rst:165
+#: ../iroha/docs/source/guides/libraries/python.rst:10
+#: ../iroha/docs/source/guides/libraries/python.rst:60
 msgid "Prerequisites"
 msgstr "前提となる環境"
 
@@ -370,7 +371,7 @@ msgstr "単純化のために、このガイドでは1つのノードだけで�
 msgid "Now we need to configure our Iroha network. This includes creating a configuration file, generating keypairs for a users, writing a list of peers and creating a genesis block. However, we have prepared an example configuration for this guide, so you can start playing with Iroha faster. In order to get those files, you need to clone the `Iroha repository <github.com/hyperledger/iroha>`_ from Github."
 msgstr "それでは次に、Irohaネットワークを設定する必要があります。 そのためには、設定ファイルの作成、ユーザーの鍵ペアの生成、ピアノリストの作成、genesis blockの作成が必要です。 しかし、私たちはこのガイドの設定例を用意していますので、すぐにIrohaを試してみることができます。 これらのファイルを取得するには、Githubの `Iroha repository <github.com/hyperledger/iroha>`_をクローンする必要があります。"
 
-#: ../iroha/docs/source/getting_started/index.rst:87
+#: ../iroha/docs/source/guides/build.rst:41
 msgid "``--depth-1`` option allows us to download only latest commit and save some time and bandwidth. If you want to get a full commit history, you can omit this option."
 msgstr "``--depth-1`` オプションを使うと、最新のコミットだけをダウンロードし、時間と帯域を節約することができます。 コミット履歴全てを取得する場合は、このオプションを省略してください。"
 
@@ -599,7 +600,8 @@ msgstr ""
 msgid "In case of valid assumptions, the only thing that remains is to launch the daemon process with following parameters:"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:46
+#: ../iroha/docs/source/guides/build.rst:180
+#: ../iroha/docs/source/guides/build.rst:197
 msgid "Parameter"
 msgstr ""
 
@@ -639,7 +641,7 @@ msgstr ""
 msgid "If you have stopped the daemon and want to use existing chain — you should not pass the genesis block parameter."
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:67
+#: ../iroha/docs/source/guides/build.rst:24
 msgid "Docker"
 msgstr ""
 
@@ -1131,7 +1133,8 @@ msgstr ""
 msgid "Field"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/guides/build.rst:180
+#: ../iroha/docs/source/guides/build.rst:197
 msgid "Description"
 msgstr ""
 
@@ -1789,7 +1792,7 @@ msgstr ""
 msgid "https://www.ietf.org/rfc/rfc1123.txt"
 msgstr ""
 
-#: ../iroha/docs/source/contribution/index.rst:4
+#: ../iroha/docs/source/api/swift_library.rst:6
 msgid "Contents are missing for now."
 msgstr ""
 
@@ -2792,7 +2795,7 @@ msgstr ""
 msgid "Gradle"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/nodejs.rst:58
+#: ../iroha/docs/source/guides/build.rst:126
 msgid "Build Process"
 msgstr ""
 
