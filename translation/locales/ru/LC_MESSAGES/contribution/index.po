@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Iroha 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-20 11:41+0300\n"
+"POT-Creation-Date: 2018-04-02 13:33+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,19 +21,23 @@ msgstr ""
 msgid "Contribution"
 msgstr ""
 
-#: ../iroha/docs/source/contribution/index.rst:5
+#: ../iroha/docs/source/contribution/index.rst:4
+msgid "Contents are missing for now."
+msgstr ""
+
+#: ../iroha/docs/source/contribution/index.rst:7
 msgid "Code of conduct"
 msgstr ""
 
-#: ../iroha/docs/source/contribution/index.rst:8
+#: ../iroha/docs/source/contribution/index.rst:10
 msgid "Process"
 msgstr ""
 
-#: ../iroha/docs/source/contribution/index.rst:11
+#: ../iroha/docs/source/contribution/index.rst:13
 msgid "Communication"
 msgstr ""
 
-#: ../iroha/docs/source/contribution/index.rst:14
+#: ../iroha/docs/source/contribution/index.rst:16
 msgid "Issue tracker"
 msgstr ""
 

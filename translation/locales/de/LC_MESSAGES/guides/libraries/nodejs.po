@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Creative Commons Attribution-NonCommercial 3.0 Unported
+# This file is distributed under the same license as the Iroha package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Iroha 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-02 13:33+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: ../iroha/docs/source/guides/libraries/nodejs.rst:2
+msgid "Node.js Library"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/nodejs.rst:3
+msgid ""
+"Please note that Node.js library is under heavy testing now and problems "
+"`might` occur. Don't hesitate to report them to us."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/nodejs.rst:6
+msgid ""
+"There are two main ways of obtaining the Node.js library. If you are a "
+"happy macOS or Linux user, you can install it `through NPM <#installing-"
+"through-npm>`_. If your system is not yet supported or you want to try "
+"the latest version, you can `build this library manually <#building-"
+"manually>`_."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/nodejs.rst:12
+#: ../iroha/docs/source/guides/libraries/nodejs.rst:37
+#: ../iroha/docs/source/guides/libraries/nodejs.rst:80
+msgid "Prerequisites"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/nodejs.rst:14
+msgid "Node.js (>=7) (you can try using lower versions though)."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/nodejs.rst:17
+msgid "Installing Through NPM"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/nodejs.rst:18
+msgid ""
+"If you are a happy macOS or Linux user, you can install the library from "
+"`NPM repository <https://www.npmjs.com/package/iroha-lib>`_ using NPM"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/nodejs.rst:25
+msgid "Now you can import it in your project"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/nodejs.rst:32
+msgid "Building Manually"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/nodejs.rst:33
+msgid ""
+"You need this section if you want to build iroha-lib manually for example"
+" if your architecture/OS is not supported yet."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/nodejs.rst:38
+msgid "CMake (>=3.8.2)"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/nodejs.rst:39
+msgid "Protobuf (>=3.5.1)"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/nodejs.rst:40
+msgid "Boost (>=1.65.1)"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/nodejs.rst:42
+msgid "macOS users can install dependencies with following commands:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/nodejs.rst:50
+msgid ""
+"If you have SWIG already installed, you **MUST** install patched 3.0.12 "
+"version instead using `this patch <https://patch-"
+"diff.githubusercontent.com/raw/swig/swig/pull/968.patch>`_. The current "
+"version of SWIG doesn't support Node.js versions higher than 6. Also you "
+"can just delete the global installed SWIG and iroha will pull and build "
+"it automatically."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/nodejs.rst:58
+msgid "Build Process"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/nodejs.rst:59
+msgid "Clone Iroha repository"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/nodejs.rst:65
+msgid "Go to the NPM package directory and start the build process"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/nodejs.rst:72
+msgid "That's all. You can use the library now."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/nodejs.rst:75
+msgid "Example code"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/nodejs.rst:76
+msgid ""
+"Explore ``example/node/index.js`` file to get an idea of how to work with"
+" a library."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/nodejs.rst:81
+msgid ""
+"To run this example, you need an Iroha node up and running. Please check "
+"out :ref:`getting-started` if you want to learn how to start it."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/nodejs.rst:85
+msgid "Running the Example"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/nodejs.rst:86
+msgid ""
+"To start the example, you need to install all its dependencies (basically"
+" ``iroha-lib``)"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/nodejs.rst:93
+msgid ""
+"if you have built the library manually, please change import paths to "
+"``path-to-iroha/shared_model/packages/javascript`` in index.js"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/nodejs.rst:96
+msgid "Now, to run this example please write:"
+msgstr ""
+
