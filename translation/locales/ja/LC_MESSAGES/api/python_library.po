@@ -140,7 +140,7 @@ msgstr "いろは（Hyperledger Iroha）のAPIリファレンス"
 msgid "In API section we will take a look at building blocks of an application interacting with Iroha. We will overview commands and queries that the system have, and the set of client libraries encompassing transport and application layer logic."
 msgstr "APIセクションでは、実際にいろはでの動作を見ながら、いろはを構成する要素について見ていきます。 システムが持つコマンドやクエリの種類、およびトランスポート層とアプリケーション層にわたるクライアントライブラリを概観します。"
 
-#: ../iroha/docs/source/index.rst:18
+#: ../iroha/docs/source/api/index.rst:8
 msgid "Table of contents"
 msgstr "目次"
 
@@ -226,15 +226,15 @@ msgstr "用件の履歴表示"
 
 #: ../iroha/docs/source/core_concepts/glossary.rst:2
 msgid "A term"
-msgstr ""
+msgstr "規定A"
 
 #: ../iroha/docs/source/core_concepts/glossary.rst:5
 msgid "B term"
-msgstr ""
+msgstr "規定B"
 
 #: ../iroha/docs/source/core_concepts/glossary.rst:8
 msgid "C term"
-msgstr ""
+msgstr "規定C"
 
 #: ../iroha/docs/source/core_concepts/glossary.rst:10
 msgid "Remaining parts (WSV, etc.)"
@@ -362,7 +362,6 @@ msgid "Now we need to run ``PostgreSQL`` in a container, attach it to the networ
 msgstr "では次に、コンテナ内でPostgreSQLを実行し、これまでに作成したネットワークに接続し、通信用ポートを公開します。これらのステップを以下に示します。"
 
 #: ../iroha/docs/source/getting_started/index.rst:56
-#, fuzzy
 msgid "If you already have Postgres running on a host system on default port (5432), then you should pick another free port that will be occupied. For example, 5433: ``-p 5433:5432 \\``"
 msgstr "ホストシステム上のデフォルトポート（5432番）で既にPostgresを実行している場合は、別の空きポートをもう1つ選択する必要があります。 たとえば、5433番を指定する場合は、以下のコマンドを実行します。`-p 5433:5432`"
 
@@ -386,7 +385,7 @@ msgstr "単純化のために、このガイドでは1つのノードだけで�
 msgid "Now we need to configure our Iroha network. This includes creating a configuration file, generating keypairs for a users, writing a list of peers and creating a genesis block. However, we have prepared an example configuration for this guide, so you can start playing with Iroha faster. In order to get those files, you need to clone the `Iroha repository <github.com/hyperledger/iroha>`_ from Github."
 msgstr "それでは次に、Irohaネットワークを設定する必要があります。 そのためには、設定ファイルの作成、ユーザーの鍵ペアの生成、ピアノリストの作成、genesis blockの作成が必要です。 しかし、私たちはこのガイドの設定例を用意していますので、すぐにIrohaを試してみることができます。 これらのファイルを取得するには、Githubの `Iroha repository <github.com/hyperledger/iroha>`_ をクローンする必要があります。"
 
-#: ../iroha/docs/source/guides/build.rst:41
+#: ../iroha/docs/source/getting_started/index.rst:87
 msgid "``--depth-1`` option allows us to download only latest commit and save some time and bandwidth. If you want to get a full commit history, you can omit this option."
 msgstr "`--depth-1` オプションを使うと、最新のコミットだけをダウンロードし、時間と帯域を節約することができます。 コミット履歴全てを取得する場合は、このオプションを省略してください。"
 
@@ -617,8 +616,7 @@ msgstr "上記の前提条件リストと一致していないものがありま
 msgid "In case of valid assumptions, the only thing that remains is to launch the daemon process with following parameters:"
 msgstr "全ての条件が整えば、あとは以下のパラメーターを用いてデーモンプロセスを起動させるだけです："
 
-#: ../iroha/docs/source/guides/build.rst:180
-#: ../iroha/docs/source/guides/build.rst:197
+#: ../iroha/docs/source/guides/deployment.rst:46
 msgid "Parameter"
 msgstr "パラメーター"
 
@@ -658,7 +656,7 @@ msgstr "いろはデーモンを実行する際のコマンド例は、"
 msgid "If you have stopped the daemon and want to use existing chain — you should not pass the genesis block parameter."
 msgstr "もし一旦デーモンを停止しさせ、既存のチェーンを使用したい場合は、ジェネシスブロックのパラメータを渡さないでください。"
 
-#: ../iroha/docs/source/guides/build.rst:24
+#: ../iroha/docs/source/guides/deployment.rst:67
 msgid "Docker"
 msgstr "Docker"
 
@@ -812,7 +810,7 @@ msgstr "問題を解決する"
 
 #: ../iroha/docs/source/guides/deployment.rst:222
 msgid "—\"Please, help me, because I am…\""
-msgstr ""
+msgstr "\"こういう場合はどうすれば対処できますか....。教えてください。\""
 
 #: ../iroha/docs/source/guides/deployment.rst:225
 msgid "Not having Iroha daemon binary"
@@ -928,11 +926,7 @@ msgstr "ハイパーレジャーいろは（Hyperledger Iroha）は、大学、�
 msgid "By using Hyperledger Iroha each education or medical certificate can be verified that it was issued by certain certifying authorities. Immutability and clear validation rules provide transparency to health and education significantly reducing the usage of fake certificates."
 msgstr "Hyperledger Irohaを使用することにより、各教育機関または医療証明書が、特定の認証機関によって発行されたということを確認することができます。 データの不変性と明確な検証規則によって、偽の証明書の使用を大幅に減らし、健康と教育分野へ透明性を提供します"
 
-#: ../iroha/docs/source/use_cases/index.rst:15
-#: ../iroha/docs/source/use_cases/index.rst:32
-#: ../iroha/docs/source/use_cases/index.rst:48
-#: ../iroha/docs/source/use_cases/index.rst:61
-#: ../iroha/docs/source/use_cases/index.rst:76
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "Example"
 msgstr "例"
 
@@ -978,7 +972,7 @@ msgstr "Hyperleger Irohaは、監査業務で非常に役立ちます。 各情�
 
 #: ../iroha/docs/source/use_cases/index.rst:45
 msgid "Transactions can be traced with a local database. Using Iroha-API auditor can query and perform analytics on the data, execute specific audit software. Hyperledger Iroha supports different scenarios for deploying analytics software:  on a local computer, or execute code on specific middleware. This approach allows analyzing Big Data application with Hadoop, Apache, and others. Hypeledger Iroha serves as a guarantor of data integrity and privacy (due to the query permissions restriction)."
-msgstr "トランザクションは、ローカルデータベースを使用して追跡できます。 Iroha-API Auditorを使用すると、データに対してクエリを実行し、分析を実行し、特定の監査ソフトウェアの機能を行うことができます。 Hyperbelger Irohaは、分析ソフトウェアを展開する上でさまざまなシナリオをサポートしています。ローカルコンピュータ上での実行や、特定のミドルウェアでコードを実行することもできます。 こうしたアプローチにより、HadoopやApacheなどのビッグデータアプリケーション分析を行うことができます。 Hypeledger Irohaは、データの完全性と機密性を保証する役割を果たします（クエリ権限の制限による）。"
+msgstr "トランザクションは、ローカルデータベースを使用して追跡できます。 Iroha-API Auditorを使用すると、データに対してクエリを実行し、分析を実行し、特定の監査ソフトウェアの機能を行うことができます。 Hyperledger Iroha（いろは）は、分析ソフトウェアを展開する上でさまざまなシナリオをサポートしています。ローカルコンピュータ上での実行や、特定のミドルウェアでコードを実行することもできます。 こうしたアプローチにより、HadoopやApacheなどのビッグデータアプリケーション分析を行うことができます。 Hypeledger Irohaは、データの完全性と機密性を保証する役割を果たします（クエリ権限の制限による）。"
 
 #: ../iroha/docs/source/use_cases/index.rst:50
 msgid "For example, auditing can be helpful in financial applications. An auditor account has a role of the ``auditor`` with permissions to access the information of users in the domain without bothering the user. To reduce the probability of account hijacking and prevent the auditor from sending malicious queries, the auditor is typically defined as a multi-signature account, meaning that auditor can make queries only having signatures from multiple separate identities. The auditor can make queries not only to fetch account data and balance but also all transactions of a user, e.g. all transfers of user ``haruto`` in domain ``konoha``. To efficiently analyze data of million users each Iroha node can work in tandem with analytics software."
@@ -1031,7 +1025,7 @@ msgstr "関連する研究"
 
 #: ../iroha/docs/source/use_cases/index.rst:88
 msgid "(The idea was to show current pioneers of blockchain applications and their works.)"
-msgstr ""
+msgstr "（ブロックチェーンアプリケーションのパイオニア達と彼らの成果を示すことが目的でした）。"
 
 #: ../iroha/docs/source/index.rst:2
 msgid "Hyperledger Iroha documentation"
@@ -1048,7 +1042,7 @@ msgstr "\n"
 
 #: ../iroha/docs/source/index.rst:8
 msgid "Welcome! Hyperledger Iroha is a simple blockchain platform you can use to make trusted, secure, and fast applications by bringing the power of permission-based blockchain with Byzantine fault-tolerant consensus. It's free, open-source, and works on Linux and Mac OS, with a variety of mobile and desktop libraries."
-msgstr "ようこそ！ Hyperbelger Irohaは、ビザンチンフォールトトレラントなコンセンサスに適合するパーミッションベースのブロックチェーンを実現することで、信頼性が高く、安全で、高速なアプリケーションを作成するためのシンプルな構造に設計されたブロックチェーンプラットフォームです。 無料でオープンソースで、LinuxやMac OS上で動作し、さまざまなモバイル用とデスクトップ用ライブラリが利用できます。"
+msgstr "ようこそ！ Hyperledger Iroha（いろは）は、ビザンチンフォールトトレラントなコンセンサスに適合するパーミッションベースのブロックチェーンを実現することで、信頼性が高く、安全で、高速なアプリケーションを作成するためのシンプルな構造に設計されたブロックチェーンプラットフォームです。 無料でオープンソースで、LinuxやMac OS上で動作し、さまざまなモバイル用とデスクトップ用ライブラリが利用できます。"
 
 #: ../iroha/docs/source/index.rst:10
 msgid "You can download the source code of Hyperledger Iroha and latest releases from `GitHub page <https://github.com/hyperledger/iroha>`_."
@@ -1164,7 +1158,7 @@ msgstr "構造"
 msgid "Field"
 msgstr "フィールド"
 
-#: ../iroha/docs/source/guides/libraries/android.rst:44
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "Description"
 msgstr "説明"
 
@@ -1198,7 +1192,7 @@ msgstr "資産のID"
 
 #: ../iroha/docs/source/api/commands.rst:1
 msgid "<asset_name>#<domain_id>"
-msgstr ""
+msgstr "<asset_name>#<domain_id>"
 
 #: ../iroha/docs/source/api/commands.rst:1
 msgid "usd#morgan"
@@ -1252,7 +1246,7 @@ msgstr "ネットワーク内の解決可能なアドレス（IPv4、IPv6、ド�
 
 #: ../iroha/docs/source/api/commands.rst:1
 msgid "should be resolvable"
-msgstr ""
+msgstr "解決可能なはずです"
 
 #: ../iroha/docs/source/api/commands.rst:1
 msgid "192.168.1.1:50541"
@@ -1455,7 +1449,7 @@ msgstr "コンマ/ドットに後につづく桁数"
 msgid "0 <= precision <= uint32 max"
 msgstr "0 <= 精度 <= 32 (最大単位) "
 
-#: ../iroha/docs/source/guides/libraries/android.rst:49
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "2"
 msgstr "2"
 
@@ -1708,7 +1702,7 @@ msgstr "この口座からの取引に含まれて含まれなければならな
 msgid "0 < quorum ≤ public-key set up to account ≤ 128"
 msgstr "0 < quorum ≤ public-key set up to account ≤ 128"
 
-#: ../iroha/docs/source/guides/libraries/android.rst:59
+#: ../iroha/docs/source/api/commands.rst:1
 msgid "5"
 msgstr "5"
 
@@ -1828,7 +1822,7 @@ msgstr "\n"
 
 #: ../iroha/docs/source/api/objc_library.rst:6
 msgid "Contents are missing for now."
-msgstr ""
+msgstr "今後コンテンツが足されていきます。"
 
 #: ../iroha/docs/source/api/index.rst:4
 msgid "In API section we will take a look at building blocks of an application interacting with Iroha. We will overview commands and queries that the system has, and the set of client libraries encompassing transport and application layer logic."
@@ -1887,7 +1881,7 @@ msgstr "リクエスト・スキーマ"
 #: ../iroha/docs/source/api/queries.rst:320
 #: ../iroha/docs/source/api/queries.rst:403
 msgid "Request Structure"
-msgstr ""
+msgstr "Request（内部構造）"
 
 #: ../iroha/docs/source/api/queries.rst:1
 msgid "account id to request its state"
@@ -1903,7 +1897,7 @@ msgstr "状態を問い合わせるアカウントのID"
 #: ../iroha/docs/source/api/queries.rst:368
 #: ../iroha/docs/source/api/queries.rst:412
 msgid "Response Schema"
-msgstr ""
+msgstr "Response（図表）"
 
 #: ../iroha/docs/source/api/queries.rst:63
 #: ../iroha/docs/source/api/queries.rst:110
@@ -1915,7 +1909,7 @@ msgstr ""
 #: ../iroha/docs/source/api/queries.rst:377
 #: ../iroha/docs/source/api/queries.rst:421
 msgid "Response Structure"
-msgstr ""
+msgstr "Response（内部構造）"
 
 #: ../iroha/docs/source/api/queries.rst:1
 msgid "account id"
@@ -2570,15 +2564,15 @@ msgstr "Yet Another Consensus"
 
 #: ../iroha/docs/source/overview.rst:55
 msgid "As per the latest review date of these docs, according to `Huawei Caliper <https://github.com/hyperledger/caliper>`_ testing tool, Iroha is capable of processing 45 transactions per second. Theoretically, this is not even close to the limit of the system, and we will continue constant optimizations in order to improve stability and performance."
-msgstr ""
+msgstr "本ドキュメントの最新レビュー日付によると、Huawei Caliper <https://github.com/hyperledger/caliper> _テストツールによると、Irohaは1秒あたり45トランザクションを処理できます。 、これはシステムの理論上の限界に到底至っていません。安定性とパフォーマンスを向上のために、引き続き最適化を継続して参ります。"
 
 #: ../iroha/docs/source/overview.rst:60
 msgid "In order to bring the power of blockchain into your application, you should think first of how it is going to interface with Iroha peers. A good start is to check `Core Concepts section <http://iroha.readthedocs.io/en/latest/core_concepts/>`_, explaining what exactly is a transaction and query, and how users of your application are supposed to interact with it."
-msgstr ""
+msgstr "みなさまのアプリケーションにブロックチェーンの力をもたらすためには、はじめにそのアプリケーションがIrohaピアとどのように連携するのかを考えなければなりません。そのためにまずはじめにトランザクションとクエリが正確に何であるかや、アプリケーションのユーザーがIrohaとどのようにやりとりするのかを説明している項`コアコンセプトセクション<http://iroha.readthedocs.io/en/latest/core_concepts/>` _がありますので、それを参照してみてください。"
 
 #: ../iroha/docs/source/overview.rst:63
 msgid "We also have several client libraries which provide tools for developers to form building blocks, such as signatures, commands, send messages to Iroha peers and check the status."
-msgstr ""
+msgstr "また、システム開発者が電子署名やコマンドといったIrohaの構成要素を作成するためのツールを提供しているクライアントライブラリもいくつか用意されています。"
 
 #: ../iroha/docs/source/guides/libraries/android.rst:2
 msgid "Android Library"
@@ -2631,7 +2625,7 @@ msgstr "Automake, Bison, Cmake"
 #: ../iroha/docs/source/guides/libraries/python.rst:13
 #: ../iroha/docs/source/guides/libraries/python.rst:63
 msgid "Please refer to the page `Installing Dependencies <dependencies.html>`__ to get installation recipes for the tools."
-msgstr ""
+msgstr "ツールのインストール方法は、 `ディペンデンシーをインストールする<dependencies.html>` __を参照してください。"
 
 #: ../iroha/docs/source/guides/libraries/android.rst:36
 msgid "Building the Library"
@@ -2639,19 +2633,19 @@ msgstr "ライブラリをビルドする"
 
 #: ../iroha/docs/source/guides/libraries/android.rst:38
 msgid "All you need now is to download `build script <https://github.com/hyperledger/iroha/blob/develop/shared_model/packages/android/android-build.sh>`__ ``android-build.sh`` to any empty folder and launch it there."
-msgstr ""
+msgstr "`build script <https://github.com/hyperledger/iroha/blob/develop/shared_model/packages/android/android-build.sh>` __ `` android-build.sh``をダウンロードするだけで完了します。 空のフォルダに移動して起動します。"
 
 #: ../iroha/docs/source/guides/libraries/android.rst:41
 msgid "Launch parameters are listed in the table below."
-msgstr ""
+msgstr "起動時のパラメータは以下の表の通りです。"
 
 #: ../iroha/docs/source/guides/libraries/android.rst:44
 msgid "Position"
-msgstr ""
+msgstr "Position"
 
 #: ../iroha/docs/source/guides/libraries/android.rst:44
 msgid "Required"
-msgstr ""
+msgstr "必須"
 
 #: ../iroha/docs/source/guides/libraries/android.rst:44
 msgid "Parameter Name"
@@ -2678,7 +2672,7 @@ msgstr "**プラットフォーム名**"
 
 #: ../iroha/docs/source/guides/libraries/android.rst:46
 msgid "Name of the target platform for binary part of the library."
-msgstr ""
+msgstr "ライブラリのバイナリ部分のターゲットプラットフォーム名。"
 
 #: ../iroha/docs/source/guides/libraries/android.rst:46
 msgid "``arm64-v8a``, ``armeabi-v7a``, ``armeabi``, ``x86``, ``x86_64``"
@@ -2738,7 +2732,7 @@ msgstr "**Build Type**"
 
 #: ../iroha/docs/source/guides/libraries/android.rst:59
 msgid "Defines build mode of binary part of the library. ``Release`` is the default option."
-msgstr ""
+msgstr "ライブラリのバイナリ部分のビルドタイプを定義します。 `` Release``がデフォルトオプションです。"
 
 #: ../iroha/docs/source/guides/libraries/android.rst:59
 msgid "``Debug`` or ``Release``"
@@ -2746,209 +2740,210 @@ msgstr "``Debug``又は``Release``"
 
 #: ../iroha/docs/source/guides/libraries/android.rst:64
 msgid "`Android API levels <https://developer.android.com/guide/topics/manifest/uses-sdk-element.html#ApiLevels>`__"
-msgstr ""
+msgstr "`Android API levels <https://developer.android.com/guide/topics/manifest/uses-sdk-element.html#ApiLevels>`__"
 
 #: ../iroha/docs/source/guides/libraries/android.rst:66
 msgid "Please use the same root part of Java package name for library build as you use for your Android project. For example, your project is located in a package called ``com.mycompany.androidapp``, so please consider to build the library in a package, which name starts with ``com.mycompany.androidapp`` (e.g. ``com.mycompany.androidapp.iroha``)."
-msgstr ""
+msgstr "あなたがAndroidプロジェクトに使用する時のように、ライブラリ作成時にはJavaパッケージ名の同じルート部分を使用してください。 例えば、あなたのプロジェクトは `` com.mycompany.androidapp``というパッケージに入っていますので、 できるだけ`` com.mycompany.androidapp``で始まるライブラリをパッケージに作成するようにしてください（ 例 ``com .mycompany.androidapp.iroha``）。"
 
 #: ../iroha/docs/source/guides/libraries/android.rst:70
 msgid "A couple of launch commands examples:"
-msgstr ""
+msgstr "起動コマンドの例："
 
 #: ../iroha/docs/source/guides/libraries/android.rst:80
 msgid "Build artefacts will be collected in ``lib`` directory near the script ``android-build.sh``. There will be two files - an archive ``bindings.zip`` and ``libirohajava.so``."
-msgstr ""
+msgstr "ビルドの際に作成される成果物（Build artifacts）`` android-build.sh``スクリプトの近くの ``lib``ディレクトリに集められていきます。`` bindings.zip``と`` libirohajava.so``の2つのアーカイブファイルが格納されます。"
 
 #: ../iroha/docs/source/guides/libraries/python.rst:51
 msgid "How to Use/Import"
-msgstr ""
+msgstr "使用・インポート方法"
 
 #: ../iroha/docs/source/guides/libraries/android.rst:88
 msgid "Importing the Library from jcenter"
-msgstr ""
+msgstr "jcenterからライブラリをインポートする"
 
 #: ../iroha/docs/source/guides/libraries/android.rst:90
 msgid "The easiest way to use Irohalib for Android is to import the library dependency from `jcenter <https://bintray.com/bulatmukhutdinov/maven/iroha-android-bindings>`__."
-msgstr ""
+msgstr "Android用Irohalibを使用する最も簡単な方法は、 `jcenter <https://bintray.com/bulatmukhutdinov/maven/iroha-android-bindings>` __からライブラリディペンデンシーをインポートすることです。"
 
 #: ../iroha/docs/source/guides/libraries/android.rst:92
 msgid "All you need to do is a simple set of four steps:"
-msgstr ""
+msgstr "4つのステップで簡単に行えます。"
 
 #: ../iroha/docs/source/guides/libraries/android.rst:94
 msgid "Add to your ``build.gradle`` file the following line:"
-msgstr ""
+msgstr "``build.gradle``ファイルに以下に示す行を追加してください。"
 
 #: ../iroha/docs/source/guides/libraries/android.rst:100
 msgid "Copy the latest version of ``*.proto`` files from ``develop`` branch of Iroha `repository <https://github.com/hyperledger/iroha/tree/develop/schema>`__ into ``app/src/main/proto/`` folder inside your project in Android Studio."
-msgstr ""
+msgstr "Iroha`repository <https://github.com/hyperledger/iroha/tree/develop/schema>`__ の ``develop``ブランチにある最新版の``*.proto``ファイルを、\n"
+"Android Studioのプロジェクト内の`` app/src/main/proto/ ``フォルダへコピーしてください。"
 
 #: ../iroha/docs/source/guides/libraries/android.rst:103
 msgid "The resulting directory structure should look like as follows:"
-msgstr ""
+msgstr "コピー後のディレクトリ構造は次のようになっているはずです。"
 
 #: ../iroha/docs/source/guides/libraries/android.rst:126
 msgid "Create additional directories ``app/src/main/proto/google/protobuf/`` and place there a file called ``empty.proto`` with the following contents:"
-msgstr ""
+msgstr "ディレクトリ``app/src/main/proto/google/protobuf/``を追加作成し、以下に示す内容のファイル``empty.proto`` をそこに格納してください。"
 
 #: ../iroha/docs/source/guides/libraries/android.rst:141
 msgid "Add ``protobuf`` and ``grpc`` dependecies and protobuf configuration block into your ``build.gradle`` file."
-msgstr ""
+msgstr "``build.gradle``ファイルに ``protobuf``、``grpc``ディペンデンシー、protobuf設定ブロックを追加してください。"
 
 #: ../iroha/docs/source/guides/libraries/android.rst:186
 msgid "How to Use Manually Built Library"
-msgstr ""
+msgstr "手動で作成されたライブラリの使用方法"
 
 #: ../iroha/docs/source/guides/libraries/android.rst:188
 msgid "Create directory structure inside your Android project according to the package name of build library. Put there all the ``.java`` files from ``bindings.zip`` archive. For example, the path could be ``app/src/main/java/com/mycompany/iroha`` if you built the library with ``com.mycompany.iroha`` package name."
-msgstr ""
+msgstr "ビルドされたライブラリのパッケージ名に従って、Androidプロジェクト内にディレクトリ構造を作成してください。そして、`` bindings.zip``アーカイブにあるすべての`` .java``ファイルをそこへ移動してください。 たとえば、`` com.mycompany.iroha``というパッケージ名でライブラリを作成した場合のパスは ``app/src/main/java/com/mycompany/iroha``になります。"
 
 #: ../iroha/docs/source/guides/libraries/android.rst:193
 msgid "Create directory ``app/src/main/jniLibs/<platform>`` where ``<platform>`` is the name of target platform (e.g. ``arm64-v8a``). Put there ``libirohajava.so``. Repeat this step for all required platforms (in this case you need to build the library for each platform)."
-msgstr ""
+msgstr " ``app/src/main/jniLibs/<platform>``というディレクトリを作成します。ここの`` <platform>``にはターゲットプラットフォーム名を指定します（例えば `` arm64-v8a``）。その中に``libirohajava.so``を入れてください。 すべてのプラットフォームでこの手順を繰り返します（その場合はプラットフォームごとにライブラリを作成する必要があります）。"
 
 #: ../iroha/docs/source/guides/libraries/android.rst:197
 msgid "Repeat steps 2-4 from the previous section `Importing the Library from jcenter`_."
-msgstr ""
+msgstr "前述の `jcenterからライブラリをインポートする` _の2〜4の手順を繰り返します。"
 
 #: ../iroha/docs/source/guides/libraries/python.rst:102
 msgid "Example Code"
-msgstr ""
+msgstr "コード例"
 
 #: ../iroha/docs/source/guides/libraries/android.rst:203
 msgid "Explore ``bindings`` branch of `iroha-android <https://github.com/hyperledger/iroha-android/tree/bindings>`__ repository to get source code and view sample application."
-msgstr ""
+msgstr "iroha-android <https://github.com/hyperledger/iroha-android/tree/bindings> `__リポジトリの``bindings``ブランチを中身を確認して、ソースコードを入手し、サンプルアプリケーションを見てください。"
 
 #: ../iroha/docs/source/guides/libraries/java.rst:2
 msgid "Java Library"
-msgstr ""
+msgstr "Javaライブラリ"
 
 #: ../iroha/docs/source/guides/libraries/java.rst:7
 msgid "Java 6"
-msgstr ""
+msgstr "Java 6"
 
 #: ../iroha/docs/source/guides/libraries/java.rst:8
 msgid "Gradle"
-msgstr ""
+msgstr "Gradle"
 
 #: ../iroha/docs/source/guides/libraries/nodejs.rst:58
 msgid "Build Process"
-msgstr ""
+msgstr "ビルドプロセス"
 
 #: ../iroha/docs/source/guides/libraries/nodejs.rst:59
 msgid "Clone Iroha repository"
-msgstr ""
+msgstr "Iroha repositoryをクローンする"
 
 #: ../iroha/docs/source/guides/libraries/java.rst:20
 msgid "For the latest version checkout a ``develop`` branch by adding ``-b develop`` parameter."
-msgstr ""
+msgstr "最新バージョンは、パラメーターに``-b develop``を追加して ``develop``ブランチを確認してください。"
 
 #: ../iroha/docs/source/guides/libraries/java.rst:23
 msgid "Now we need to build our Java native library. Run ``example/java/build_library.sh``, which will take care of it."
-msgstr ""
+msgstr "それでは次に、Javaのネイティブライブラリを作成する必要があります。``example/java/build_library.sh``スクリプトを実行してください。自動的に行ってくれます。"
 
 #: ../iroha/docs/source/guides/libraries/java.rst:31
 msgid "``build_library.sh`` script creates a ``dist`` folder with files, needed in :ref:`java-how-to-use` section."
-msgstr ""
+msgstr "``build_library.sh``スクリプトはセクション:ref:`java-how-to-use` section.で必要になったファイルとともに``dist``フォルダを作成します。"
 
 #: ../iroha/docs/source/guides/libraries/java.rst:37
 msgid "How to Use"
-msgstr ""
+msgstr "使用方法"
 
 #: ../iroha/docs/source/guides/libraries/java.rst:39
 msgid "There are two ways of adding the Java library to your project:"
-msgstr ""
+msgstr "Javaライブラリをプロジェクトに追加するには、2つの方法があります。"
 
 #: ../iroha/docs/source/guides/libraries/java.rst:41
 msgid "Import Java bindings through Maven Central"
-msgstr ""
+msgstr "Maven Centralを使用してJavaバインディングをインポートする"
 
 #: ../iroha/docs/source/guides/libraries/java.rst:42
 msgid "Compile Java bindings manually"
-msgstr ""
+msgstr "手動でJavaバインディングをコンパイルする"
 
 #: ../iroha/docs/source/guides/libraries/java.rst:47
 msgid "Import Java Bindings from Maven Central"
-msgstr ""
+msgstr "Maven Centralを使用してJavaバインディングをインポートする"
 
 #: ../iroha/docs/source/guides/libraries/java.rst:49
 msgid "First of all, you need to copy ``example/java/dist/libirohajava.jnilib`` to the root folder of your project."
-msgstr ""
+msgstr "まず ``example/java/dist/libirohajava.jnilib``をプロジェクトのルートフォルダにコピーする必要があります。"
 
 #: ../iroha/docs/source/guides/libraries/java.rst:56
 msgid "If you use **Gradle**, add the following line to your ``build.gradle`` file:"
-msgstr ""
+msgstr "**Gradle**を使用する場合、 ``build.gradle``ファイルに次の行を追加してください。"
 
 #: ../iroha/docs/source/guides/libraries/java.rst:58
 #: ../iroha/docs/source/guides/libraries/java.rst:98
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #: ../iroha/docs/source/guides/libraries/java.rst:65
 #: ../iroha/docs/source/guides/libraries/java.rst:114
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #: ../iroha/docs/source/guides/libraries/java.rst:75
 msgid "Set the latest version number from our `Maven repository <https://mvnrepository.com/artifact/jp.co.soramitsu/iroha>`_"
-msgstr ""
+msgstr "`Mavenリポジトリ<https://mvnrepository.com/artifact/jp.co.soramitsu/iroha>` _から最新のバージョン番号を設定してください。"
 
 #: ../iroha/docs/source/guides/libraries/java.rst:79
 msgid "Compiling Java Bindings Manually"
-msgstr ""
+msgstr "手動でJavaバインディングをコンパイルする"
 
 #: ../iroha/docs/source/guides/libraries/java.rst:81
 msgid "Java bindings were compiled with ``example/java/build_library.sh`` in `Build Process` section. You need to copy ``example/java/dist/libirohajava.jnilib`` to the root folder of your project:"
-msgstr ""
+msgstr "Javaバインディングは `Build Process`セクションの`` example/java/build_library.sh``でコンパイルされています。 あなたのプロジェクトのルートフォルダに ``example/java/dist/libirohajava.jnilib``をコピーしてください。"
 
 #: ../iroha/docs/source/guides/libraries/java.rst:89
 msgid "If you use **Gradle**, you need to copy ``example/java/dist/iroha_lib.jar`` to the ``libs`` folder of your project"
-msgstr ""
+msgstr "**Gradle**を使用する場合は、 ``example/java/dist/iroha_lib.jar``をプロジェクトの ``libs``フォルダにコピーする必要があります。"
 
 #: ../iroha/docs/source/guides/libraries/java.rst:96
 msgid "Then please add the following to your ``build.gradle`` file:"
-msgstr ""
+msgstr "そして、`` build.gradle``ファイルに以下に示す内容を追加してください。"
 
 #: ../iroha/docs/source/guides/libraries/java.rst:112
 msgid "After it please add this to your ``pom.xml``:"
-msgstr ""
+msgstr "それが完了してから、`` pom.xml``に以下の内容を追加してください。"
 
 #: ../iroha/docs/source/guides/libraries/java.rst:126
 msgid "Explore ``example/java/TransactionExample.java`` file to get an idea of how to work with a library."
-msgstr ""
+msgstr "``example/java/TransactionExample.java``ファイルの内容を見て、ライブラリの使い方を理解してください。"
 
 #: ../iroha/docs/source/guides/libraries/nodejs.rst:81
 msgid "To run this example, you need an Iroha node up and running. Please check out :ref:`getting-started` if you want to learn how to start it."
-msgstr ""
+msgstr "ここでの例を実行するには、イロハノードが１つ稼働していなければいけません。 起動方法を知りたい場合は、:ref:`getting-started`を参照してください。"
 
 #: ../iroha/docs/source/guides/libraries/nodejs.rst:85
 msgid "Running the Example"
-msgstr ""
+msgstr "例を実行してみる"
 
 #: ../iroha/docs/source/guides/libraries/java.rst:136
 msgid "To start the example, you need to build the example:"
-msgstr ""
+msgstr "例を開始する前に、まず構築する必要があります。"
 
 #: ../iroha/docs/source/guides/libraries/nodejs.rst:96
 msgid "Now, to run this example please write:"
-msgstr ""
+msgstr "この例を実行するには、以下のように行ってください。"
 
 #: ../iroha/docs/source/guides/libraries/nodejs.rst:2
 msgid "Node.js Library"
-msgstr ""
+msgstr "Node.js ライブラリ"
 
 #: ../iroha/docs/source/guides/libraries/nodejs.rst:3
 msgid "Please note that Node.js library is under heavy testing now and problems `might` occur. Don't hesitate to report them to us."
-msgstr ""
+msgstr "Node.jsライブラリは現在重点的にテスト中であり、問題が発生する可能性があることに注意してください。 その場合は我々にすぐに報告してください。"
 
 #: ../iroha/docs/source/guides/libraries/nodejs.rst:6
 msgid "There are two main ways of obtaining the Node.js library. If you are a happy macOS or Linux user, you can install it `through NPM <#installing-through-npm>`_. If your system is not yet supported or you want to try the latest version, you can `build this library manually <#building-manually>`_."
-msgstr ""
+msgstr "Node.jsライブラリを取得する方法は主に2つあります。 もし幸いにもあなたがmacOSまたはLinuxユーザーであれば、 `NPM <＃installation-through-npm>` _を通してインストールできます。 使用しているシステムがまだサポートされていない場合または最新バージョンを試したい場合は、このライブラリを手動でビルドして行うことができます。"
 
 #: ../iroha/docs/source/guides/libraries/nodejs.rst:14
 msgid "Node.js (>=7) (you can try using lower versions though)."
-msgstr ""
+msgstr "Node.js (>=7) (より低いバージョンでも可能ですが...。）"
 
 #: ../iroha/docs/source/guides/libraries/nodejs.rst:17
 msgid "Installing Through NPM"
@@ -2960,7 +2955,7 @@ msgstr "幸いにもmacOSまたはLinuxユーザーであれば、NPMを使用�
 
 #: ../iroha/docs/source/guides/libraries/nodejs.rst:25
 msgid "Now you can import it in your project"
-msgstr ""
+msgstr "これでプロジェクトにインポートできます"
 
 #: ../iroha/docs/source/guides/libraries/nodejs.rst:32
 msgid "Building Manually"
@@ -3000,7 +2995,7 @@ msgstr "これで全て完了です。 すぐにライブラリを使用でき�
 
 #: ../iroha/docs/source/guides/libraries/nodejs.rst:76
 msgid "Explore ``example/node/index.js`` file to get an idea of how to work with a library."
-msgstr ""
+msgstr "``example/node/index.js``ファイルをもとに、ライブラリの扱い方を見ていきましょう。"
 
 #: ../iroha/docs/source/guides/libraries/nodejs.rst:86
 msgid "To start the example, you need to install all its dependencies (basically ``iroha-lib``)"
@@ -3008,7 +3003,7 @@ msgstr "まずはじめに、すべてのディペンデンシー（依存オブ
 
 #: ../iroha/docs/source/guides/libraries/nodejs.rst:93
 msgid "if you have built the library manually, please change import paths to ``path-to-iroha/shared_model/packages/javascript`` in index.js"
-msgstr ""
+msgstr "ライブラリを手作業でビルドした場合は、index.jsのインポートパスを ``path-to-iroha/shared_model/packages/javascript``に変更してください。"
 
 #: ../iroha/docs/source/guides/libraries/python.rst:2
 msgid "Python Library"
@@ -3016,7 +3011,7 @@ msgstr "Pythonライブラリ"
 
 #: ../iroha/docs/source/guides/libraries/python.rst:7
 msgid "There are two ways to get Iroha library for Python: via pip and manual compilation from source code. The installation via pip do the same steps as manual compilation so for both of them you need to install all of the prerequisites."
-msgstr ""
+msgstr "Python用Irohaライブラリの入手には、pipとソースコードからの手動コンパイルを経由する2つの方法があります。 pipを使ったインストールは、手動コンパイルと同じ手順を実行します。そのため、いずれかの場合においても前提条件をすべてインストールする必要があります。"
 
 #: ../iroha/docs/source/guides/libraries/python.rst:13
 msgid "CMake, git, g++, boost, swig, protobuf, python"
@@ -3028,7 +3023,7 @@ msgstr "IrohaのPythonライブラリをインストールする"
 
 #: ../iroha/docs/source/guides/libraries/python.rst:18
 msgid "Via PIP"
-msgstr "PIPを使って"
+msgstr "PIPを使って行う"
 
 #: ../iroha/docs/source/guides/libraries/python.rst:24
 msgid "For the latest version"
@@ -3040,71 +3035,71 @@ msgstr "ソースコード"
 
 #: ../iroha/docs/source/guides/libraries/python.rst:37
 msgid "For the latest version checkout to develop branch by adding *-b develop* parameter."
-msgstr ""
+msgstr "最新のバージョンは、パラメータに* -b develop *を追加してdevelopブランチを確認してください。"
 
 #: ../iroha/docs/source/guides/libraries/python.rst:48
 msgid "After this you can find Iroha python library in **iroha/build/shared_model/bindings** folder, where you have previously cloned repository."
-msgstr ""
+msgstr "その後、以前リポジトリをクローンしていたフォルダにあるIroha pythonライブラリが** iroha/build/shared_model/bindings**フォルダ内にあることがわかります。"
 
 #: ../iroha/docs/source/guides/libraries/python.rst:54
 msgid "Compile Protobuf Modules of Iroha from Schema Files"
-msgstr ""
+msgstr "Schema FilesからIrohaのProtobufモジュールをコンパイルする"
 
 #: ../iroha/docs/source/guides/libraries/python.rst:56
 msgid "Iroha communicates with users through protobuf messages. In order to send transactions and queries to Iroha node you need to get python module for generating protobuf messages. First of all you need to clone schema folder of Iroha repository. If you have already cloned Iroha repository in the previous step, just use schema folder from there."
-msgstr ""
+msgstr "イロハはprotobufメッセージを通じてユーザーと通信をとります。 イロハノードにトランザクションやクエリを送信するには、protobufメッセージを生成するためのpythonモジュールを入手しておく必要があります。 それにはまず、Irohaリポジトリのschemaフォルダをクローンする必要があります。 先ほど紹介した手順でIrohaリポジトリを既にクローンしている場合は、そこからschemaフォルダを使用してください。"
 
 #: ../iroha/docs/source/guides/libraries/python.rst:63
 msgid "protobuf, pip"
-msgstr ""
+msgstr "protobuf, pip"
 
 #: ../iroha/docs/source/guides/libraries/python.rst:66
 msgid "Building Protobuf Files"
-msgstr ""
+msgstr "Protobufファイルを作成する"
 
 #: ../iroha/docs/source/guides/libraries/python.rst:81
 msgid "Protobuf files can be found in **iroha-schema** folder ('\\*_pb2\\*.py' files)"
-msgstr ""
+msgstr "Protobufファイルは**iroha-schema**フォルダ（'\\*_ pb2\\*.py'ファイル）にあります。"
 
 #: ../iroha/docs/source/guides/libraries/python.rst:83
 msgid "In order to specify Iroha libraries location:"
-msgstr ""
+msgstr "いろはライブラリの場所を指定するには："
 
 #: ../iroha/docs/source/guides/libraries/python.rst:91
 msgid "Import Iroha and all of the protobuf modules that you need:"
-msgstr ""
+msgstr "Irohaと、その他必要なprotobufモジュールをすべてインポートします。"
 
 #: ../iroha/docs/source/guides/libraries/python.rst:106
 msgid "Work with byte arrays is different in Python 2 and Python 3. Due to this fact, the work with hashes and blobs is different in the examples. Given examples work fine with both versions of Python."
-msgstr ""
+msgstr "バイト配列の操作は、Python 2とPython 3では異なっています。このため、ハッシュとブロブへの作業はこの例では異なっています。例は両方のPythonバージョンで正常に動作します。"
 
 #: ../iroha/docs/source/guides/libraries/python.rst:108
 msgid "Import Iroha and schema classes, generated from Iroha protobuf:"
-msgstr ""
+msgstr "Iroha protobufから生成されたIrohaとschemaのクラスをインポートする："
 
 #: ../iroha/docs/source/guides/libraries/python.rst:120
 msgid "Get Iroha objects:"
-msgstr ""
+msgstr "Iroha オブジェクトを取得する"
 
 #: ../iroha/docs/source/guides/libraries/python.rst:130
 msgid "Read public and private keys:"
-msgstr ""
+msgstr "公開鍵と秘密鍵をreadする："
 
 #: ../iroha/docs/source/guides/libraries/python.rst:138
 msgid "Print transaction status with synchronous simple call:"
-msgstr ""
+msgstr "同期シンプルコールを用いてトランザクションステータス (status)を表示 (print)する"
 
 #: ../iroha/docs/source/guides/libraries/python.rst:174
 msgid "Or streaming call:"
-msgstr ""
+msgstr "あるいはstreaming callで："
 
 #: ../iroha/docs/source/guides/libraries/python.rst:186
 msgid "Send transactions to Iroha:"
-msgstr ""
+msgstr "Irohaにトランザクションを送信する"
 
 #: ../iroha/docs/source/guides/libraries/python.rst:206
 msgid "Send query to Iroha and receive a responce:"
-msgstr ""
+msgstr "イロハにクエリを送り、返信を受け取る："
 
 #: ../iroha/docs/source/guides/libraries/python.rst:228
 msgid "Create domain and asset:"
@@ -3120,76 +3115,78 @@ msgstr "アカウントの作成"
 
 #: ../iroha/docs/source/guides/libraries/python.rst:267
 msgid "Send asset:"
-msgstr "アセットの送金"
+msgstr "アセットの送信"
 
 #: ../iroha/docs/source/guides/libraries/python.rst:279
 msgid "Get asset info:"
-msgstr "アセット情報の読み込み"
+msgstr "アセットの関連情報の取得"
 
 #: ../iroha/docs/source/guides/libraries/python.rst:301
 msgid "Get account asset:"
-msgstr ""
+msgstr "アカウントの残高を取得する"
 
 #: ../iroha/docs/source/guides/build.rst:2
 #: ../iroha/docs/source/guides/build.rst:145
 msgid "Building Iroha"
-msgstr ""
+msgstr "Irohaを構築する"
 
 #: ../iroha/docs/source/guides/build.rst:4
 msgid "In this guide we will learn how to install all dependencies, required to build Iroha and how to build it."
-msgstr ""
+msgstr "このガイドでは、Irohaを構築するために必要なすべてのディペンデンシーのインストール方法と構築方法について学びます。"
 
 #: ../iroha/docs/source/guides/build.rst:8
 msgid "Preparing the Environment"
-msgstr ""
+msgstr "環境を整える"
 
 #: ../iroha/docs/source/guides/build.rst:10
 msgid "In order to successfully build Iroha, we need to configure the environment. There are several ways to do it and we will describe all of them."
-msgstr ""
+msgstr "イロハを正常に構築するためには、適切な環境設定が必要があります。 それにはいくつかの方法がありますので、以下で説明していきます。"
 
 #: ../iroha/docs/source/guides/build.rst:13
 msgid "Currently, we support Unix-like systems (we are basically targeting popular Linux distros and macOS). If you happen to have Windows or you don't want to spend time installing all dependencies you might want to consider using Docker environment. Also, Windows users might consider using `WSL <https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux>`_"
-msgstr ""
+msgstr "現在、Unix系システムがサポートされています（本プロジェクトは基本的にLinuxディストリビューションとmacOSをターゲットにしています）。 Windowsをご使用の場合や、すべてのディペンデンシーのインストールに時間を費やしたくない場合は、Docker環境のご使用を検討してください。 また、Windowsユーザーの方は `WSL <https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux>` _が参考になるかもしれません。"
 
 #: ../iroha/docs/source/guides/build.rst:19
 msgid "Having troubles? Check FAQ section or communicate to us directly, in case you were stuck on something. We don't expect this to happen, but some issues with an environment are possible."
-msgstr ""
+msgstr "トラブルが起きましたか？ もし何か問題に直面したときは、FAQセクションを確認してみるか、直接私たちに報告してください。 そのようなことが起こるとは考えられにくいですが、システム環境関連で問題が発生する可能性も排除はできません。"
 
 #: ../iroha/docs/source/guides/build.rst:25
 msgid "You don't need Docker to run Iroha, it is just one of the possible choices."
-msgstr ""
+msgstr "Irohaを実行するのにDockerが必ず必要になるということはなく、選択肢の一つに過ぎません。"
 
 #: ../iroha/docs/source/guides/build.rst:28
 msgid "First of all, you need to install ``docker`` and ``docker-compose``. You can read how to install it on a `Docker's website <https://www.docker.com/community-edition/>`_"
-msgstr ""
+msgstr "まず、 ``docker``と ``docker-compose``をインストールする必要があります。 `Dockerのウェブサイト<https://www.docker.com/community-edition/>` _でインストール方法を読むことができます。"
 
 #: ../iroha/docs/source/guides/build.rst:32
 msgid "Please, use the latest available docker daemon and docker-compose."
-msgstr ""
+msgstr "必ず最新のdocker daemonとdocker composeを使用してください。"
 
 #: ../iroha/docs/source/guides/build.rst:34
 msgid "Then you should clone the `Iroha repository <https://github.com/hyperledger/iroha>`_ to the directory of your choice."
-msgstr ""
+msgstr "次に、`Irohaリポジトリ<https://github.com/hyperledger/iroha>` _をあなたが選択したディレクトリに複製する必要があります。"
 
 #: ../iroha/docs/source/guides/build.rst:45
 msgid "After it, you need to run the development environment. Run the ``scripts/run-iroha-dev.sh`` script:"
-msgstr ""
+msgstr "そして次に開発環境を起動する必要があります。 ``scripts/run-iroha-dev.sh``スクリプトを以下の通り実行してください。"
 
 #: ../iroha/docs/source/guides/build.rst:52
 msgid "Please make sure that Docker is running before executing the script. macOS users could find a Docker icon in system tray, Linux user could use ``systemctl start docker``"
-msgstr ""
+msgstr "スクリプトを実行する前にDockerが実行されていることを確認してください。 macOSユーザはシステムトレイにDockerアイコンを表示されますし、Linuxユーザは `` systemctl start docker``が使えるでしょう。"
 
 #: ../iroha/docs/source/guides/build.rst:56
 msgid "After you execute this script, following things happen:"
-msgstr ""
+msgstr "このスクリプトを実行すると、以下のことが起こります。"
 
 #: ../iroha/docs/source/guides/build.rst:58
 msgid "1. The script checks if you don't have containers with Iroha already running. Successful completion finishes with the new container shell. 2. The script will download ``iroha-docker-develop`` and ``postgres`` images. ``iroha-docker-develop`` image contains all development dependencies and is based on top of ``ubuntu:16.04``. ``postgres`` image is required for starting and running Iroha. 3. Two containers are created and launched. 4. The user is attached to the interactive environment for development and testing with ``iroha`` folder mounted from the host machine. Iroha folder is mounted to ``/opt/iroha`` in Docker container."
-msgstr ""
+msgstr "1. 実行したスクリプトは、Irohaが既に動作しているコンテナがないかどうかをチェックします。これが正常に行われると、新しいコンテナがシェルに出ます。2.スクリプトは、「iroha-docker-develop」と「postgres」のイメージをダウンロードします。``iroha-docker-develop``イメージにはすべてのdevelopment dependenciesが含まれており、`` Ubuntu:16.04``に基づいています。 Irohaの起動ならびに実行には ``postgres``イメージが必要です。\n"
+"3. 2つのコンテナが作成され、起動されます。\n"
+"4.ユーザは、ホストマシンからマウントされた \"iroha\"フォルダを使用して、開発とテストのために対話型環境に接続されます。 IrohaフォルダはDockerコンテナの ``/opt/iroha``にマウントされています。"
 
 #: ../iroha/docs/source/guides/build.rst:69
 msgid "Now your are ready to build Iroha! Please go to `Building Iroha` section."
-msgstr ""
+msgstr "これであなたもイロハを構築する準備ができました！ セクション「Irohaを構築する」に進んでください。"
 
 #: ../iroha/docs/source/guides/build.rst:72
 msgid "Linux"
@@ -3201,88 +3198,88 @@ msgstr "Boost"
 
 #: ../iroha/docs/source/guides/build.rst:77
 msgid "Iroha requires Boost of at least 1.65 version. To install Boost libraries (``libboost-all-dev``), use `current release <http://www.boost.org/users/download/>`_ from Boost webpage. The only dependencies are system and filesystem, so use ``./bootstrap.sh --with-libraries=system,filesystem`` when you are building the project."
-msgstr ""
+msgstr "Irohaには少なくとも1.65バージョンのBoostが必要です。 Boostライブラリ (``libboost-all-dev``)をインストールは、Boostのウェブページ `current release <http://www.boost.org/users/download/>` _を使用してください。 唯一のディペンデンシーはシステムとファイルシステムなので、プロジェクトをビルドするときに ``./bootstrap.sh --with-libraries=system,filesystem```を使用してください。"
 
 #: ../iroha/docs/source/guides/build.rst:85
 msgid "Other Dependencies"
-msgstr ""
+msgstr "その他のディペンデンシー"
 
 #: ../iroha/docs/source/guides/build.rst:87
 msgid "To build Iroha, you need following packages:"
-msgstr ""
+msgstr "Irohaの構築には、以下のパッケージが必要です："
 
 #: ../iroha/docs/source/guides/build.rst:89
 msgid "``build-essential`` ``automake`` ``libtool`` ``libssl-dev`` ``zlib1g-dev`` ``libc6-dbg`` ``golang`` ``git`` ``tar`` ``gzip`` ``ca-certificates`` ``wget`` ``curl`` ``file`` ``unzip`` ``python`` ``cmake``"
-msgstr ""
+msgstr "``build-essential`` ``automake`` ``libtool`` ``libssl-dev`` ``zlib1g-dev`` ``libc6-dbg`` ``golang`` ``git`` ``tar`` ``gzip`` ``ca-certificates`` ``wget`` ``curl`` ``file`` ``unzip`` ``python`` ``cmake``"
 
 #: ../iroha/docs/source/guides/build.rst:93
 msgid "Use this code to install dependencies on Debian-based Linux distro."
-msgstr ""
+msgstr "DebianベースのLinuxディストリビューションにディペンデンシーをインストールするには、このコードを使用してください。"
 
 #: ../iroha/docs/source/guides/build.rst:106
 msgid "If you are willing to actively develop Iroha and to build shared libraries, please consider installing the `latest release <https://cmake.org/download/>`_ of CMake."
-msgstr ""
+msgstr "積極的にIrohaを開発し共有ライブラリを構築したい場合は、CMakeの最新リリース<https://cmake.org/download/> _をインストールすることを検討してください。"
 
 #: ../iroha/docs/source/guides/build.rst:111
 msgid "macOS"
-msgstr ""
+msgstr "macOS"
 
 #: ../iroha/docs/source/guides/build.rst:113
 msgid "If you want to build it from scratch and actively develop it, please use this code to install all dependencies with Homebrew."
-msgstr ""
+msgstr "最初からビルドして積極的に開発したい場合は、このコードを使用してHomebrewにすべてのディペンデンシーをインストールしてください。"
 
 #: ../iroha/docs/source/guides/build.rst:121
 msgid "To install the Homebrew itself please run"
-msgstr ""
+msgstr "Homebrew自体のインストールは、以下を実行して下さい。"
 
 #: ../iroha/docs/source/guides/build.rst:123
 msgid "``ruby -e \"$(curl -fsSL https://raw.githubusercontent.com/homebrew/install/master/install)\"``"
-msgstr ""
+msgstr "``ruby -e \"$(curl -fsSL https://raw.githubusercontent.com/homebrew/install/master/install)\"``"
 
 #: ../iroha/docs/source/guides/build.rst:129
 msgid "Cloning the Repository"
-msgstr ""
+msgstr "リポジトリをクローンする"
 
 #: ../iroha/docs/source/guides/build.rst:130
 msgid "Clone the `Iroha repository <https://github.com/hyperledger/iroha>`_ to the directory of your choice."
-msgstr ""
+msgstr "`Irohaリポジトリ<https://github.com/hyperledger/iroha>` _を目的に応じたディレクトリにクローンします。"
 
 #: ../iroha/docs/source/guides/build.rst:138
 msgid "If you have installed the prerequisites with Docker, you don't need to clone Iroha again, because when you run ``run-iroha-dev.sh`` it attaches to Iroha source code folder. Feel free to edit source code files with your host environment and build it within docker container."
-msgstr ""
+msgstr "前提条件をDockerでインストールしている場合、``run-iroha-dev.sh`を実行するとIrohaのソースコードフォルダに接続するので、Irohaを再度クローンする必要はありません。 ホスト環境で自由にソースコードファイルを編集し、docker container内でビルドしてください。"
 
 #: ../iroha/docs/source/guides/build.rst:146
 msgid "To build Iroha, use those commands"
-msgstr ""
+msgstr "いろはを構築するには、これらのコマンドを使って下さい。"
 
 #: ../iroha/docs/source/guides/build.rst:152
 msgid "Alternatively, you can use these shorthand parameters (they are not documented though)"
-msgstr ""
+msgstr "代わりに以下のような省略形のパラメータを使用することもできます（詳細説明はここでは省きます。）"
 
 #: ../iroha/docs/source/guides/build.rst:160
 msgid "On macOS ``$(nproc)`` variable does not work. Check the number of logical cores with ``sysctl -n hw.ncpu`` and put it explicitly in the command above, e.g. ``cmake --build build -- -j4``"
-msgstr ""
+msgstr "macOSでは``$(nproc)``変数は使用できませんので、CPUのコア数を ``sysctl -n hw.ncpu``で確認し、上記のコマンドに明示的に指定してください。例えば、``cmake --build build -- -j4``"
 
 #: ../iroha/docs/source/guides/build.rst:165
 msgid "CMake Parameters"
-msgstr ""
+msgstr "CMakeパラメーター"
 
 #: ../iroha/docs/source/guides/build.rst:167
 msgid "We use CMake to build platform-dependent build files. It has numerous flags for configuring the final build. Note that besides the listed parameters cmake's variables can be useful as well. Also as long as this page can be deprecated (or just not complete) you can browse custom flags via ``cmake -L``, ``cmake-gui``, or ``ccmake``."
-msgstr ""
+msgstr "CMakeを使用して、プラットフォームに依存するビルドファイルを作成します。 CMakeには、最終的なビルドを設定するために多数のフラグがあります。 以下で列挙されたパラメータのほかに、cmake変数も有用になることがあります。 また、このページが非推奨（あるいは未完成）なものではない限り、 ``cmake -L``、 ``cmake-gui``、または``ccmake``でカスタムフラグを閲覧することができると思います。"
 
 #: ../iroha/docs/source/guides/build.rst:173
 msgid "You can specify parameters at the cmake configuring stage (e.g cmake -DTESTING=ON)."
-msgstr ""
+msgstr "cmakeの設定段階（例: cmake -DTESTING=ON）でパラメータを指定することができます。"
 
 #: ../iroha/docs/source/guides/build.rst:177
 msgid "Main Parameters"
-msgstr ""
+msgstr "主なパラメーター"
 
 #: ../iroha/docs/source/guides/build.rst:180
 #: ../iroha/docs/source/guides/build.rst:197
 msgid "Possible values"
-msgstr ""
+msgstr "取り得る値"
 
 #: ../iroha/docs/source/guides/build.rst:180
 #: ../iroha/docs/source/guides/build.rst:197
@@ -3305,7 +3302,7 @@ msgstr "ON"
 
 #: ../iroha/docs/source/guides/build.rst:182
 msgid "Enables or disables build of the tests"
-msgstr ""
+msgstr "テスト時のビルドを有効または無効にします。"
 
 #: ../iroha/docs/source/guides/build.rst:184
 msgid "BENCHMARKING"
@@ -3324,7 +3321,7 @@ msgstr "OFF"
 
 #: ../iroha/docs/source/guides/build.rst:184
 msgid "Enables or disables build of the Google Benchmarks library"
-msgstr ""
+msgstr "Google Benchmarksライブラリの作成を有効または無効にします"
 
 #: ../iroha/docs/source/guides/build.rst:186
 msgid "COVERAGE"
@@ -3332,7 +3329,7 @@ msgstr "COVERAGE"
 
 #: ../iroha/docs/source/guides/build.rst:186
 msgid "Enables or disables lcov setting for code coverage generation"
-msgstr ""
+msgstr "コードカバレッジ生成のlcov設定を有効または無効にします"
 
 #: ../iroha/docs/source/guides/build.rst:188
 msgid "SWIG_PYTHON"
@@ -3340,7 +3337,7 @@ msgstr "SWIG_PYTHON"
 
 #: ../iroha/docs/source/guides/build.rst:188
 msgid "Enables of disables the library building and Python bindings"
-msgstr ""
+msgstr "ライブラリ作成とPythonバインディングを有効または無効にします"
 
 #: ../iroha/docs/source/guides/build.rst:190
 msgid "SWIG_JAVA"
@@ -3348,11 +3345,11 @@ msgstr "SWIG_JAVA"
 
 #: ../iroha/docs/source/guides/build.rst:190
 msgid "Enables of disables the library building and Java bindings"
-msgstr ""
+msgstr "ライブラリ作成とJavaバインディングを有効または無効にします"
 
 #: ../iroha/docs/source/guides/build.rst:194
 msgid "Packaging Specific Parameters"
-msgstr ""
+msgstr "特定のパラメータをパッケージ化する"
 
 #: ../iroha/docs/source/guides/build.rst:199
 msgid "ENABLE_LIBS_PACKAGING"
