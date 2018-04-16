@@ -1,0 +1,1 @@
+../../../iroha/docs/source/contribution/index.rst

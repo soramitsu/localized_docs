@@ -1,0 +1,1 @@
+../../../iroha/docs/source/api/index.rst

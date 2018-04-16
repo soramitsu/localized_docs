@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Iroha 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-20 11:41+0300\n"
+"POT-Creation-Date: 2018-04-16 13:57+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,69 +17,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../iroha/docs/source/guides/libraries.rst:2
-msgid "Client libraries"
+msgid "Client Libraries"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries.rst:5
-msgid "C++ library"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries.rst:8
-#: ../iroha/docs/source/guides/libraries.rst:23
-#: ../iroha/docs/source/guides/libraries.rst:38
-#: ../iroha/docs/source/guides/libraries.rst:53
-#: ../iroha/docs/source/guides/libraries.rst:68
-#: ../iroha/docs/source/guides/libraries.rst:83
-msgid "Where to get"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries.rst:11
-#: ../iroha/docs/source/guides/libraries.rst:26
-#: ../iroha/docs/source/guides/libraries.rst:41
-#: ../iroha/docs/source/guides/libraries.rst:56
-#: ../iroha/docs/source/guides/libraries.rst:71
-#: ../iroha/docs/source/guides/libraries.rst:86
-msgid "How to use/import"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries.rst:14
-#: ../iroha/docs/source/guides/libraries.rst:29
-#: ../iroha/docs/source/guides/libraries.rst:44
-#: ../iroha/docs/source/guides/libraries.rst:59
-#: ../iroha/docs/source/guides/libraries.rst:74
-#: ../iroha/docs/source/guides/libraries.rst:89
-msgid "Example code"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries.rst:17
-#: ../iroha/docs/source/guides/libraries.rst:32
-#: ../iroha/docs/source/guides/libraries.rst:47
-#: ../iroha/docs/source/guides/libraries.rst:77
-#: ../iroha/docs/source/guides/libraries.rst:92
-msgid "Troubleshooting"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries.rst:20
-msgid "Java library"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries.rst:35
-msgid "Objective-C library"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries.rst:50
-msgid "Swift library"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries.rst:62
-msgid "Troubleshoting"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries.rst:65
-msgid "Python library"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries.rst:80
-msgid "NodeJS library"
+#: ../iroha/docs/source/guides/libraries.rst:4
+msgid "Table of contents"
 msgstr ""
 

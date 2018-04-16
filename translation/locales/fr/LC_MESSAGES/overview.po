@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Iroha 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-02 13:33+0300\n"
+"POT-Creation-Date: 2018-04-16 13:57+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -150,23 +150,10 @@ msgid "Yet Another Consensus"
 msgstr ""
 
 #: ../iroha/docs/source/overview.rst:53
-msgid "Is it fast?"
-msgstr ""
-
-#: ../iroha/docs/source/overview.rst:55
-msgid ""
-"As per the latest review date of these docs, according to `Huawei Caliper"
-" <https://github.com/hyperledger/caliper>`_ testing tool, Iroha is "
-"capable of processing 45 transactions per second. Theoretically, this is "
-"not even close to the limit of the system, and we will continue constant "
-"optimizations in order to improve stability and performance."
-msgstr ""
-
-#: ../iroha/docs/source/overview.rst:58
 msgid "How to create applications around Iroha?"
 msgstr ""
 
-#: ../iroha/docs/source/overview.rst:60
+#: ../iroha/docs/source/overview.rst:55
 msgid ""
 "In order to bring the power of blockchain into your application, you "
 "should think first of how it is going to interface with Iroha peers. A "
@@ -176,7 +163,7 @@ msgid ""
 "are supposed to interact with it."
 msgstr ""
 
-#: ../iroha/docs/source/overview.rst:63
+#: ../iroha/docs/source/overview.rst:58
 msgid ""
 "We also have several client libraries which provide tools for developers "
 "to form building blocks, such as signatures, commands, send messages to "
@@ -184,5 +171,21 @@ msgid ""
 msgstr ""
 
 #~ msgid "Where Iroha can be used?"
+#~ msgstr ""
+
+#~ msgid "Is it fast?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "As per the latest review date of"
+#~ " these docs, according to `Huawei "
+#~ "Caliper <https://github.com/hyperledger/caliper>`_ testing"
+#~ " tool, Iroha is capable of processing"
+#~ " 45 transactions per second. Theoretically,"
+#~ " this is not even close to the"
+#~ " limit of the system, and we "
+#~ "will continue constant optimizations in "
+#~ "order to improve stability and "
+#~ "performance."
 #~ msgstr ""
 

@@ -1,0 +1,329 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Creative Commons Attribution-NonCommercial 3.0 Unported
+# This file is distributed under the same license as the Iroha package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Iroha 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-16 13:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: ../iroha/docs/source/guides/libraries/android.rst:2
+msgid "Android Library"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:4
+msgid ""
+"The library, in essence, is a set of Java interfaces and binary libraries"
+" compiled for different architectures. Supported architectures are *arm, "
+"x86, x86_64*."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:7
+msgid "Where to Get"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:9
+msgid "There are two ways to get Iroha library for Android:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:11
+msgid ""
+"Grab via Gradle (see details in the section `Importing the Library from "
+"jcenter`_)"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:17
+msgid "Compile the library on your own."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:19
+msgid "Both options are described in the following sections."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:22
+msgid "Manual Build"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:24
+msgid "The guide was tested on systems running Ubuntu 16.04 and macOS."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:27
+msgid "Prerequisites"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:30
+msgid "Android NDK"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:30
+msgid ""
+"Please `download "
+"<https://developer.android.com/ndk/downloads/index.html>`__ and unpack "
+"NDK to any suitable folder."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:33
+msgid "Automake, Bison, Cmake"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:33
+msgid ""
+"Please refer to the page `Installing Dependencies <dependencies.html>`__ "
+"to get installation recipes for the tools."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:36
+msgid "Building the Library"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:38
+msgid ""
+"All you need now is to download `build script "
+"<https://github.com/hyperledger/iroha/blob/develop/shared_model/packages/android"
+"/android-build.sh>`__ ``android-build.sh`` to any empty folder and launch"
+" it there."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:41
+msgid "Launch parameters are listed in the table below."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:44
+msgid "Position"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:44
+msgid "Required"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:44
+msgid "Parameter Name"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:44
+msgid "Description"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:44
+msgid "Possible Values"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:46
+msgid "1"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:46
+#: ../iroha/docs/source/guides/libraries/android.rst:49
+#: ../iroha/docs/source/guides/libraries/android.rst:52
+#: ../iroha/docs/source/guides/libraries/android.rst:55
+msgid "Yes"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:46
+msgid "**Platform Name**"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:46
+msgid "Name of the target platform for binary part of the library."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:46
+msgid "``arm64-v8a``, ``armeabi-v7a``, ``armeabi``, ``x86``, ``x86_64``"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:49
+msgid "2"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:49
+msgid "**Android API Level**"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:49
+msgid "API level supported by your NDK. See the link under the table for details."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:49
+msgid "``27`` for android-ndk-r16b"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:52
+msgid "3"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:52
+msgid "**Android NDK Path**"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:52
+msgid ""
+"Full path to unpacked NDK. Please ensure that path does not contain "
+"spaces."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:52
+msgid "``/home/user/lib/android-ndk-r16b``"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:55
+msgid "4"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:55
+msgid "**Java Package Name**"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:55
+msgid ""
+"Package name that will be used for Java interfaces generation. Note that "
+"the binary also depends on chosen package name."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:55
+msgid "``jp.co.soramitsu.iroha.android``"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:59
+msgid "5"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:59
+msgid "No"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:59
+msgid "**Build Type**"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:59
+msgid ""
+"Defines build mode of binary part of the library. ``Release`` is the "
+"default option."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:59
+msgid "``Debug`` or ``Release``"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:64
+msgid ""
+"`Android API levels <https://developer.android.com/guide/topics/manifest"
+"/uses-sdk-element.html#ApiLevels>`__"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:66
+msgid ""
+"Please use the same root part of Java package name for library build as "
+"you use for your Android project. For example, your project is located in"
+" a package called ``com.mycompany.androidapp``, so please consider to "
+"build the library in a package, which name starts with "
+"``com.mycompany.androidapp`` (e.g. ``com.mycompany.androidapp.iroha``)."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:70
+msgid "A couple of launch commands examples:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:80
+msgid ""
+"Build artefacts will be collected in ``lib`` directory near the script "
+"``android-build.sh``. There will be two files - an archive "
+"``bindings.zip`` and ``libirohajava.so``."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:85
+msgid "How to Use/Import"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:88
+msgid "Importing the Library from jcenter"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:90
+msgid ""
+"The easiest way to use Irohalib for Android is to import the library "
+"dependency from `jcenter <https://bintray.com/bulatmukhutdinov/maven"
+"/iroha-android-bindings>`__."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:92
+msgid "All you need to do is a simple set of four steps:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:94
+msgid "Add to your ``build.gradle`` file the following line:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:100
+msgid ""
+"Copy the latest version of ``*.proto`` files from ``develop`` branch of "
+"Iroha `repository "
+"<https://github.com/hyperledger/iroha/tree/develop/schema>`__ into "
+"``app/src/main/proto/`` folder inside your project in Android Studio."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:103
+msgid "The resulting directory structure should look like as follows:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:126
+msgid ""
+"Create additional directories ``app/src/main/proto/google/protobuf/`` and"
+" place there a file called ``empty.proto`` with the following contents:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:141
+msgid ""
+"Add ``protobuf`` and ``grpc`` dependecies and protobuf configuration "
+"block into your ``build.gradle`` file."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:186
+msgid "How to Use Manually Built Library"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:188
+msgid ""
+"Create directory structure inside your Android project according to the "
+"package name of build library. Put there all the ``.java`` files from "
+"``bindings.zip`` archive. For example, the path could be "
+"``app/src/main/java/com/mycompany/iroha`` if you built the library with "
+"``com.mycompany.iroha`` package name."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:193
+msgid ""
+"Create directory ``app/src/main/jniLibs/<platform>`` where ``<platform>``"
+" is the name of target platform (e.g. ``arm64-v8a``). Put there "
+"``libirohajava.so``. Repeat this step for all required platforms (in this"
+" case you need to build the library for each platform)."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:197
+msgid ""
+"Repeat steps 2-4 from the previous section `Importing the Library from "
+"jcenter`_."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:201
+msgid "Example Code"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/android.rst:203
+msgid ""
+"Explore ``bindings`` branch of `iroha-android "
+"<https://github.com/hyperledger/iroha-android/tree/bindings>`__ "
+"repository to get source code and view sample application."
+msgstr ""
+

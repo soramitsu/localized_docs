@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Iroha 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-20 11:41+0300\n"
+"POT-Creation-Date: 2018-04-16 13:57+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,10 +21,10 @@ msgid "Iroha API reference"
 msgstr ""
 
 #: ../iroha/docs/source/api/index.rst:4
-msgid "In API section we will take a look at building blocks of an application interacting with Iroha. We will overview commands and queries that the system have, and the set of client libraries encompassing transport and application layer logic."
+msgid "In API section we will take a look at building blocks of an application interacting with Iroha. We will overview commands and queries that the system has, and the set of client libraries encompassing transport and application layer logic."
 msgstr ""
 
-#: ../iroha/docs/source/api/index.rst:7
+#: ../iroha/docs/source/api/index.rst:8
 msgid "Table of contents"
 msgstr ""
 
