@@ -5,7 +5,7 @@ Welcome! This repository is a setup of folders for localized documentation of Hy
 ## Structure
 ```
 ├── README.md
-├── docs — separate project, reusing .rst files via symlinks iroha/cods
+├── docs — separate project, reusing .rst files via symlinks iroha
 │   ├── de — project in German
 │   ├── es — project in Spanish 
 │   ├── fr — project in French
@@ -51,7 +51,7 @@ Please join at our [POEditor project](https://poeditor.com/join/project/SFpZw7o3
 
 #### Prerequisites
 
-- sphinx-intl
+- [sphinx-intl](https://pypi.org/project/sphinx-intl/)
 - gettext
 - sphinx-build or sphinx
 
