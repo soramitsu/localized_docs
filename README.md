@@ -45,7 +45,7 @@ Please join at our [POEditor project](https://poeditor.com/join/project/SFpZw7o3
 
 #### Steps
 
-1. Update submodule — it should point at the latest commit in the repository: `git submodule update --init --recursive` 
+1. Update submodule — it should point at the latest commit in the repository: `git submodule update --init --recursive; git submodule update --remote --merge` 
 2. In folder `translation` run `generate_symlinks.py` in case that symbolic links pointing at .rst files are different from what is in root `/docs` language folder of this repository.
 3. In folder `translation` run `make gettext`, which puts all English strings into .pot files in `/locale`.
 4. After it, run `make translate` which converts .pot files to .po files targeted at a specific language (these files are in sync with POEditor project).
