@@ -6,10 +6,16 @@ Welcome! This repository is a setup of folders for localized documentation of Hy
 ```
 ├── README.md
 ├── docs — separate project, reusing .rst files via symlinks iroha/cods
-│   ├── de — project in German 
+│   ├── de — project in German
+│   ├── es — project in Spanish 
 │   ├── fr — project in French
 │   ├── ja — project in Japanese
-│   └── ru — project in Russian
+│   ├── ko — project in Korean
+│   ├── nl — project in Dutch
+│   ├── pt — project in European Portuguese
+│   ├── ru — project in Russian
+│   ├── uk — project in Ukrainian
+│   └── zh — project in Simplified Chinese
 ├── iroha — a submodule of Hyperledger Iroha
 ├── locale — stores .pot files (original English strings)
 └── translation — scripts and translations
@@ -20,13 +26,19 @@ Welcome! This repository is a setup of folders for localized documentation of Hy
 
 ## How to contribute?
 
-First of all, *do not contribute to this repository directly*, please. We are using a project in poeditior.com service, and so far we need:
+First of all, *do not contribute to this repository directly*, please. We are using a project in poeditior.com service, and so far we need reviewers for the languages, which don't have any (check the table below).
 
-- Reviewers and translators in
-    * Japanese
-    * Russian
-    * French
-    * German
+As you translate strings, please ping a reviwever in your language using IM like Rocket.Chat or telegram or simply tell us about it in our Rocket.Chat #iroha chatroom. Your help is highly appreciated by us and local communities of developers.
+
+If there is no reviwer — please talk to us in Rocket.Chat so that we can build a community with you.
+
+## Current reviewers
+
+| Language | GitHub profile | IM alias              |
+|----------|----------------|-----------------------|
+| Russian  | neewy          | HL Rocket.Chat: neewy |
+| Ukrainian| Warchant       | Telegram: @bv_o0      |
+| Japanese | mtakemiya      | Telegram: @mtakemiya  |
     
 Please join at our [POEditor project](https://poeditor.com/join/project/SFpZw7o33o) and contribute by reviewing and translating documentation strings.
     
