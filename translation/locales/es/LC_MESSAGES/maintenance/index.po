@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Iroha 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-16 13:57+0300\n"
+"POT-Creation-Date: 2018-12-16 20:34+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,13 +29,16 @@ msgid ""
 "deeper in the system capabilities."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/index.rst:7
-msgid "Ansible"
+#: ../iroha/docs/source/maintenance/index.rst:6
+msgid "Table of contents"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/index.rst:9
-msgid ""
-"Contents are missing for now. Please check deploy/ansible folder and "
-"README.md file in it."
-msgstr ""
+#~ msgid "Ansible"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Contents are missing for now. Please "
+#~ "check deploy/ansible folder and README.md "
+#~ "file in it."
+#~ msgstr ""
 

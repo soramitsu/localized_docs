@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hyperledger Iroha Documentation\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-04-16 13:57+0300\n"
+"POT-Creation-Date: 2018-12-16 20:34+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ja\n"
@@ -18,15 +18,7 @@ msgstr ""
 msgid "Hyperledger Iroha documentation"
 msgstr "Hyperledger Irohaドキュメンテーション"
 
-#: ../iroha/docs/source/index.rst
-msgid "Last Reviewed"
-msgstr "最新修正"
-
-#: ../iroha/docs/source/index.rst:4
-msgid "2018-03-30"
-msgstr "2018-03-30"
-
-#: ../iroha/docs/source/index.rst:8
+#: ../iroha/docs/source/index.rst:6
 msgid ""
 "Welcome! Hyperledger Iroha is a simple blockchain platform you can use to"
 " make trusted, secure, and fast applications by bringing the power of "
@@ -38,7 +30,7 @@ msgstr ""
 "Iroha（いろは）は、ビザンチンフォールトトレラントなコンセンサスに適合するパーミッションベースのブロックチェーンを実現することで、信頼性が高く、安全で、高速なアプリケーションを作成するためのシンプルな構造に設計されたブロックチェーンプラットフォームです。"
 " 無料でオープンソースで、LinuxやMac OS上で動作し、さまざまなモバイル用とデスクトップ用ライブラリが利用できます。"
 
-#: ../iroha/docs/source/index.rst:10
+#: ../iroha/docs/source/index.rst:8
 msgid ""
 "You can download the source code of Hyperledger Iroha and latest releases"
 " from `GitHub page <https://github.com/hyperledger/iroha>`_."
@@ -46,7 +38,7 @@ msgstr ""
 "Hyperledger Irohaのソースコードと最新のリリースは、`GitHub page "
 "<https://github.com/hyperledger/iroha>`_からダウンロードできます。"
 
-#: ../iroha/docs/source/index.rst:12
+#: ../iroha/docs/source/index.rst:10
 msgid ""
 "This documentation will guide you through the installation, deployment, "
 "and launch of Iroha network, and explain to you how to write an "
@@ -56,13 +48,13 @@ msgstr ""
 "このドキュメンテーションでは、イロハネットワークのインストール、導入、および起動、アプリケーションの作成方法が説明されています。 "
 "また、現在どのユースケースシナリオが実現可能であるのかを確認し、また今後どのようなものが実装予定なのかについても確認します。"
 
-#: ../iroha/docs/source/index.rst:14
+#: ../iroha/docs/source/index.rst:12
 msgid ""
 "As Hyperledger Iroha is an open-source project, we will also cover "
 "contribution part and explain you a working process."
 msgstr "Hyperledger Irohaはオープンソースプロジェクトであるため、プロジェクトへの寄付に関することや、作業プロセスについても説明します。"
 
-#: ../iroha/docs/source/index.rst:16
+#: ../iroha/docs/source/index.rst:14
 msgid ""
 "There is a separate website for all external API documentation, which is "
 "`Iroha API <https://hyperledger.github.io/iroha-api>`_. We are in the "
@@ -73,7 +65,7 @@ msgstr ""
 "api>` _があります。 現在、このいろはプロジェクトのドキュメンテーションは移行段階にあり、将来的にはRTD（Read the "
 "Docs）だけが維持・更新されるようになっています。"
 
-#: ../iroha/docs/source/index.rst:18
+#: ../iroha/docs/source/index.rst:16
 msgid "Table of contents"
 msgstr "目次"
 
@@ -4393,12 +4385,11 @@ msgstr "目次"
 #~ "container."
 #~ msgstr ""
 #~ "1. "
-#~ "実行したスクリプトは、Irohaが既に動作しているコンテナがないかどうかをチェックします。これが正常に行われると、新しいコンテナがシェルに出ます。2"
-#~ ".スクリプトは、「iroha-docker-develop」と「postgres"
-#~ "」のイメージをダウンロードします。``iroha-docker-"
-#~ "develop``イメージにはすべてのdevelopment dependenciesが含まれており、`` "
-#~ "Ubuntu:16.04``に基づいています。 Irohaの起動ならびに実行には "
-#~ "``postgres``イメージが必要です。\n"
+#~ "実行したスクリプトは、Irohaが既に動作しているコンテナがないかどうかをチェックします。これが正常に行われると、新しいコンテナがシェルに出ます。2.スクリプトは"
+#~ "、「iroha-docker-develop」と「postgres」のイメージをダウンロードします。``iroha-"
+#~ "docker-develop``イメージにはすべてのdevelopment "
+#~ "dependenciesが含まれており、`` Ubuntu:16.04``に基づいています。 "
+#~ "Irohaの起動ならびに実行には ``postgres``イメージが必要です。\n"
 #~ "3. 2つのコンテナが作成され、起動されます。\n"
 #~ "4.ユーザは、ホストマシンからマウントされた "
 #~ "\"iroha\"フォルダを使用して、開発とテストのために対話型環境に接続されます。 IrohaフォルダはDockerコンテナの"
@@ -4736,4 +4727,10 @@ msgstr "目次"
 
 #~ msgid "Protobuf"
 #~ msgstr "Protobuf"
+
+#~ msgid "Last Reviewed"
+#~ msgstr "最新修正"
+
+#~ msgid "2018-03-30"
+#~ msgstr "2018-03-30"
 

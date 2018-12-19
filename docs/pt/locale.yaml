@@ -1,0 +1,2 @@
+language: "pt_PT"
+locale_dirs: "../../translation/locales"

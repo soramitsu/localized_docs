@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) Creative Commons Attribution-NonCommercial 3.0 Unported
-# This file is distributed under the same license as the Iroha package.
+# Copyright (C) Soramitsu Co., Ltd.
+# This file is distributed under the same license as the Hyperledger Iroha package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Iroha 1.0\n"
+"Project-Id-Version: Hyperledger Iroha \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-16 13:57+0300\n"
+"POT-Creation-Date: 2018-12-16 20:34+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,11 +56,13 @@ msgstr ""
 #: ../iroha/docs/source/api/queries.rst:78
 #: ../iroha/docs/source/api/queries.rst:122
 #: ../iroha/docs/source/api/queries.rst:166
-#: ../iroha/docs/source/api/queries.rst:210
-#: ../iroha/docs/source/api/queries.rst:256
-#: ../iroha/docs/source/api/queries.rst:306
-#: ../iroha/docs/source/api/queries.rst:355
-#: ../iroha/docs/source/api/queries.rst:389
+#: ../iroha/docs/source/api/queries.rst:204
+#: ../iroha/docs/source/api/queries.rst:265
+#: ../iroha/docs/source/api/queries.rst:328
+#: ../iroha/docs/source/api/queries.rst:379
+#: ../iroha/docs/source/api/queries.rst:530
+#: ../iroha/docs/source/api/queries.rst:583
+#: ../iroha/docs/source/api/queries.rst:617
 msgid "Purpose"
 msgstr ""
 
@@ -71,26 +73,32 @@ msgstr ""
 #: ../iroha/docs/source/api/queries.rst:27
 #: ../iroha/docs/source/api/queries.rst:83
 #: ../iroha/docs/source/api/queries.rst:127
-#: ../iroha/docs/source/api/queries.rst:171
-#: ../iroha/docs/source/api/queries.rst:215
-#: ../iroha/docs/source/api/queries.rst:261
-#: ../iroha/docs/source/api/queries.rst:311
-#: ../iroha/docs/source/api/queries.rst:360
-#: ../iroha/docs/source/api/queries.rst:394
+#: ../iroha/docs/source/api/queries.rst:172
+#: ../iroha/docs/source/api/queries.rst:210
+#: ../iroha/docs/source/api/queries.rst:271
+#: ../iroha/docs/source/api/queries.rst:333
+#: ../iroha/docs/source/api/queries.rst:399
+#: ../iroha/docs/source/api/queries.rst:535
+#: ../iroha/docs/source/api/queries.rst:588
+#: ../iroha/docs/source/api/queries.rst:622
 msgid "Request Schema"
 msgstr ""
 
 #: ../iroha/docs/source/api/queries.rst:36
 #: ../iroha/docs/source/api/queries.rst:92
 #: ../iroha/docs/source/api/queries.rst:136
-#: ../iroha/docs/source/api/queries.rst:180
-#: ../iroha/docs/source/api/queries.rst:225
-#: ../iroha/docs/source/api/queries.rst:271
-#: ../iroha/docs/source/api/queries.rst:320
-#: ../iroha/docs/source/api/queries.rst:403
+#: ../iroha/docs/source/api/queries.rst:227
+#: ../iroha/docs/source/api/queries.rst:289
+#: ../iroha/docs/source/api/queries.rst:342
+#: ../iroha/docs/source/api/queries.rst:419
+#: ../iroha/docs/source/api/queries.rst:544
+#: ../iroha/docs/source/api/queries.rst:631
 msgid "Request Structure"
 msgstr ""
 
+#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/queries.rst:1
 #: ../iroha/docs/source/api/queries.rst:1
 #: ../iroha/docs/source/api/queries.rst:1
 #: ../iroha/docs/source/api/queries.rst:1
@@ -128,9 +136,15 @@ msgstr ""
 #: ../iroha/docs/source/api/queries.rst:1
 #: ../iroha/docs/source/api/queries.rst:1
 #: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/queries.rst:1
 msgid "Description"
 msgstr ""
 
+#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/queries.rst:1
 #: ../iroha/docs/source/api/queries.rst:1
 #: ../iroha/docs/source/api/queries.rst:1
 #: ../iroha/docs/source/api/queries.rst:1
@@ -168,9 +182,13 @@ msgstr ""
 #: ../iroha/docs/source/api/queries.rst:1
 #: ../iroha/docs/source/api/queries.rst:1
 #: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/queries.rst:1
 msgid "Example"
 msgstr ""
 
+#: ../iroha/docs/source/api/queries.rst:1
 #: ../iroha/docs/source/api/queries.rst:1
 #: ../iroha/docs/source/api/queries.rst:1
 #: ../iroha/docs/source/api/queries.rst:1
@@ -192,6 +210,8 @@ msgstr ""
 #: ../iroha/docs/source/api/queries.rst:1
 #: ../iroha/docs/source/api/queries.rst:1
 #: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/queries.rst:1
 msgid "<account_name>@<domain_id>"
 msgstr ""
 
@@ -204,24 +224,28 @@ msgstr ""
 #: ../iroha/docs/source/api/queries.rst:45
 #: ../iroha/docs/source/api/queries.rst:101
 #: ../iroha/docs/source/api/queries.rst:145
-#: ../iroha/docs/source/api/queries.rst:189
-#: ../iroha/docs/source/api/queries.rst:235
-#: ../iroha/docs/source/api/queries.rst:281
-#: ../iroha/docs/source/api/queries.rst:330
-#: ../iroha/docs/source/api/queries.rst:368
-#: ../iroha/docs/source/api/queries.rst:412
+#: ../iroha/docs/source/api/queries.rst:180
+#: ../iroha/docs/source/api/queries.rst:238
+#: ../iroha/docs/source/api/queries.rst:301
+#: ../iroha/docs/source/api/queries.rst:351
+#: ../iroha/docs/source/api/queries.rst:430
+#: ../iroha/docs/source/api/queries.rst:554
+#: ../iroha/docs/source/api/queries.rst:596
+#: ../iroha/docs/source/api/queries.rst:640
 msgid "Response Schema"
 msgstr ""
 
 #: ../iroha/docs/source/api/queries.rst:63
 #: ../iroha/docs/source/api/queries.rst:110
 #: ../iroha/docs/source/api/queries.rst:154
-#: ../iroha/docs/source/api/queries.rst:198
-#: ../iroha/docs/source/api/queries.rst:244
-#: ../iroha/docs/source/api/queries.rst:292
-#: ../iroha/docs/source/api/queries.rst:341
-#: ../iroha/docs/source/api/queries.rst:377
-#: ../iroha/docs/source/api/queries.rst:421
+#: ../iroha/docs/source/api/queries.rst:189
+#: ../iroha/docs/source/api/queries.rst:251
+#: ../iroha/docs/source/api/queries.rst:314
+#: ../iroha/docs/source/api/queries.rst:365
+#: ../iroha/docs/source/api/queries.rst:439
+#: ../iroha/docs/source/api/queries.rst:569
+#: ../iroha/docs/source/api/queries.rst:605
+#: ../iroha/docs/source/api/queries.rst:649
 msgid "Response Structure"
 msgstr ""
 
@@ -260,6 +284,8 @@ msgid "0 < quorum ≤ 128"
 msgstr ""
 
 #: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/queries.rst:1
 msgid "5"
 msgstr ""
 
@@ -271,6 +297,7 @@ msgstr ""
 msgid "key-value account information"
 msgstr ""
 
+#: ../iroha/docs/source/api/queries.rst:1
 #: ../iroha/docs/source/api/queries.rst:1
 msgid "JSON"
 msgstr ""
@@ -334,6 +361,7 @@ msgstr ""
 #: ../iroha/docs/source/api/queries.rst:1
 #: ../iroha/docs/source/api/queries.rst:1
 #: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/queries.rst:1
 msgid "Transactions"
 msgstr ""
 
@@ -350,15 +378,36 @@ msgstr ""
 #: ../iroha/docs/source/api/queries.rst:1
 #: ../iroha/docs/source/api/queries.rst:1
 #: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/queries.rst:1
 msgid "{tx1, tx2…}"
 msgstr ""
 
 #: ../iroha/docs/source/api/queries.rst:163
-msgid "Get Account Transactions"
+msgid "Get Pending Transactions"
 msgstr ""
 
 #: ../iroha/docs/source/api/queries.rst:168
-msgid "In a case when a list of transactions per account is needed, `GetAccountTransactions` query can be formed."
+msgid "GetPendingTransactions is used for retrieving a list of pending (not fully signed) `multisignature transactions <../core_concepts/glossary.html#multisignature-transactions>`_ or `batches of transactions <../core_concepts/glossary.html#batch-of-transactions>`__ issued by account of query creator."
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:191
+msgid "The response contains a list of `pending transactions <../core_concepts/glossary.html#pending-transactions>`_."
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "an array of pending transactions"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Pending transactions"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:201
+msgid "Get Account Transactions"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:206
+msgid "In a case when a list of transactions per account is needed, `GetAccountTransactions` query can be formed. .. note:: This query uses pagination for query responses."
 msgstr ""
 
 #: ../iroha/docs/source/api/queries.rst:1
@@ -374,18 +423,77 @@ msgid "makoto@soramitsu"
 msgstr ""
 
 #: ../iroha/docs/source/api/queries.rst:1
-msgid "an array of transactions for given account"
-msgstr ""
-
-#: ../iroha/docs/source/api/queries.rst:207
-msgid "Get Account Asset Transactions"
-msgstr ""
-
-#: ../iroha/docs/source/api/queries.rst:212
-msgid "`GetAccountAssetTransactions` query returns all transactions associated with given account and asset."
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Page size"
 msgstr ""
 
 #: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "size of the page to be returned by the query, if the response contains fewer transactions than a page size, then next tx hash will be empty in response"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "page_size > 0"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "First tx hash"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "hash of the first transaction in the page. If that field is not set — then the first transactions are returned"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "hash in hex format"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "bddd58404d1315e0eb27902c5d7c8eb0602c16238f005773df406bc191308929"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "an array of transactions for given account"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "All transactions size"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "total number of transactions created by the given account"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "100"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Next transaction hash"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "hash pointing to the next transaction after the last transaction in the page. Empty if a page contains the last transaction for the given account"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:262
+msgid "Get Account Asset Transactions"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:267
+msgid "`GetAccountAssetTransactions` query returns all transactions associated with given account and asset. .. note:: This query uses pagination for query responses."
+msgstr ""
+
 #: ../iroha/docs/source/api/queries.rst:1
 #: ../iroha/docs/source/api/queries.rst:1
 #: ../iroha/docs/source/api/queries.rst:1
@@ -401,11 +509,9 @@ msgstr ""
 #: ../iroha/docs/source/api/queries.rst:1
 #: ../iroha/docs/source/api/queries.rst:1
 #: ../iroha/docs/source/api/queries.rst:1
-#: ../iroha/docs/source/api/queries.rst:1
 msgid "<asset_name>#<domain_id>"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
 #: ../iroha/docs/source/api/queries.rst:1
 #: ../iroha/docs/source/api/queries.rst:1
 #: ../iroha/docs/source/api/queries.rst:1
@@ -416,20 +522,24 @@ msgstr ""
 msgid "an array of transactions for given account and asset"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:253
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "total number of transactions for given account and asset"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "hash pointing to the next transaction after the last transaction in the page. Empty if a page contains the last transaction for given account and asset"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:325
 msgid "Get Account Assets"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:258
-msgid "To get the state of an asset in an account (a balance), `GetAccountAssets` query can be used."
+#: ../iroha/docs/source/api/queries.rst:330
+msgid "To get the state of all assets in an account (a balance), `GetAccountAssets` query can be used."
 msgstr ""
 
 #: ../iroha/docs/source/api/queries.rst:1
 msgid "account id to request balance from"
-msgstr ""
-
-#: ../iroha/docs/source/api/queries.rst:1
-msgid "asset id to know its balance"
 msgstr ""
 
 #: ../iroha/docs/source/api/queries.rst:1
@@ -457,16 +567,129 @@ msgstr ""
 msgid "200.20"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:303
+#: ../iroha/docs/source/api/queries.rst:376
+msgid "Get Account Detail"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:381
+msgid "To get details of the account, `GetAccountDetail` query can be used. Account details are key-value pairs, splitted into writers categories. Writers are accounts, which added the corresponding account detail. Example of such structure is:"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:396
+msgid "Here, one can see four account details - \"age\", \"hobbies\" and \"sports\" - added by two writers - \"account@a_domain\" and \"account@b_domain\". All of these details, obviously, are about the same account."
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:416
+msgid "Pay attention, that all fields are optional. Reasons will be described later."
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "account id to get details from"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "account@domain"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Key"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "key, under which to get details"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "string"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "age"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Writer"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "account id of writer"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Detail"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "key-value pairs with account details"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "see below"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:448
+msgid "Usage Examples"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:450
+msgid "Let's again consider the example of details from the beginning and see, how different variants of `GetAccountDetail` queries will change the resulting response."
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:465
+msgid "**account_id is not set**"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:467
+msgid "If account_id is not set - other fields can be empty or not - it will automatically be substituted with query creator's account, which will lead to one of the next cases."
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:469
+msgid "**only account_id is set**"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:471
+msgid "In this case, all details about that account are going to be returned, leading to the following response:"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:486
+msgid "**account_id and key are set**"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:488
+msgid "Here, details added by all writers under the key are going to be returned. For example, if we asked for the key \"age\", that's the response we would get:"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:501
+msgid "**account_id and writer are set**"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:503
+msgid "Now, the response will contain all details about this account, added by one specific writer. For example, if we asked for writer \"account@b_domain\", we would get:"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:514
+msgid "**account_id, key and writer are set**"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:516
+msgid "Lastly, if all three field are set, result will contain details, added the specific writer and under the specific key, for example, if we asked for key \"age\" and writer \"account@a_domain\", we would get:"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:527
 msgid "Get Asset Info"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:308
+#: ../iroha/docs/source/api/queries.rst:532
 msgid "In order to know precision for given asset, and other related info in the future, such as a description of the asset, etc. user can send `GetAssetInfo` query."
 msgstr ""
 
 #: ../iroha/docs/source/api/queries.rst:1
 msgid "asset id to know related information"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:565
+msgid "Please note that due to a known issue you would not get any exception if you pass invalid precision value. Valid range is: 0 <= precision <= 255"
 msgstr ""
 
 #: ../iroha/docs/source/api/queries.rst:1
@@ -490,18 +713,18 @@ msgid "number of digits after comma"
 msgstr ""
 
 #: ../iroha/docs/source/api/queries.rst:1
-msgid "0 < precision < 256"
+msgid "0 <= precision <= 255"
 msgstr ""
 
 #: ../iroha/docs/source/api/queries.rst:1
 msgid "2"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:352
+#: ../iroha/docs/source/api/queries.rst:580
 msgid "Get Roles"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:357
+#: ../iroha/docs/source/api/queries.rst:585
 msgid "To get existing roles in the system, a user can send `GetRoles` query to Iroha network."
 msgstr ""
 
@@ -521,11 +744,11 @@ msgstr ""
 msgid "{MoneyCreator, User, Admin, …}"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:386
+#: ../iroha/docs/source/api/queries.rst:614
 msgid "Get Role Permissions"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:391
+#: ../iroha/docs/source/api/queries.rst:619
 msgid "To get available permissions per role in the system, a user can send `GetRolePermissions` query to Iroha network."
 msgstr ""
 
@@ -561,11 +784,11 @@ msgstr ""
 msgid "{can_add_asset_qty, …}"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:429
+#: ../iroha/docs/source/api/queries.rst:657
 msgid "https://www.ietf.org/rfc/rfc1035.txt"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:430
+#: ../iroha/docs/source/api/queries.rst:658
 msgid "https://www.ietf.org/rfc/rfc1123.txt"
 msgstr ""
 

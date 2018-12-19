@@ -1,1 +1,0 @@
-../../../iroha/docs/source/api/python_library.rst

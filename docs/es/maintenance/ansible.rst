@@ -1,0 +1,1 @@
+../../../iroha/docs/source/maintenance/ansible.rst

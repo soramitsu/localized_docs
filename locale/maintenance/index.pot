@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) Creative Commons Attribution-NonCommercial 3.0 Unported
-# This file is distributed under the same license as the Iroha package.
+# Copyright (C) Soramitsu Co., Ltd.
+# This file is distributed under the same license as the Hyperledger Iroha package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Iroha 1.0\n"
+"Project-Id-Version: Hyperledger Iroha \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-16 13:57+0300\n"
+"POT-Creation-Date: 2018-12-16 20:34+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,11 +24,7 @@ msgstr ""
 msgid "Hardware requirements, deployment process in details, aspects related to security, configuration files — all of the listed is explained in this separate section, helpful for DevOps engineers or those who are digging deeper in the system capabilities."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/index.rst:7
-msgid "Ansible"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/index.rst:9
-msgid "Contents are missing for now. Please check deploy/ansible folder and README.md file in it."
+#: ../iroha/docs/source/maintenance/index.rst:6
+msgid "Table of contents"
 msgstr ""
 

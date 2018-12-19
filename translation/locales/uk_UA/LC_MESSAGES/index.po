@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Iroha 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-16 13:57+0300\n"
+"POT-Creation-Date: 2018-12-16 20:34+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,15 +21,7 @@ msgstr ""
 msgid "Hyperledger Iroha documentation"
 msgstr ""
 
-#: ../iroha/docs/source/index.rst
-msgid "Last Reviewed"
-msgstr ""
-
-#: ../iroha/docs/source/index.rst:4
-msgid "2018-03-30"
-msgstr ""
-
-#: ../iroha/docs/source/index.rst:8
+#: ../iroha/docs/source/index.rst:6
 msgid ""
 "Welcome! Hyperledger Iroha is a simple blockchain platform you can use to"
 " make trusted, secure, and fast applications by bringing the power of "
@@ -38,13 +30,13 @@ msgid ""
 "mobile and desktop libraries."
 msgstr ""
 
-#: ../iroha/docs/source/index.rst:10
+#: ../iroha/docs/source/index.rst:8
 msgid ""
 "You can download the source code of Hyperledger Iroha and latest releases"
 " from `GitHub page <https://github.com/hyperledger/iroha>`_."
 msgstr ""
 
-#: ../iroha/docs/source/index.rst:12
+#: ../iroha/docs/source/index.rst:10
 msgid ""
 "This documentation will guide you through the installation, deployment, "
 "and launch of Iroha network, and explain to you how to write an "
@@ -52,13 +44,13 @@ msgid ""
 "feasible now, and are going to be implemented in the future."
 msgstr ""
 
-#: ../iroha/docs/source/index.rst:14
+#: ../iroha/docs/source/index.rst:12
 msgid ""
 "As Hyperledger Iroha is an open-source project, we will also cover "
 "contribution part and explain you a working process."
 msgstr ""
 
-#: ../iroha/docs/source/index.rst:16
+#: ../iroha/docs/source/index.rst:14
 msgid ""
 "There is a separate website for all external API documentation, which is "
 "`Iroha API <https://hyperledger.github.io/iroha-api>`_. We are in the "
@@ -66,7 +58,13 @@ msgid ""
 "updated."
 msgstr ""
 
-#: ../iroha/docs/source/index.rst:18
+#: ../iroha/docs/source/index.rst:16
 msgid "Table of contents"
 msgstr ""
+
+#~ msgid "Last Reviewed"
+#~ msgstr ""
+
+#~ msgid "2018-03-30"
+#~ msgstr ""
 

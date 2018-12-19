@@ -1,0 +1,8 @@
+# General information about the project.
+project: "Hyperledger Iroha"
+documentation: "いろはハンドブック：インストール、はじめに、API、ガイド、トラブルシューティング"
+description: "“Hyplerledger Iroha”は、次世代のパーミッション型ブロックチェーンプラットフォームであり"
+copyright: "Soramitsu Co., Ltd."
+author: "Hyperledger Iroha コミュニティ"
+version: "1.0 release candidate 1"
+release: "v1.0 rc1"

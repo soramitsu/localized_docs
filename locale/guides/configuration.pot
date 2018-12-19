@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) Creative Commons Attribution-NonCommercial 3.0 Unported
-# This file is distributed under the same license as the Iroha package.
+# Copyright (C) Soramitsu Co., Ltd.
+# This file is distributed under the same license as the Hyperledger Iroha package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Iroha 1.0\n"
+"Project-Id-Version: Hyperledger Iroha \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-23 18:14+0300\n"
+"POT-Creation-Date: 2018-12-16 20:34+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,6 +65,6 @@ msgid "``vote_delay`` is a waiting time in milliseconds before sending vote to t
 msgstr ""
 
 #: ../iroha/docs/source/guides/configuration.rst:54
-msgid "``load_delay`` is a waiting time in milliseconds before loading committed block from next peer. We recommend setting this number the same value as ``proposal_delay`` or even higher."
+msgid "``mst_enable`` enables or disables multisignature transaction support in Iroha. We recommend setting this parameter to ``false`` at the moment until you really need it."
 msgstr ""
 

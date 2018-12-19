@@ -1,0 +1,2 @@
+language: "uk_UA"
+locale_dirs: "../../translation/locales"

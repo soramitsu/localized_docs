@@ -1,0 +1,8 @@
+# General information about the project.
+project: "Hyperledger Iroha"
+documentation: "Iroha handbook : 설치, 시작하기, API, 가이드 및 문제 해결"
+description: "C ++로 작성된 분산 원장 기술 플랫폼"
+copyright: "Soramitsu Co., Ltd."
+author: "Hyperledger Iroha 커뮤니티"
+version: "1.0 release candidate 1"
+release: "v1.0 rc1"

@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) Creative Commons Attribution-NonCommercial 3.0 Unported
-# This file is distributed under the same license as the Iroha package.
+# Copyright (C) Soramitsu Co., Ltd.
+# This file is distributed under the same license as the Hyperledger Iroha package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Iroha 1.0\n"
+"Project-Id-Version: Hyperledger Iroha \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-16 13:57+0300\n"
+"POT-Creation-Date: 2018-12-16 20:34+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr ""
 msgid "Docs are constantly updated and this section is going to be improved. Check glossary page while contents are elaborated."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/index.rst:12
-msgid "Glossary"
+#: ../iroha/docs/source/core_concepts/index.rst:13
+msgid "Sections"
 msgstr ""
 

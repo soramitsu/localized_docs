@@ -1,0 +1,1 @@
+../../../iroha/docs/source/guides/k8s-deployment.rst

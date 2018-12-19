@@ -1,0 +1,908 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Soramitsu Co., Ltd.
+# This file is distributed under the same license as the Hyperledger Iroha
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hyperledger Iroha \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-16 20:34+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: ../iroha/docs/source/api/commands.rst:2
+msgid "Commands"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:4
+msgid ""
+"A command changes the state, called World State View, by performing an "
+"action over an entity (asset, account) in the system. Any command should "
+"be included in a transaction to perform an action."
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:8
+msgid "Add asset quantity"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:11
+#: ../iroha/docs/source/api/commands.rst:52
+#: ../iroha/docs/source/api/commands.rst:91
+#: ../iroha/docs/source/api/commands.rst:129
+#: ../iroha/docs/source/api/commands.rst:164
+#: ../iroha/docs/source/api/commands.rst:201
+#: ../iroha/docs/source/api/commands.rst:242
+#: ../iroha/docs/source/api/commands.rst:277
+#: ../iroha/docs/source/api/commands.rst:312
+#: ../iroha/docs/source/api/commands.rst:347
+#: ../iroha/docs/source/api/commands.rst:382
+#: ../iroha/docs/source/api/commands.rst:422
+#: ../iroha/docs/source/api/commands.rst:455
+#: ../iroha/docs/source/api/commands.rst:496
+#: ../iroha/docs/source/api/commands.rst:536
+#: ../iroha/docs/source/api/commands.rst:575
+msgid "Purpose"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:13
+msgid ""
+"The purpose of add asset quantity command is to increase the quantity of "
+"an asset on account of transaction creator. Use case scenario is to "
+"increase the number of a mutable asset in the system, which can act as a "
+"claim on a commodity (e.g. money, gold, etc.)"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:17
+#: ../iroha/docs/source/api/commands.rst:58
+#: ../iroha/docs/source/api/commands.rst:97
+#: ../iroha/docs/source/api/commands.rst:134
+#: ../iroha/docs/source/api/commands.rst:169
+#: ../iroha/docs/source/api/commands.rst:207
+#: ../iroha/docs/source/api/commands.rst:247
+#: ../iroha/docs/source/api/commands.rst:283
+#: ../iroha/docs/source/api/commands.rst:318
+#: ../iroha/docs/source/api/commands.rst:352
+#: ../iroha/docs/source/api/commands.rst:387
+#: ../iroha/docs/source/api/commands.rst:427
+#: ../iroha/docs/source/api/commands.rst:462
+#: ../iroha/docs/source/api/commands.rst:502
+#: ../iroha/docs/source/api/commands.rst:541
+#: ../iroha/docs/source/api/commands.rst:580
+msgid "Schema"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:27
+#: ../iroha/docs/source/api/commands.rst:218
+#: ../iroha/docs/source/api/commands.rst:551
+msgid ""
+"Please note that due to a known issue you would not get any exception if "
+"you pass invalid precision value. Valid range is: 0 <= precision <= 255"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:32
+#: ../iroha/docs/source/api/commands.rst:72
+#: ../iroha/docs/source/api/commands.rst:107
+#: ../iroha/docs/source/api/commands.rst:144
+#: ../iroha/docs/source/api/commands.rst:180
+#: ../iroha/docs/source/api/commands.rst:222
+#: ../iroha/docs/source/api/commands.rst:257
+#: ../iroha/docs/source/api/commands.rst:293
+#: ../iroha/docs/source/api/commands.rst:328
+#: ../iroha/docs/source/api/commands.rst:362
+#: ../iroha/docs/source/api/commands.rst:397
+#: ../iroha/docs/source/api/commands.rst:437
+#: ../iroha/docs/source/api/commands.rst:473
+#: ../iroha/docs/source/api/commands.rst:512
+#: ../iroha/docs/source/api/commands.rst:555
+#: ../iroha/docs/source/api/commands.rst:593
+msgid "Structure"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "Field"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "Description"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "Constraint"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "Example"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "Asset ID"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "id of the asset"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "<asset_name>#<domain_id>"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "usd#morgan"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "Amount"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "positive amount of the asset to add"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "> 0"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "200.02"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:42
+#: ../iroha/docs/source/api/commands.rst:82
+#: ../iroha/docs/source/api/commands.rst:117
+#: ../iroha/docs/source/api/commands.rst:154
+#: ../iroha/docs/source/api/commands.rst:191
+#: ../iroha/docs/source/api/commands.rst:233
+#: ../iroha/docs/source/api/commands.rst:267
+#: ../iroha/docs/source/api/commands.rst:303
+#: ../iroha/docs/source/api/commands.rst:338
+#: ../iroha/docs/source/api/commands.rst:373
+#: ../iroha/docs/source/api/commands.rst:407
+#: ../iroha/docs/source/api/commands.rst:447
+#: ../iroha/docs/source/api/commands.rst:484
+#: ../iroha/docs/source/api/commands.rst:522
+#: ../iroha/docs/source/api/commands.rst:565
+#: ../iroha/docs/source/api/commands.rst:606
+msgid "Validation"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:44
+#: ../iroha/docs/source/api/commands.rst:567
+msgid "Asset and account should exist"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:45
+#: ../iroha/docs/source/api/commands.rst:568
+msgid "Added quantity precision should be equal to asset precision"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:46
+msgid ""
+"Creator of a transaction should have a role which has permissions for "
+"issuing assets"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:49
+msgid "Add peer"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:54
+msgid ""
+"The purpose of add peer command is to write into ledger the fact of peer "
+"addition into the peer network. After a transaction with AddPeer has been"
+" committed, consensus and synchronization components will start using it."
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "Address"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "resolvable address in network (IPv4, IPv6, domain name, etc.)"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "should be resolvable"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "192.168.1.1:50541"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "Peer key"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid ""
+"peer public key, which is used in consensus algorithm to sign-off vote, "
+"commit, reject messages"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "ed25519 public key"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "292a8714694095edce6be799398ed5d6244cd7be37eb813106b217d850d261f2"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:84
+msgid "Creator of the transaction has a role which has CanAddPeer permission"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:85
+msgid "Such network address has not been already added"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:88
+msgid "Add signatory"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:93
+msgid ""
+"The purpose of add signatory command is to add an identifier to the "
+"account. Such identifier is a public key of another device or a public "
+"key of another user."
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "Account ID"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "Account to which to add signatory"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "<account_name>@<domain_id>"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "makoto@soramitsu"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "Public key"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "Signatory to add to account"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "359f925e4eeecfdd6aa1abc0b79a6a121a5dd63bb612b603247ea4f8ad160156"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:119
+#: ../iroha/docs/source/api/commands.rst:412
+#: ../iroha/docs/source/api/commands.rst:486
+#: ../iroha/docs/source/api/commands.rst:526
+msgid "Two cases:"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:121
+msgid ""
+"Case 1. Transaction creator wants to add a signatory to his or her "
+"account, having permission CanAddSignatory"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:123
+msgid "Case 2. CanAddSignatory was granted to transaction creator"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:126
+msgid "Append role"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:131
+msgid ""
+"The purpose of append role command is to promote an account to some "
+"created role in the system, where a role is a set of permissions account "
+"has to perform an action (command or query)."
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "id or account to append role to"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "already existent"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "Role name"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "name of already created role"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "MoneyCreator"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:156
+msgid "The role should exist in the system"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:157
+msgid "Transaction creator should have permissions to append role (CanAppendRole)"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:158
+msgid ""
+"Account, which appends role, has set of permissions in his roles that is "
+"a superset of appended role (in other words no-one can append role that "
+"is more powerful than what transaction creator is)"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:161
+msgid "Create account"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:166
+msgid ""
+"The purpose of create account command is to make entity in the system, "
+"capable of sending transactions or queries, storing signatories, personal"
+" data and identifiers."
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "Account name"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "domain-unique name for account"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "`[a-z_0-9]{1,32}`"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "morgan_stanley"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "Domain ID"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "target domain to make relation with"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "should be created before the account"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "america"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "first public key to add to the account"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "407e57f50ca48969b08ba948171bb2435e035d82cec417e18e4a38f5fb113f83"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:193
+msgid "Transaction creator has permission to create an account"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:194
+msgid "Domain, passed as domain_id, has already been created in the system"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:195
+msgid ""
+"Such public key has not been added before as first public key of account "
+"or added to a multi-signature account"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:198
+msgid "Create asset"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:203
+msgid ""
+"The purpose of сreate asset command is to create a new type of asset, "
+"unique in a domain. An asset is a countable representation of a "
+"commodity."
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "Asset name"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "domain-unique name for asset"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "soracoin"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "RFC1035 [#f1]_, RFC1123 [#f2]_"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "japan"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "Precision"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "number of digits after comma/dot"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "0 <= precision <= 255"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "2"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:235
+msgid "Transaction creator has permission to create assets"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:236
+msgid "Asset name is unique in domain"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:239
+msgid "Create domain"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:244
+msgid ""
+"The purpose of create domain command is to make new domain in Iroha "
+"network, which is a group of accounts."
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "ID for created domain"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "unique, RFC1035 [#f1]_, RFC1123 [#f2]_"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "japan05"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "Default role"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "role for any created user in the domain"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "one of the existing roles"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "User"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:269
+msgid "Domain ID is unique"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:270
+msgid ""
+"Account, who sends this command in transaction, has role with permission "
+"to create domain"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:271
+msgid ""
+"Role, which will be assigned to created user by default, exists in the "
+"system"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:274
+msgid "Create role"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:279
+msgid ""
+"The purpose of create role command is to create a new role in the system "
+"from the set of permissions. Combining different permissions into roles, "
+"maintainers of Iroha peer network can create customized security model."
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "name of role to create"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "RolePermission"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "array of already existent permissions"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid ""
+"set of passed permissions is fully included into set of existing "
+"permissions"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "{can_receive, can_transfer}"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:305
+msgid ""
+"Set of passed permissions is fully included into set of existing "
+"permissions"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:306
+msgid "Set of the permissions is not empty"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:309
+msgid "Detach role"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:314
+msgid ""
+"The purpose of detach role command is to detach a role from the set of "
+"roles of an account. By executing this command it is possible to decrease"
+" the number of possible actions in the system for the user."
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "ID of account where role will be deleted"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "a detached role name"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "existing role"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:340
+msgid "The role exists in the system"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:341
+msgid "The account has such role"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:344
+msgid "Grant permission"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:349
+msgid ""
+"The purpose of grant permission command is to give another account rights"
+" to perform actions on the account of transaction sender (give someone "
+"right to do something with my account)."
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "id of the account to which the rights are granted"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "GrantablePermission name"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "name of grantable permission"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "permission is defined"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "CanTransferAssets"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:375
+msgid "Account exists"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:376
+msgid "Transaction creator is allowed to grant this permission"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:379
+msgid "Remove signatory"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:384
+msgid ""
+"Purpose of remove signatory command is to remove a public key, associated"
+" with an identity, from an account"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "Signatory to delete"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:409
+msgid ""
+"When signatory is deleted, we should check if invariant of "
+"**size(signatories) >= quorum** holds"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:410
+msgid "Signatory should have been previously added to the account"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:414
+msgid ""
+"Case 1. When transaction creator wants to remove signatory from their "
+"account and he or she has permission CanRemoveSignatory"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:416
+#: ../iroha/docs/source/api/commands.rst:530
+msgid "Case 2. CanRemoveSignatory was granted to transaction creator"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:419
+msgid "Revoke permission"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:424
+msgid ""
+"The purpose of revoke permission command is to revoke or dismiss given "
+"granted permission from another account in the network."
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "permission was granted"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:449
+msgid ""
+"Transaction creator should have previously granted this permission to a "
+"target account"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:452
+msgid "Set account detail"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:457
+msgid ""
+"Purpose of set account detail command is to set key-value information for"
+" a given account"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:459
+msgid ""
+"If there was a value for a given key already in the storage then it will "
+"be replaced with the new value"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "id of the account to which the key-value information was set"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "Key"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "key of information being set"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "`[A-Za-z0-9_]{1,64}`"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "Name"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "Value"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "value of corresponding key"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "≤ 4096"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "Makoto"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:488
+msgid ""
+"Case 1. When transaction creator wants to set account detail to his/her "
+"account and he or she has permission CanSetAccountInfo"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:490
+msgid "Case 2. CanSetAccountInfo was granted to transaction creator"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:493
+msgid "Set account quorum"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:498
+msgid ""
+"The purpose of set account quorum command is to set the number of "
+"signatories required to confirm the identity of a user, who creates the "
+"transaction. Use case scenario is to set the number of different users, "
+"utilizing single account, to sign off the transaction."
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "ID of account to set quorum"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "Quorum"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid ""
+"number of signatories needed to be included within a transaction from "
+"this account"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "0 < quorum ≤ public-key set up to account ≤ 128"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "5"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:524
+msgid ""
+"When quorum is set, it is checked if invariant of **size(signatories) >= "
+"quorum** holds."
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:528
+msgid ""
+"Case 1. When transaction creator wants to set quorum for his/her account "
+"and he or she has permission CanRemoveSignatory"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:533
+msgid "Subtract asset quantity"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:538
+msgid ""
+"The purpose of subtract asset quantity command is the opposite of "
+"AddAssetQuantity commands — to decrease the number of assets on account "
+"of transaction creator."
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "positive amount of the asset to subtract"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "200"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:569
+msgid ""
+"Creator of the transaction should have a role which has permissions for "
+"subtraction of assets"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:572
+msgid "Transfer asset"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:577
+msgid ""
+"The purpose of transfer asset command is to share assets within the "
+"account in peer network: in the way that source account transfers assets "
+"to the target account."
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "Source account ID"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "ID of the account to withdraw the asset from"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "Destination account ID"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "ID of the account to send the asset to"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "alex@california"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "ID of the asset to transfer"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "usd#usa"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "Message to attach to the transfer"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "Max length is 64"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "here's my money take it"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "amount of the asset to transfer"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:1
+msgid "200.20"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:608
+msgid "Source account has this asset in its AccountHasAsset relation [#f1]_"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:609
+msgid ""
+"An amount is a positive number and asset precision is consistent with the"
+" asset definition"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:610
+msgid "Source account has enough amount of asset to transfer and is not zero"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:611
+msgid ""
+"Source account can transfer money, and destination account can receive "
+"money (their roles have these permissions)"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:613
+msgid "https://www.ietf.org/rfc/rfc1035.txt"
+msgstr ""
+
+#: ../iroha/docs/source/api/commands.rst:614
+msgid "https://www.ietf.org/rfc/rfc1123.txt"
+msgstr ""
+

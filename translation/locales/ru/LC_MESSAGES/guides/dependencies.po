@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Iroha 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-02 13:33+0300\n"
+"POT-Creation-Date: 2018-12-16 20:34+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,8 +59,8 @@ msgstr ""
 
 #: ../iroha/docs/source/guides/dependencies.rst:37
 msgid ""
-"Minimum required version is 3.8, but we recommend to install the latest "
-"available version (3.10.3 at the moment)."
+"Minimum required version is 3.11.4, but we recommend to install the "
+"latest available version (3.12.0 at the moment)."
 msgstr ""
 
 #: ../iroha/docs/source/guides/dependencies.rst:42
@@ -116,4 +116,11 @@ msgstr ""
 #: ../iroha/docs/source/guides/dependencies.rst:220
 msgid "Protobuf"
 msgstr ""
+
+#~ msgid ""
+#~ "Minimum required version is 3.8, but "
+#~ "we recommend to install the latest "
+#~ "available version (3.10.3 at the "
+#~ "moment)."
+#~ msgstr ""
 

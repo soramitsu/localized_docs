@@ -1,0 +1,278 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Soramitsu Co., Ltd.
+# This file is distributed under the same license as the Hyperledger Iroha package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hyperledger Iroha \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-16 20:34+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:2
+msgid "iOS Swift Library"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:5
+msgid "Objectives"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:7
+msgid "In this guide you will learn:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:9
+msgid "How to build client library for iOS"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:10
+msgid "How to configure test application"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:11
+msgid "How to interact with Iroha blockchain from the mobile device"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:14
+msgid "Video Guide"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:16
+msgid "For more details please visit the video below which fully describes all the steps."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:23
+msgid "Prerequisites"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:25
+msgid "Before starting you need to install the following software on your mac:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:27
+msgid "XCode"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:28
+msgid "Carthage"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:29
+msgid "Git"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:30
+msgid "Cmake"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:31
+msgid "Postgresql"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:33
+msgid "This tutorial was tested with the following environment:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:35
+msgid "MacOS Sierra 10.12.6"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:36
+msgid "Xcode 9.2"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:37
+msgid "carthage 0.29.0"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:38
+msgid "cmake 3.11.4"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:39
+msgid "iPhone 7 iOS 11.2 Simulator"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:42
+msgid "Hyperledger Iroha iOS library"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:44
+msgid "Iroha has the following features:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:46
+msgid "Creation and management of custom complex assets, such as currencies or indivisible rights, serial numbers, patents, etc."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:47
+msgid "Management of user accounts"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:48
+msgid "Taxonomy of accounts based on domains — or sub-ledgers in the system"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:49
+msgid "The system of rights and verification of user permissions for the execution of transactions and queries in the system"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:50
+msgid "Validation of business rules for transactions and queries in the system"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:52
+msgid "Among the non-functional requirements can be noted a high degree of network fault tolerance (Byzantine Fault Tolerant). Iroha iOS library gives the ability to provide key generation and signing logic for queries and transactions passed to Iroha blockchain. Let's start with the detailed instructions how to install Iroha on the local machine."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:59
+msgid "Instruction"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:61
+msgid "Open the terminal and go to the folder where you want to install all artifacts:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:67
+msgid "Clone the repository for the iOS client:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:73
+msgid "Go to the Iroha-ios folder:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:79
+msgid "Update dependencies:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:85
+msgid "Go to sample project directory:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:91
+msgid "Update dependencies for the sample:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:97
+msgid "Go to GRPC library source's location:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:103
+msgid "Remove old library sources:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:105
+msgid "Make sure you are located in ``grpc-swift/`` subfolder"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:114
+msgid "Download release version of GRCP from git to the current directory:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:120
+msgid "Build library:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:126
+msgid "Go to the root of your playground folder (from the first step - path/to/your/folder/for/example/iroha-ios/project/):"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:132
+msgid "Make sure now you are located in ``path/to/your/folder/for/example/iroha-ios/project/`` folder"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:134
+msgid "This step downloads script for client library which is needed to build client library. Clone it from the repository:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:140
+msgid "Optional step. If you have issues with cloning during ios-build.sh execution do the following command before the script invocation:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:146
+msgid "Make downloaded script executable:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:152
+msgid "Finally, build the client iOS library with proper options - platform: OS | SIMULATOR | SIMULATOR64; build: Debug | Release :"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:158
+msgid "The generated artifacts should be copied to the proper location (let's create it first):"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:167
+msgid "Copy generated binaries:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:176
+msgid "Do not forget to copy generated headers:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:182
+msgid "Now it's time to manually config Xcode project for the sample application. Open SwiftyIroha.xcodeproj:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:186
+msgid "Select SwiftyIrohaExample.xcodeproj general tab and link SwiftProtobuf framework from iroha-ios/SwiftProtobuf.framework location"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:190
+msgid "Select SwiftGRPC.xcodeproj project and remove zlib-example target from it:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:194
+msgid "Go to Proto group and remove it (In future this step will be removed, but for now it's needed for sample app to be built):"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:198
+msgid "Congratulations! We are done. Select SwiftyIrohaExample target, choose iPhone simulator device and build the application to make sure we have done everything correctly:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:202
+msgid "Before we launch the application and test it we should deploy Iroha peer on our local machine and launch it."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:204
+msgid "There is good news - steps 1-18 should not be done manually every time - here is the script which does it automatically."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:207
+msgid "The script for iOS client installation and setup"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:209
+msgid "All you need now is to download `build script <https://github.com/hyperledger/iroha/blob/develop/shared_model/packages/ios/iroha-preparation.sh>`__ ``iroha-preparation.sh`` and launch it from ``path/to/your/folder/for/example/iroha-ios/project/``."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:213
+msgid "Starting Iroha Node"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:215
+msgid "To run this example, you need an Iroha node up and running. Please check out :ref:`getting-started` if you want to learn how to start it."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:219
+msgid "Launching Iroha iOS sample"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:221
+msgid "Now it's time to switch back to SwiftyIrohaSample application and launch it on the simulator. Open Xcode project, select proper sample target and run. The sample will send test transaction to our node and query the result from blockchain. Successful operations will look similar to this Xcode console output:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:226
+msgid "The output from Iroha terminal window (where the node is running):"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/swift_ios.rst:230
+msgid "Great! We have sent our transaction and verified its presence in blockchain."
+msgstr ""
+

@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) Creative Commons Attribution-NonCommercial 3.0 Unported
-# This file is distributed under the same license as the Iroha package.
+# Copyright (C) Soramitsu Co., Ltd.
+# This file is distributed under the same license as the Hyperledger Iroha package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Iroha 1.0\n"
+"Project-Id-Version: Hyperledger Iroha \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-16 13:57+0300\n"
+"POT-Creation-Date: 2018-12-16 20:34+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "There are two ways to get Iroha library for Python: via pip and manual co
 msgstr ""
 
 #: ../iroha/docs/source/guides/libraries/python.rst:10
-#: ../iroha/docs/source/guides/libraries/python.rst:60
+#: ../iroha/docs/source/guides/libraries/python.rst:59
 msgid "Prerequisites"
 msgstr ""
 
@@ -38,7 +38,7 @@ msgid "CMake, git, g++, boost, swig, protobuf, python"
 msgstr ""
 
 #: ../iroha/docs/source/guides/libraries/python.rst:13
-#: ../iroha/docs/source/guides/libraries/python.rst:63
+#: ../iroha/docs/source/guides/libraries/python.rst:62
 msgid "Please refer to the page `Installing Dependencies <dependencies.html>`__ to get installation recipes for the tools."
 msgstr ""
 
@@ -62,99 +62,99 @@ msgstr ""
 msgid "For the latest version checkout to develop branch by adding *-b develop* parameter."
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:48
+#: ../iroha/docs/source/guides/libraries/python.rst:47
 msgid "After this you can find Iroha python library in **iroha/build/shared_model/bindings** folder, where you have previously cloned repository."
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:51
+#: ../iroha/docs/source/guides/libraries/python.rst:50
 msgid "How to Use/Import"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:54
+#: ../iroha/docs/source/guides/libraries/python.rst:53
 msgid "Compile Protobuf Modules of Iroha from Schema Files"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:56
+#: ../iroha/docs/source/guides/libraries/python.rst:55
 msgid "Iroha communicates with users through protobuf messages. In order to send transactions and queries to Iroha node you need to get python module for generating protobuf messages. First of all you need to clone schema folder of Iroha repository. If you have already cloned Iroha repository in the previous step, just use schema folder from there."
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:63
+#: ../iroha/docs/source/guides/libraries/python.rst:62
 msgid "protobuf, pip"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:66
+#: ../iroha/docs/source/guides/libraries/python.rst:65
 msgid "Building Protobuf Files"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:81
+#: ../iroha/docs/source/guides/libraries/python.rst:80
 msgid "Protobuf files can be found in **iroha-schema** folder ('\\*_pb2\\*.py' files)"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:83
+#: ../iroha/docs/source/guides/libraries/python.rst:82
 msgid "In order to specify Iroha libraries location:"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:91
+#: ../iroha/docs/source/guides/libraries/python.rst:90
 msgid "Import Iroha and all of the protobuf modules that you need:"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:102
+#: ../iroha/docs/source/guides/libraries/python.rst:101
 msgid "Example Code"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:106
+#: ../iroha/docs/source/guides/libraries/python.rst:105
 msgid "Work with byte arrays is different in Python 2 and Python 3. Due to this fact, the work with hashes and blobs is different in the examples. Given examples work fine with both versions of Python."
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:108
+#: ../iroha/docs/source/guides/libraries/python.rst:107
 msgid "Import Iroha and schema classes, generated from Iroha protobuf:"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:120
+#: ../iroha/docs/source/guides/libraries/python.rst:119
 msgid "Get Iroha objects:"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:130
+#: ../iroha/docs/source/guides/libraries/python.rst:129
 msgid "Read public and private keys:"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:138
+#: ../iroha/docs/source/guides/libraries/python.rst:137
 msgid "Print transaction status with synchronous simple call:"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:174
+#: ../iroha/docs/source/guides/libraries/python.rst:173
 msgid "Or streaming call:"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:186
+#: ../iroha/docs/source/guides/libraries/python.rst:185
 msgid "Send transactions to Iroha:"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:206
+#: ../iroha/docs/source/guides/libraries/python.rst:205
 msgid "Send query to Iroha and receive a responce:"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:228
+#: ../iroha/docs/source/guides/libraries/python.rst:227
 msgid "Create domain and asset:"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:241
+#: ../iroha/docs/source/guides/libraries/python.rst:239
 msgid "Create asset quantity:"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:253
+#: ../iroha/docs/source/guides/libraries/python.rst:250
 msgid "Create account:"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:267
+#: ../iroha/docs/source/guides/libraries/python.rst:263
 msgid "Send asset:"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:279
+#: ../iroha/docs/source/guides/libraries/python.rst:274
 msgid "Get asset info:"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:301
+#: ../iroha/docs/source/guides/libraries/python.rst:296
 msgid "Get account asset:"
 msgstr ""
 

@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) Creative Commons Attribution-NonCommercial 3.0 Unported
-# This file is distributed under the same license as the Iroha package.
+# Copyright (C) Soramitsu Co., Ltd.
+# This file is distributed under the same license as the Hyperledger Iroha package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Iroha 1.0\n"
+"Project-Id-Version: Hyperledger Iroha \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-16 13:57+0300\n"
+"POT-Creation-Date: 2018-12-16 20:34+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,7 +62,7 @@ msgid "Then you should clone the `Iroha repository <https://github.com/hyperledg
 msgstr ""
 
 #: ../iroha/docs/source/guides/build.rst:41
-msgid "``--depth-1`` option allows us to download only latest commit and save some time and bandwidth. If you want to get a full commit history, you can omit this option."
+msgid "``--depth=1`` option allows us to download only latest commit and save some time and bandwidth. If you want to get a full commit history, you can omit this option."
 msgstr ""
 
 #: ../iroha/docs/source/guides/build.rst:45
@@ -78,7 +78,7 @@ msgid "After you execute this script, following things happen:"
 msgstr ""
 
 #: ../iroha/docs/source/guides/build.rst:58
-msgid "1. The script checks if you don't have containers with Iroha already running. Successful completion finishes with the new container shell. 2. The script will download ``iroha-docker-develop`` and ``postgres`` images. ``iroha-docker-develop`` image contains all development dependencies and is based on top of ``ubuntu:16.04``. ``postgres`` image is required for starting and running Iroha. 3. Two containers are created and launched. 4. The user is attached to the interactive environment for development and testing with ``iroha`` folder mounted from the host machine. Iroha folder is mounted to ``/opt/iroha`` in Docker container."
+msgid "1. The script checks if you don't have containers with Iroha already running. Successful completion finishes with the new container shell. 2. The script will download ``hyperledger/iroha:develop-build`` and ``postgres`` images. ``hyperledger/iroha:develop-build`` image contains all development dependencies and is based on top of ``ubuntu:16.04``. ``postgres`` image is required for starting and running Iroha. 3. Two containers are created and launched. 4. The user is attached to the interactive environment for development and testing with ``iroha`` folder mounted from the host machine. Iroha folder is mounted to ``/opt/iroha`` in Docker container."
 msgstr ""
 
 #: ../iroha/docs/source/guides/build.rst:69
@@ -94,7 +94,7 @@ msgid "Boost"
 msgstr ""
 
 #: ../iroha/docs/source/guides/build.rst:77
-msgid "Iroha requires Boost of at least 1.65 version. To install Boost libraries (``libboost-all-dev``), use `current release <http://www.boost.org/users/download/>`_ from Boost webpage. The only dependencies are system and filesystem, so use ``./bootstrap.sh --with-libraries=system,filesystem`` when you are building the project."
+msgid "Iroha requires Boost of at least 1.65 version. To install Boost libraries (``libboost-all-dev``), use `current release <http://www.boost.org/users/download/>`_ from Boost webpage. The only dependencies are thread, system and filesystem, so use ``./bootstrap.sh --with-libraries=thread,system,filesystem`` when you are building the project."
 msgstr ""
 
 #: ../iroha/docs/source/guides/build.rst:85

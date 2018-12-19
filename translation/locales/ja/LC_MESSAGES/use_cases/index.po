@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hyperledger Iroha Documentation\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-03-22 13:22+0300\n"
+"POT-Creation-Date: 2018-12-16 20:34+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ja\n"
@@ -62,6 +62,7 @@ msgstr ""
 #: ../iroha/docs/source/use_cases/index.rst:48
 #: ../iroha/docs/source/use_cases/index.rst:61
 #: ../iroha/docs/source/use_cases/index.rst:76
+#: ../iroha/docs/source/use_cases/index.rst:90
 msgid "Example"
 msgstr "例"
 
@@ -364,11 +365,38 @@ msgstr ""
 "いろはでは、複雑なスマートコントラクトを作成せずに、新たなアセットの作成を「CreateAsset」という単一のコマンドによって集約し、単純化しました。"
 " Hyperledger Irohaの主な利点の1つは、開発者がアプリケーションを提供することで生まれる価値に集中できるようになることです。"
 
-#: ../iroha/docs/source/use_cases/index.rst:86
+#: ../iroha/docs/source/use_cases/index.rst:85
+#, fuzzy
+msgid "Fund Management"
+msgstr "アイデンティティマネジメント"
+
+#: ../iroha/docs/source/use_cases/index.rst:87
+msgid ""
+"With the support of multisignature transactions it is possible to "
+"maintain a fund by many managers. In that scheme investment can only be "
+"made after the confirmation of the quorum participants."
+msgstr ""
+
+#: ../iroha/docs/source/use_cases/index.rst:92
+msgid ""
+"The fund assets should be held at one account. Its signatories should be "
+"fund managers, who are dealing with investments and portfolio "
+"distributions. That can be added via ``AddSignatory`` command. All of the"
+" assets should be held within one account, which signatories represent "
+"the fund managers. Thus the concrete exchanges can be performed with the "
+"multisignature transaction so that everyone will decide on a particular "
+"financial decision. The one may confirm a deal by sending the original "
+"transaction and one of managers' signature. Iroha will maintain the "
+"transaction sending so that the deal will not be completed until it "
+"receives the required number of confirmation, which is parametrized with "
+"the transaction quorum parameter."
+msgstr ""
+
+#: ../iroha/docs/source/use_cases/index.rst:102
 msgid "Related Research"
 msgstr "関連する研究"
 
-#: ../iroha/docs/source/use_cases/index.rst:88
+#: ../iroha/docs/source/use_cases/index.rst:104
 msgid ""
 "(The idea was to show current pioneers of blockchain applications and "
 "their works.)"
@@ -4294,12 +4322,11 @@ msgstr "（ブロックチェーンアプリケーションのパイオニア達
 #~ "container."
 #~ msgstr ""
 #~ "1. "
-#~ "実行したスクリプトは、Irohaが既に動作しているコンテナがないかどうかをチェックします。これが正常に行われると、新しいコンテナがシェルに出ます。2"
-#~ ".スクリプトは、「iroha-docker-develop」と「postgres"
-#~ "」のイメージをダウンロードします。``iroha-docker-"
-#~ "develop``イメージにはすべてのdevelopment dependenciesが含まれており、`` "
-#~ "Ubuntu:16.04``に基づいています。 Irohaの起動ならびに実行には "
-#~ "``postgres``イメージが必要です。\n"
+#~ "実行したスクリプトは、Irohaが既に動作しているコンテナがないかどうかをチェックします。これが正常に行われると、新しいコンテナがシェルに出ます。2.スクリプトは"
+#~ "、「iroha-docker-develop」と「postgres」のイメージをダウンロードします。``iroha-"
+#~ "docker-develop``イメージにはすべてのdevelopment "
+#~ "dependenciesが含まれており、`` Ubuntu:16.04``に基づいています。 "
+#~ "Irohaの起動ならびに実行には ``postgres``イメージが必要です。\n"
 #~ "3. 2つのコンテナが作成され、起動されます。\n"
 #~ "4.ユーザは、ホストマシンからマウントされた "
 #~ "\"iroha\"フォルダを使用して、開発とテストのために対話型環境に接続されます。 IrohaフォルダはDockerコンテナの"

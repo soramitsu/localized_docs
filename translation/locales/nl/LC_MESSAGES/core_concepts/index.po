@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Soramitsu Co., Ltd.
+# This file is distributed under the same license as the Hyperledger Iroha
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hyperledger Iroha \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-16 20:34+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: ../iroha/docs/source/core_concepts/index.rst:2
+msgid "Core concepts"
+msgstr ""
+
+#: ../iroha/docs/source/core_concepts/index.rst:4
+msgid ""
+"Why Iroha runs in a network? How to understand the objects inside and "
+"outside the system? How peers in the network collaborate and decide which"
+" data to put into the blockchain? We will look through the basics of "
+"Iroha in this section."
+msgstr ""
+
+#: ../iroha/docs/source/core_concepts/index.rst:8
+msgid ""
+"Docs are constantly updated and this section is going to be improved. "
+"Check glossary page while contents are elaborated."
+msgstr ""
+
+#: ../iroha/docs/source/core_concepts/index.rst:13
+msgid "Sections"
+msgstr ""
+

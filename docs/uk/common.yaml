@@ -1,0 +1,8 @@
+# General information about the project.
+project: "Hyperledger Iroha"
+documentation: "Керівництво користувача і інтегратора платформи Hyperledger Iroha: розгортання, початок роботи, інтеграція і усунення неполадок"
+description: "Приватна блокчейн-платформа (DLT) на С++"
+copyright: "Soramitsu Co., Ltd."
+author: "Спільнота розробників Hyperledger Iroha"
+version: "1.0 release candidate 1"
+release: "v1.0 rc1"

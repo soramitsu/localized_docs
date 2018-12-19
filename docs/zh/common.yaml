@@ -1,0 +1,8 @@
+# General information about the project.
+project: "Hyperledger Iroha"
+documentation: "Iroha手册：安装，入门，API，指南和故障排除"
+description: "分布式账本技术平台，用C++编写"
+copyright: "Soramitsu Co., Ltd."
+author: "Hyperledger Iroha社区"
+version: "1.0 release candidate 1"
+release: "v1.0 rc1"

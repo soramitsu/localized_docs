@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Iroha 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-22 13:22+0300\n"
+"POT-Creation-Date: 2018-12-16 20:34+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,6 +56,7 @@ msgstr ""
 #: ../iroha/docs/source/use_cases/index.rst:48
 #: ../iroha/docs/source/use_cases/index.rst:61
 #: ../iroha/docs/source/use_cases/index.rst:76
+#: ../iroha/docs/source/use_cases/index.rst:90
 msgid "Example"
 msgstr ""
 
@@ -278,11 +279,37 @@ msgid ""
 " focus on the provided value of their applications."
 msgstr ""
 
-#: ../iroha/docs/source/use_cases/index.rst:86
+#: ../iroha/docs/source/use_cases/index.rst:85
+msgid "Fund Management"
+msgstr ""
+
+#: ../iroha/docs/source/use_cases/index.rst:87
+msgid ""
+"With the support of multisignature transactions it is possible to "
+"maintain a fund by many managers. In that scheme investment can only be "
+"made after the confirmation of the quorum participants."
+msgstr ""
+
+#: ../iroha/docs/source/use_cases/index.rst:92
+msgid ""
+"The fund assets should be held at one account. Its signatories should be "
+"fund managers, who are dealing with investments and portfolio "
+"distributions. That can be added via ``AddSignatory`` command. All of the"
+" assets should be held within one account, which signatories represent "
+"the fund managers. Thus the concrete exchanges can be performed with the "
+"multisignature transaction so that everyone will decide on a particular "
+"financial decision. The one may confirm a deal by sending the original "
+"transaction and one of managers' signature. Iroha will maintain the "
+"transaction sending so that the deal will not be completed until it "
+"receives the required number of confirmation, which is parametrized with "
+"the transaction quorum parameter."
+msgstr ""
+
+#: ../iroha/docs/source/use_cases/index.rst:102
 msgid "Related Research"
 msgstr ""
 
-#: ../iroha/docs/source/use_cases/index.rst:88
+#: ../iroha/docs/source/use_cases/index.rst:104
 msgid ""
 "(The idea was to show current pioneers of blockchain applications and "
 "their works.)"

@@ -1,0 +1,1 @@
+../../../../../../iroha/docs/source/overview.rst../iroha/docs/source/core_concepts/index.rst../iroha/docs/source/core_concepts/er_model.rst

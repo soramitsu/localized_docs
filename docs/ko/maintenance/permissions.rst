@@ -1,0 +1,1 @@
+../../../iroha/docs/source/maintenance/permissions.rst

@@ -1,0 +1,2 @@
+language: "ru"
+locale_dirs: "../../translation/locales"

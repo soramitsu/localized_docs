@@ -1,0 +1,8 @@
+# General information about the project.
+project: "Hyperledger Iroha"
+documentation: "Manual do Iroha: instalação, introdução, API, guias e resolução de problemas"
+description: "Plataforma de tecnologia de contabilidade distribuída, escrita em C++"
+copyright: "Soramitsu Co., Ltd."
+author: "Comunidade Hyperledger Iroha"
+version: "1.0 release candidate 1"
+release: "v1.0 rc1"

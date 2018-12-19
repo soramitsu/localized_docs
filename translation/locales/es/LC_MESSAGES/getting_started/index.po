@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Iroha 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-16 13:57+0300\n"
+"POT-Creation-Date: 2018-12-16 20:34+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,7 +105,8 @@ msgstr ""
 #: ../iroha/docs/source/getting_started/index.rst:74
 msgid ""
 "To keep things simple, in this guide we will create a network containing "
-"only one node. To understand how to run several peers, follow this guide."
+"only one node. To understand how to run several peers, follow `this "
+"guide. <github.com/hyperledger/iroha/tree/master/deploy/ansible>`_"
 msgstr ""
 
 #: ../iroha/docs/source/getting_started/index.rst:78
@@ -120,7 +121,7 @@ msgstr ""
 
 #: ../iroha/docs/source/getting_started/index.rst:89
 msgid ""
-"``--depth-1`` option allows us to download only latest commit and save "
+"``--depth=1`` option allows us to download only latest commit and save "
 "some time and bandwidth. If you want to get a full commit history, you "
 "can omit this option."
 msgstr ""
@@ -167,15 +168,15 @@ msgstr ""
 
 #: ../iroha/docs/source/getting_started/index.rst:119
 msgid ""
-"``--entrypoint=/bin/bash \\`` Because ``hyperledger/iroha-docker`` has "
-"the custom script which runs after starting the container, we want to "
+"``--entrypoint=/bin/bash \\`` Because ``hyperledger/iroha`` has the "
+"custom script which runs after starting the container, we want to "
 "override it so we can start Iroha Daemon manually."
 msgstr ""
 
 #: ../iroha/docs/source/getting_started/index.rst:122
 msgid ""
-"``hyperledger/iroha-docker:develop`` is the image which has the "
-"``develop`` branch."
+"``hyperledger/iroha:develop`` is the image which has the ``develop`` "
+"branch."
 msgstr ""
 
 #: ../iroha/docs/source/getting_started/index.rst:126
@@ -379,4 +380,33 @@ msgid ""
 " the status of ``admin@test`` and ``test@test`` with queries to be sure "
 "(like we did earlier)."
 msgstr ""
+
+#~ msgid ""
+#~ "To keep things simple, in this "
+#~ "guide we will create a network "
+#~ "containing only one node. To understand"
+#~ " how to run several peers, follow "
+#~ "this guide."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``--depth-1`` option allows us to "
+#~ "download only latest commit and save "
+#~ "some time and bandwidth. If you "
+#~ "want to get a full commit history,"
+#~ " you can omit this option."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``--entrypoint=/bin/bash \\`` Because ``hyperledger"
+#~ "/iroha-docker`` has the custom script "
+#~ "which runs after starting the container,"
+#~ " we want to override it so we"
+#~ " can start Iroha Daemon manually."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``hyperledger/iroha-docker:develop`` is the "
+#~ "image which has the ``develop`` branch."
+#~ msgstr ""
 

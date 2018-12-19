@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Iroha 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-20 11:41+0300\n"
+"POT-Creation-Date: 2018-12-16 20:34+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -98,7 +98,7 @@ msgid "A keypair for the peer is generated"
 msgstr ""
 
 #: ../iroha/docs/source/guides/deployment.rst:39
-#: ../iroha/docs/source/guides/deployment.rst:119
+#: ../iroha/docs/source/guides/deployment.rst:121
 msgid ""
 "This is the first time you run the Iroha on this peer and you want to "
 "create new chain"
@@ -154,42 +154,49 @@ msgid ""
 msgstr ""
 
 #: ../iroha/docs/source/guides/deployment.rst:57
+msgid ""
+"Specifying a new genesis block using `--genesis_block` with blocks "
+"already present in ledger requires `--overwrite_ledger` flag to be set. "
+"The daemon will fail otherwise."
+msgstr ""
+
+#: ../iroha/docs/source/guides/deployment.rst:59
 msgid "An example of shell command, running Iroha daemon is"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:63
+#: ../iroha/docs/source/guides/deployment.rst:65
 msgid ""
 "If you have stopped the daemon and want to use existing chain — you "
 "should not pass the genesis block parameter."
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:67
+#: ../iroha/docs/source/guides/deployment.rst:69
 msgid "Docker"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:69
+#: ../iroha/docs/source/guides/deployment.rst:71
 msgid ""
 "In order to run Iroha peer as a single instance in Docker, you should "
 "pull the image for Iroha first:"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:75
+#: ../iroha/docs/source/guides/deployment.rst:77
 msgid ""
 "Use *latest* tag for latest stable release, and *develop* for latest "
 "development version"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:77
+#: ../iroha/docs/source/guides/deployment.rst:79
 msgid ""
 "Then, you have to create an enviroment for the image to run without "
 "problems:"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:80
+#: ../iroha/docs/source/guides/deployment.rst:82
 msgid "Create docker network"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:82
+#: ../iroha/docs/source/guides/deployment.rst:84
 msgid ""
 "Containers for Postgres and Iroha should run in the same virtual network,"
 " in order to be available to each other. Create a network, by typing "
@@ -197,52 +204,52 @@ msgid ""
 "example, we use *iroha-network* name):"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:90
+#: ../iroha/docs/source/guides/deployment.rst:92
 msgid "Run Postgresql in a container"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:92
+#: ../iroha/docs/source/guides/deployment.rst:94
 msgid ""
 "Similarly, run postgres server, attaching it to the network you have "
 "created before, and exposing ports for communication:"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:104
+#: ../iroha/docs/source/guides/deployment.rst:106
 msgid "Create volume for block storage"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:106
+#: ../iroha/docs/source/guides/deployment.rst:108
 msgid ""
 "Before we run iroha daemon in the container, we should create persistent "
 "volume to store files, storing blocks for the chain. It is done via the "
 "following command:"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:114
+#: ../iroha/docs/source/guides/deployment.rst:116
 msgid "Running iroha daemon in docker container"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:119
+#: ../iroha/docs/source/guides/deployment.rst:121
 msgid "There is a list of assumptions which you should review before proceeding:"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:117
+#: ../iroha/docs/source/guides/deployment.rst:119
 msgid "Postgres server is running on the same docker network"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:118
+#: ../iroha/docs/source/guides/deployment.rst:120
 msgid "There is a folder, containing config file and keypair for a single node"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:121
+#: ../iroha/docs/source/guides/deployment.rst:123
 msgid "If they are met, you can move forward with the following command:"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:144
+#: ../iroha/docs/source/guides/deployment.rst:146
 msgid "Running multiple instances (peer network)"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:146
+#: ../iroha/docs/source/guides/deployment.rst:148
 msgid ""
 "In order to set up a peer network, one should follow routines, described "
 "in this section. In this version, we support manual deployment and "
@@ -250,11 +257,11 @@ msgid ""
 " criteria and other needs."
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:151
+#: ../iroha/docs/source/guides/deployment.rst:153
 msgid "Manually"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:153
+#: ../iroha/docs/source/guides/deployment.rst:155
 msgid ""
 "By manual deployment, we mean that Iroha peer network is set up without "
 "automated assistance. It is similar to the process of running a single "
@@ -264,11 +271,11 @@ msgid ""
 " a look at `Dealing with troubles`_ section."
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:158
+#: ../iroha/docs/source/guides/deployment.rst:160
 msgid "Automated"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:160
+#: ../iroha/docs/source/guides/deployment.rst:162
 msgid ""
 "Anyone can reuse existing Ansible Playbook in order to create a network "
 "of peers running Iroha. Currently, this is a solution for development and"
@@ -277,122 +284,122 @@ msgid ""
 "network, a manual composing of genesis block is required."
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:165
+#: ../iroha/docs/source/guides/deployment.rst:167
 msgid "Prerequisites"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:167
+#: ../iroha/docs/source/guides/deployment.rst:169
 msgid "One ore more <virtual> machines with a Linux distributive installed."
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:168
+#: ../iroha/docs/source/guides/deployment.rst:170
 msgid "SSH access to those machines"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:169
+#: ../iroha/docs/source/guides/deployment.rst:171
 msgid "Ansible installed on a local machine"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:172
+#: ../iroha/docs/source/guides/deployment.rst:174
 msgid "Step-by-step guide"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:174
+#: ../iroha/docs/source/guides/deployment.rst:176
 msgid "Create peers.list file in $IROHA_HOME/deploy/ansible/data"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:176
+#: ../iroha/docs/source/guides/deployment.rst:178
 msgid ""
 "Write all peers IP addresses followed by the internal port 10001 (e.g "
 "31.192.120.36:10001)"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:178
+#: ../iroha/docs/source/guides/deployment.rst:180
 msgid "Open $IROHA_HOME/deploy/ansible/hosts file"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:180
+#: ../iroha/docs/source/guides/deployment.rst:182
 msgid "Write all IP addresses in [hosts] group"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:182
+#: ../iroha/docs/source/guides/deployment.rst:184
 msgid "Open terminal"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:184
+#: ../iroha/docs/source/guides/deployment.rst:186
 msgid ""
 "Disable host key checking, because it can cause troubles due to "
 "interactive prompt"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:190
+#: ../iroha/docs/source/guides/deployment.rst:192
 msgid "Go to ansible folder"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:196
+#: ../iroha/docs/source/guides/deployment.rst:198
 msgid "Run playbook, providing your private key and hosts file"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:202
+#: ../iroha/docs/source/guides/deployment.rst:204
 msgid "Wait until playbook finishes and then Iroha network is ready and up."
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:205
+#: ../iroha/docs/source/guides/deployment.rst:207
 msgid "Checking Iroha peer status"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:207
+#: ../iroha/docs/source/guides/deployment.rst:209
 msgid "SSH into any of your machines"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:213
+#: ../iroha/docs/source/guides/deployment.rst:215
 msgid "Check Iroha container logs:"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:220
+#: ../iroha/docs/source/guides/deployment.rst:222
 msgid "Dealing with troubles"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:222
+#: ../iroha/docs/source/guides/deployment.rst:224
 msgid "—\"Please, help me, because I am…\""
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:225
+#: ../iroha/docs/source/guides/deployment.rst:227
 msgid "Not having Iroha daemon binary"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:227
+#: ../iroha/docs/source/guides/deployment.rst:229
 msgid ""
 "You can build Iroha daemon binary from sources, following API section "
 "from the `website <https://hyperledger.github.io/iroha-api/#build>`__"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:230
+#: ../iroha/docs/source/guides/deployment.rst:232
 msgid "Not having config file"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:232
+#: ../iroha/docs/source/guides/deployment.rst:234
 msgid ""
 "Check how to create a configuration file by following this `link "
 "<https://hyperledger.github.io/iroha-api/#prepare-configuration-file>`__"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:235
+#: ../iroha/docs/source/guides/deployment.rst:237
 msgid "Not having genesis block"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:237
+#: ../iroha/docs/source/guides/deployment.rst:239
 msgid ""
 "Create genesis block by generating it via `iroha-cli` or manually, as it "
 "is described `here <https://hyperledger.github.io/iroha-api/#create-"
 "genesis-block>`__"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:240
+#: ../iroha/docs/source/guides/deployment.rst:242
 msgid "Not having a keypair for a peer"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:242
+#: ../iroha/docs/source/guides/deployment.rst:244
 msgid ""
 "In order to create a keypair for an account or a peer, use iroha-cli "
 "binary by passing the name of the peer with `--new_account` option."

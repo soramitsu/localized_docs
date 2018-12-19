@@ -1,1 +1,0 @@
-../../../iroha/docs/source/api/objc_library.rst
