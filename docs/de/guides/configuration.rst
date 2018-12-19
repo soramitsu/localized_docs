@@ -1,1 +1,1 @@
-../../../../../../../../../../../../../../iroha/docs/source/overview.rst../iroha/docs/source/core_concepts/index.rst../iroha/docs/source/core_concepts/er_model.rst../iroha/docs/source/core_concepts/glossary.rst../iroha/docs/source/guides/index.rst../iroha/docs/source/guides/build.rst../iroha/docs/source/guides/configuration.rst
+../../../iroha/docs/source/guides/configuration.rst

@@ -43,13 +43,13 @@ for lang in langs:
         print("Create symlink from " + src + " in " + dest)
         try:
             os.symlink(src, dest)
-            src = ""
             print("Created ")
         except OSError as e:
             if e.errno == errno.EEXIST:
                 os.remove(dest)
                 os.symlink(src, dest)
                 print("Create symlink from " + src + " in " + dest)
+        src = ""
 
     try:
         os.symlink("../../iroha/docs/source/conf.py", langs[lang] + "/conf.py")
