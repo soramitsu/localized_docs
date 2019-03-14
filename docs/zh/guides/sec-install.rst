@@ -1,0 +1,1 @@
+../../../iroha/docs/source/guides/sec-install.rst

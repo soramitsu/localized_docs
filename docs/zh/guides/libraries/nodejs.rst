@@ -1,1 +1,0 @@
-../../../../iroha/docs/source/guides/libraries/nodejs.rst
