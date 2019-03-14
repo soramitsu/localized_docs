@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hyperledger Iroha \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-16 20:34+0300\n"
+"POT-Creation-Date: 2019-03-14 16:19+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -141,7 +141,9 @@ msgid "transaction_count – counter of transactions created by this account"
 msgstr ""
 
 #: ../iroha/docs/source/core_concepts/er_model.rst:57
-msgid "data — key-value storage for any information, related to the account"
+msgid ""
+"data — key-value storage for any information, related to the account. "
+"Size is limited to 268435455 bytes (0x0FFFFFFF) (PostgreSQL JSONB field)."
 msgstr ""
 
 #: ../iroha/docs/source/core_concepts/er_model.rst:60
@@ -197,4 +199,7 @@ msgstr ""
 #: ../iroha/docs/source/core_concepts/er_model.rst:83
 msgid "permission_id — identifier of grantable_permission"
 msgstr ""
+
+#~ msgid "data — key-value storage for any information, related to the account"
+#~ msgstr ""
 

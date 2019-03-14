@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hyperledger Iroha \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-16 20:34+0300\n"
+"POT-Creation-Date: 2019-03-14 16:19+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -276,133 +276,395 @@ msgstr ""
 msgid "Automated"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:162
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:6
+msgid "Description"
+msgstr ""
+
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:8
 msgid ""
-"Anyone can reuse existing Ansible Playbook in order to create a network "
-"of peers running Iroha. Currently, this is a solution for development and"
-" testing, in other words, a proof of concept, and cannot be used in "
-"production environment, due to some security flaws. For production "
-"network, a manual composing of genesis block is required."
+"`This role "
+"<https://github.com/hyperledger/iroha/tree/master/deploy/ansible/roles"
+"/iroha-docker>`_ deploys multiple replicas of Iroha containers (one Iroha"
+" peer per container) on remote hosts. Each Iroha peer can communicate "
+"with others in two ways:"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:167
-msgid "Prerequisites"
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:11
+msgid "using public IP addresses or hostnames set in inventory list OR"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:169
-msgid "One ore more <virtual> machines with a Linux distributive installed."
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:12
+msgid "using private IP addresses of the Docker overlay network"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:170
-msgid "SSH access to those machines"
-msgstr ""
-
-#: ../iroha/docs/source/guides/deployment.rst:171
-msgid "Ansible installed on a local machine"
-msgstr ""
-
-#: ../iroha/docs/source/guides/deployment.rst:174
-msgid "Step-by-step guide"
-msgstr ""
-
-#: ../iroha/docs/source/guides/deployment.rst:176
-msgid "Create peers.list file in $IROHA_HOME/deploy/ansible/data"
-msgstr ""
-
-#: ../iroha/docs/source/guides/deployment.rst:178
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:14
 msgid ""
-"Write all peers IP addresses followed by the internal port 10001 (e.g "
-"31.192.120.36:10001)"
+"The first one is easier to implement since it does not require "
+"preliminary configuration of the remote hosts. Just make sure that "
+"network ports are not firewalled. You can check the port list in the "
+"generated Docker Compose file (\\ ``docker-compose.yml``\\ ) after "
+"deployment."
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:180
-msgid "Open $IROHA_HOME/deploy/ansible/hosts file"
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:16
+msgid "This option is enabled by default."
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:182
-msgid "Write all IP addresses in [hosts] group"
-msgstr ""
-
-#: ../iroha/docs/source/guides/deployment.rst:184
-msgid "Open terminal"
-msgstr ""
-
-#: ../iroha/docs/source/guides/deployment.rst:186
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:18
 msgid ""
-"Disable host key checking, because it can cause troubles due to "
-"interactive prompt"
+"The second one can be used when there exists an overlay network between "
+"the hosts. In short, overlay network allows for Docker containers to "
+"communicate using a single subnet. Such that each container would have a "
+"unique IP address in that subnet. Learn more in official Docker "
+"documentation (https://docs.docker.com/network/overlay). We recommend to "
+"use Calico for setting up Docker overlay network since it can be used as "
+"a network plugin (https://docs.projectcalico.org/v1.5/getting-"
+"started/docker/tutorials/basic)."
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:192
-msgid "Go to ansible folder"
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:20
+msgid "The second way is also suitable for local-only deployments."
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:198
-msgid "Run playbook, providing your private key and hosts file"
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:23
+msgid "Requirements"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:204
-msgid "Wait until playbook finishes and then Iroha network is ready and up."
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:25
+msgid "Tested on Ubuntu 16.04, 18.04"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:207
-msgid "Checking Iroha peer status"
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:28
+msgid "Local:"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:209
-msgid "SSH into any of your machines"
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:30
+msgid "python3, python3-dev"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:215
-msgid "Check Iroha container logs:"
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:31
+msgid "PIP modules: ansible(>=2.4), future, sha3(for Python<3.6)"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:222
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:34
+msgid "Remote:"
+msgstr ""
+
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:37
+msgid "Docker (>=17.12)"
+msgstr ""
+
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:38
+msgid "python3"
+msgstr ""
+
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:39
+msgid "PIP modules: docker, docker-compose"
+msgstr ""
+
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:41
+msgid ""
+"There is a role for setting up a remote part of the dependencies named "
+"``docker``. It works for Ubuntu OS only. Check ``iroha-docker`` playbook."
+msgstr ""
+
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:43
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:76
+msgid "**Note:**"
+msgstr ""
+
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:47
+msgid ""
+"``docker.io`` package from Ubuntu repos will not work. Either use Ansible"
+" role or install Docker following official instructions for your OS "
+"flavor."
+msgstr ""
+
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:51
+msgid "Quick Start"
+msgstr ""
+
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:54
+msgid "Install Ansible .. code-block:: guess"
+msgstr ""
+
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:57
+msgid "pip3 install ansible"
+msgstr ""
+
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:60
+msgid "Create inventory list containing IP address of the remote host"
+msgstr ""
+
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:62
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:99
+msgid "**iroha.list**"
+msgstr ""
+
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:71
+msgid ""
+"``cd ../../ && ansible-playbook -b -e 'ansible_ssh_user=ubuntu' -i "
+"inventory/iroha.list playbooks/iroha-docker/main.yml``"
+msgstr ""
+
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:73
+msgid ""
+"This will deploy 6 Iroha Docker containers along with 6 Postgres "
+"containers on the remote host specified in ``iroha.list`` file. Remote "
+"user is ``ubuntu``. Torii port of each container is exposed on the host. "
+"Iroha peer can be communicated over port defined in ``iroha_torii_port`` "
+"variable (50051 by default). Overall, each host will listen the following"
+" port range: ``iroha_torii_port`` ... ``iroha_torii_port`` + *number-of-"
+"containers* - 1. It will also install Docker along with required python "
+"modules. If you want to skip this step, comment out ``docker`` role in "
+"the playbook (\\ ``playbooks/iroha-docker/main.yml``\\ )"
+msgstr ""
+
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:80
+msgid ""
+"This command escalates privileges on a remote host during the run. It is "
+"required to be able to spin up Docker containers. We recommend to run the"
+" playbook using a passwordless remote sudo user."
+msgstr ""
+
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:84
+msgid "Initial configuration"
+msgstr ""
+
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:86
+msgid ""
+"See ``defaults/main.yml`` file to get more details about available "
+"configuration options."
+msgstr ""
+
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:89
+msgid "Examples"
+msgstr ""
+
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:91
+msgid ""
+"**Example 1** :raw-html-m2r:`<!-- TODO: Cover more example cases -->` "
+"Deploying 6 Iroha peers on two remote hosts communicating using public IP"
+" addresses. With 2 and 4 replicas on each host respectively."
+msgstr ""
+
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:97
+msgid ""
+"Create inventory list containing IP addresses (or hostnames if they are "
+"mutually resolve-able on both hosts) of two hosts that will run Iroha "
+"peers"
+msgstr ""
+
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:110
+msgid ""
+"Make sure you can SSH with a root account into either of these hosts "
+"using a private key."
+msgstr ""
+
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:112
+msgid "**Note**"
+msgstr ""
+
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:116
+msgid ""
+"You can also SSH with the user other than root. Make sure it can execute "
+"``sudo`` without prompting for a password. Set ``-u`` option for "
+"``ansible-playbook`` command."
+msgstr ""
+
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:120
+msgid ""
+"Create two YAML files in ``../playbooks/iroha-docker/host_vars`` "
+"directory:"
+msgstr ""
+
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:122
+msgid "**192.168.122.109.yml**"
+msgstr ""
+
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:135
+msgid "Run the playbook"
+msgstr ""
+
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:141
+msgid ""
+"**Example 2** Deploying 6 Iroha peers on two remote hosts communicating "
+"over overlay network (Calico) using custom hostnames."
+msgstr ""
+
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:144
+msgid "**TBD**"
+msgstr ""
+
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:147
+msgid "Caveats"
+msgstr ""
+
+#: ../iroha/deploy/ansible/roles/iroha-docker/README.md:150
+msgid ""
+"If ``/usr/bin/python`` does not exist on a remote host, Ansible will fail"
+" with the misleading message: ``... Make sure this host can be reached "
+"over ssh``. This usually happens when Ansible uses Python 3. On Ubuntu "
+"systems ``/usr/bin/python3`` is not symlinked to ``/usr/bin/python`` "
+"which Ansible expects to find. The problem can be solved by setting "
+"``ansible_python_interpreter`` variable to ``/usr/bin/python3``."
+msgstr ""
+
+#: ../iroha/docs/source/guides/deployment.rst:165
 msgid "Dealing with troubles"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:224
-msgid "—\"Please, help me, because I am…\""
+#: ../iroha/docs/source/guides/deployment.rst:167
+msgid "—\"Please, help me, because I…\""
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:227
-msgid "Not having Iroha daemon binary"
+#: ../iroha/docs/source/guides/deployment.rst:170
+msgid "Do not have Iroha daemon binary"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:229
+#: ../iroha/docs/source/guides/deployment.rst:172
 msgid ""
-"You can build Iroha daemon binary from sources, following API section "
-"from the `website <https://hyperledger.github.io/iroha-api/#build>`__"
+"You can build Iroha daemon binary from sources. You can get binaries "
+"`here <https://github.com/hyperledger/iroha/releases>`__"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:232
-msgid "Not having config file"
+#: ../iroha/docs/source/guides/deployment.rst:175
+msgid "Do not have a config file"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:234
+#: ../iroha/docs/source/guides/deployment.rst:177
 msgid ""
 "Check how to create a configuration file by following this `link "
-"<https://hyperledger.github.io/iroha-api/#prepare-configuration-file>`__"
+"<./configuration.html>`__"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:237
-msgid "Not having genesis block"
+#: ../iroha/docs/source/guides/deployment.rst:180
+msgid "Do not have a genesis block"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:239
+#: ../iroha/docs/source/guides/deployment.rst:182
 msgid ""
-"Create genesis block by generating it via `iroha-cli` or manually, as it "
-"is described `here <https://hyperledger.github.io/iroha-api/#create-"
-"genesis-block>`__"
+"Create genesis block by generating it via `iroha-cli` or manually, using "
+"the `example "
+"<https://github.com/hyperledger/iroha/blob/master/example/genesis.block>`__"
+" and checking out `permissions "
+"<https://iroha.readthedocs.io/en/latest/maintenance/permissions.html>`__"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:242
-msgid "Not having a keypair for a peer"
+#: ../iroha/docs/source/guides/deployment.rst:185
+msgid "Do not have a keypair for a peer"
 msgstr ""
 
-#: ../iroha/docs/source/guides/deployment.rst:244
+#: ../iroha/docs/source/guides/deployment.rst:187
 msgid ""
 "In order to create a keypair for an account or a peer, use iroha-cli "
 "binary by passing the name of the peer with `--new_account` option."
 msgstr ""
+
+#~ msgid ""
+#~ "Anyone can reuse existing Ansible "
+#~ "Playbook in order to create a "
+#~ "network of peers running Iroha. "
+#~ "Currently, this is a solution for "
+#~ "development and testing, in other words,"
+#~ " a proof of concept, and cannot "
+#~ "be used in production environment, due"
+#~ " to some security flaws. For "
+#~ "production network, a manual composing "
+#~ "of genesis block is required."
+#~ msgstr ""
+
+#~ msgid "Prerequisites"
+#~ msgstr ""
+
+#~ msgid "One ore more <virtual> machines with a Linux distributive installed."
+#~ msgstr ""
+
+#~ msgid "SSH access to those machines"
+#~ msgstr ""
+
+#~ msgid "Ansible installed on a local machine"
+#~ msgstr ""
+
+#~ msgid "Step-by-step guide"
+#~ msgstr ""
+
+#~ msgid "Create peers.list file in $IROHA_HOME/deploy/ansible/data"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Write all peers IP addresses followed"
+#~ " by the internal port 10001 (e.g "
+#~ "31.192.120.36:10001)"
+#~ msgstr ""
+
+#~ msgid "Open $IROHA_HOME/deploy/ansible/hosts file"
+#~ msgstr ""
+
+#~ msgid "Write all IP addresses in [hosts] group"
+#~ msgstr ""
+
+#~ msgid "Open terminal"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Disable host key checking, because it"
+#~ " can cause troubles due to "
+#~ "interactive prompt"
+#~ msgstr ""
+
+#~ msgid "Go to ansible folder"
+#~ msgstr ""
+
+#~ msgid "Run playbook, providing your private key and hosts file"
+#~ msgstr ""
+
+#~ msgid "Wait until playbook finishes and then Iroha network is ready and up."
+#~ msgstr ""
+
+#~ msgid "Checking Iroha peer status"
+#~ msgstr ""
+
+#~ msgid "SSH into any of your machines"
+#~ msgstr ""
+
+#~ msgid "Check Iroha container logs:"
+#~ msgstr ""
+
+#~ msgid "—\"Please, help me, because I am…\""
+#~ msgstr ""
+
+#~ msgid "Not having Iroha daemon binary"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can build Iroha daemon binary "
+#~ "from sources, following API section from"
+#~ " the `website <https://hyperledger.github.io/iroha-"
+#~ "api/#build>`__"
+#~ msgstr ""
+
+#~ msgid "Not having config file"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Check how to create a configuration "
+#~ "file by following this `link "
+#~ "<https://hyperledger.github.io/iroha-api/#prepare-"
+#~ "configuration-file>`__"
+#~ msgstr ""
+
+#~ msgid "Not having genesis block"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Create genesis block by generating it"
+#~ " via `iroha-cli` or manually, as "
+#~ "it is described `here "
+#~ "<https://hyperledger.github.io/iroha-api/#create-"
+#~ "genesis-block>`__"
+#~ msgstr ""
+
+#~ msgid "Not having a keypair for a peer"
+#~ msgstr ""
 

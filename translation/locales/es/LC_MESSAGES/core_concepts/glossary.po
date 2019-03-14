@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Iroha 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-16 20:34+0300\n"
+"POT-Creation-Date: 2019-03-14 16:19+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,46 +80,44 @@ msgid "*Outside payload*"
 msgstr ""
 
 #: ../iroha/docs/source/core_concepts/glossary.rst:38
-msgid "hash — SHA3-512 hash of block protobuf payload"
-msgstr ""
-
-#: ../iroha/docs/source/core_concepts/glossary.rst:39
 msgid ""
 "signatures — signatures of peers, which voted for the block during "
 "consensus round"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:41
+#: ../iroha/docs/source/core_concepts/glossary.rst:40
 msgid "*Inside payload*"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:43
+#: ../iroha/docs/source/core_concepts/glossary.rst:42
 msgid "height — a number of blocks in the chain up to the block"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:44
+#: ../iroha/docs/source/core_concepts/glossary.rst:43
 msgid "timestamp — Unix time (in milliseconds) of block forming by a peer"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:45
+#: ../iroha/docs/source/core_concepts/glossary.rst:44
 msgid ""
-"body — transactions, which successfully passed validation and consensus "
-"step"
+"array of transactions, which successfully passed validation and consensus"
+" step"
+msgstr ""
+
+#: ../iroha/docs/source/core_concepts/glossary.rst:45
+msgid "hash of a previous block in the chain"
 msgstr ""
 
 #: ../iroha/docs/source/core_concepts/glossary.rst:46
-msgid "transactions quantity"
+msgid ""
+"rejected transactions hashes — array of transaction hashes, which did not"
+" pass stateful validation step; this field is optional"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:47
-msgid "previous hash of a block"
-msgstr ""
-
-#: ../iroha/docs/source/core_concepts/glossary.rst:50
+#: ../iroha/docs/source/core_concepts/glossary.rst:49
 msgid "Block Creator"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:52
+#: ../iroha/docs/source/core_concepts/glossary.rst:51
 msgid ""
 "System component that forms a block from a set of transactions that have "
 "been passed `stateless <#stateless-validation>`__ and `stateful "
@@ -127,15 +125,15 @@ msgid ""
 "`consensus <#consensus>`__."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:57
+#: ../iroha/docs/source/core_concepts/glossary.rst:56
 msgid "Client"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:59
+#: ../iroha/docs/source/core_concepts/glossary.rst:58
 msgid "Any application that uses Iroha is treated as a client."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:61
+#: ../iroha/docs/source/core_concepts/glossary.rst:60
 msgid ""
 "A distinctive feature of Iroha is that all clients are using simple "
 "client-server abstractions when they interact with a peer network: they "
@@ -146,22 +144,22 @@ msgid ""
 " similarly to a single server."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:69
+#: ../iroha/docs/source/core_concepts/glossary.rst:68
 msgid "Command"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:71
+#: ../iroha/docs/source/core_concepts/glossary.rst:70
 msgid ""
 "A command is an intention to change the `state <#world-state-view>`__. "
 "For example, in order to create a new `role <#role>`__ in Iroha you have "
 "to issue `Create role <../api/commands.html#create-role>`__ command."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:76
+#: ../iroha/docs/source/core_concepts/glossary.rst:75
 msgid "Consensus"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:78
+#: ../iroha/docs/source/core_concepts/glossary.rst:77
 msgid ""
 "A consensus algorithm is a process in computer science used to achieve "
 "agreement on a single data value among distributed processes or systems. "
@@ -171,21 +169,21 @@ msgid ""
 "agent systems."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:85
+#: ../iroha/docs/source/core_concepts/glossary.rst:84
 msgid "*Consensus, as an algorithm*"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:87
+#: ../iroha/docs/source/core_concepts/glossary.rst:86
 msgid ""
 "An algorithm to achieve agreement on a block among peers in the network. "
 "By having it in the system, reliability is increased."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:89
+#: ../iroha/docs/source/core_concepts/glossary.rst:88
 msgid "*Consensus, as a component*"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:91
+#: ../iroha/docs/source/core_concepts/glossary.rst:90
 msgid ""
 "Preserves consistent state among the `peers <#peer>`__ within a peer "
 "network. Iroha uses own consensus algorithm called Yet Another Consensus "
@@ -197,21 +195,21 @@ msgid ""
 "`Ametsuchi <#ametsuchi>`__ block storage."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:99
+#: ../iroha/docs/source/core_concepts/glossary.rst:98
 msgid "Domain"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:101
+#: ../iroha/docs/source/core_concepts/glossary.rst:100
 msgid ""
 "A named abstraction for grouping `accounts <#account>`__ and `assets "
 "<#asset>`__."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:104
+#: ../iroha/docs/source/core_concepts/glossary.rst:103
 msgid "Ordering Gate"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:106
+#: ../iroha/docs/source/core_concepts/glossary.rst:105
 msgid ""
 "Internal Iroha component that passes `transactions <#transaction>`__ from"
 " `Peer Communication Service <#peer-communication-service>`__ to "
@@ -221,11 +219,11 @@ msgid ""
 "validation>`__."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:112
+#: ../iroha/docs/source/core_concepts/glossary.rst:111
 msgid "Ordering Service"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:114
+#: ../iroha/docs/source/core_concepts/glossary.rst:113
 msgid ""
 "Internal Iroha component that combines several `transactions "
 "<#transaction>`__ that have been passed `stateless validation "
@@ -233,44 +231,44 @@ msgid ""
 "creation could be triggered by one of the following events:"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:118
+#: ../iroha/docs/source/core_concepts/glossary.rst:117
 msgid "Time limit dedicated to transactions collection has expired."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:120
+#: ../iroha/docs/source/core_concepts/glossary.rst:119
 msgid ""
 "Ordering service has received the maximum amount of transactions allowed "
 "for a single proposal."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:122
+#: ../iroha/docs/source/core_concepts/glossary.rst:121
 msgid ""
 "Both parameters (timeout and maximum size of proposal) are configurable "
 "(check `environment-specific parameters <../guides/configuration.html"
 "#environment-specific-parameters>`_ page)."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:124
+#: ../iroha/docs/source/core_concepts/glossary.rst:123
 msgid ""
 "A common precondition for both triggers is that at least one transaction "
 "should reach ordering service. Otherwise, no proposal will be formed."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:128
+#: ../iroha/docs/source/core_concepts/glossary.rst:127
 msgid "Peer"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:130
+#: ../iroha/docs/source/core_concepts/glossary.rst:129
 msgid ""
 "A node that is a part of Iroha network. It participates in `consensus "
 "<#consensus>`_ process."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:134
+#: ../iroha/docs/source/core_concepts/glossary.rst:133
 msgid "Peer Communication Service"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:136
+#: ../iroha/docs/source/core_concepts/glossary.rst:135
 msgid ""
 "Internal component of Iroha - an intermediary that transmits `transaction"
 " <#transaction>`__ from `Torii <#torii>`__ to `Ordering Gate <#ordering-"
@@ -278,26 +276,26 @@ msgid ""
 "with consensus implementation."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:142
+#: ../iroha/docs/source/core_concepts/glossary.rst:141
 msgid "Permission"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:144
+#: ../iroha/docs/source/core_concepts/glossary.rst:143
 msgid ""
 "A named rule that gives the privilege to perform a command. Permission "
 "**cannot** be granted to an `account <#account>`__ directly, instead, an "
 "account has roles, which are the collection of permissions."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:148
+#: ../iroha/docs/source/core_concepts/glossary.rst:147
 msgid "`List of Iroha permissions <../maintenance/permissions.html>`_."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:151
+#: ../iroha/docs/source/core_concepts/glossary.rst:150
 msgid "Grantable Permission"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:153
+#: ../iroha/docs/source/core_concepts/glossary.rst:152
 msgid ""
 "Only grantable permission is given to an `account <#account>`__ directly."
 " An account that holds grantable permission is allowed to perform some "
@@ -307,32 +305,32 @@ msgid ""
 "anyone."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:161
+#: ../iroha/docs/source/core_concepts/glossary.rst:160
 msgid "Proposal"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:163
+#: ../iroha/docs/source/core_concepts/glossary.rst:162
 msgid ""
 "A set of `transactions <#transaction>`__ that have passed only `stateless"
 " validation <#stateless-validation>`__."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:167
+#: ../iroha/docs/source/core_concepts/glossary.rst:166
 msgid "Verified Proposal"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:169
+#: ../iroha/docs/source/core_concepts/glossary.rst:168
 msgid ""
 "A set of transactions that have been passed `stateless <#stateless-"
 "validation>`__ and `stateful <#stateful-validation>`__ validation, but "
 "were not committed yet."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:173
+#: ../iroha/docs/source/core_concepts/glossary.rst:172
 msgid "Query"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:175
+#: ../iroha/docs/source/core_concepts/glossary.rst:174
 msgid ""
 "A request to Iroha that does **not** change the `state <#world-state-"
 "view>`__. By performing a query, a client can get request data from the "
@@ -340,11 +338,11 @@ msgid ""
 "etc."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:180
+#: ../iroha/docs/source/core_concepts/glossary.rst:179
 msgid "Quorum"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:182
+#: ../iroha/docs/source/core_concepts/glossary.rst:181
 msgid ""
 "In the context of transactions signing, quorum number is a minimum amount"
 " of signatures required to consider a transaction signed. The default "
@@ -352,19 +350,19 @@ msgid ""
 " quorum number."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:188
+#: ../iroha/docs/source/core_concepts/glossary.rst:187
 msgid "Role"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:190
+#: ../iroha/docs/source/core_concepts/glossary.rst:189
 msgid "A named abstraction that holds a set of `permissions <#permission>`__."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:193
+#: ../iroha/docs/source/core_concepts/glossary.rst:192
 msgid "Signatory"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:195
+#: ../iroha/docs/source/core_concepts/glossary.rst:194
 msgid ""
 "Represents an entity that can confirm multisignature transactions for "
 "some `account <#account>`__. It can be attached to account via "
@@ -372,29 +370,29 @@ msgid ""
 "`RemoveSignatory <../api/commands.html#remove-signatory>`__."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:199
+#: ../iroha/docs/source/core_concepts/glossary.rst:198
 msgid "Simulator"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:201
+#: ../iroha/docs/source/core_concepts/glossary.rst:200
 msgid "See `Verified Proposal Creator <#verified-proposal-creator>`__."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:204
+#: ../iroha/docs/source/core_concepts/glossary.rst:203
 msgid "Synchronizer"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:206
+#: ../iroha/docs/source/core_concepts/glossary.rst:205
 msgid ""
 "Is a part of `consensus <#consensus>`__. Adds missing blocks to `peers' "
 "<#peer>`__ chains (downloads them from other peers)."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:210
+#: ../iroha/docs/source/core_concepts/glossary.rst:209
 msgid "Torii"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:212
+#: ../iroha/docs/source/core_concepts/glossary.rst:211
 msgid ""
 "⛩. Entry point for `clients <#client>`__. Uses gRPC as a transport. In "
 "order to interact with Iroha anyone can use gRPC endpoints, described in "
@@ -402,70 +400,70 @@ msgid ""
 " sections, or use `client libraries <../guides/libraries.html>`__."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:220
+#: ../iroha/docs/source/core_concepts/glossary.rst:219
 msgid "Transaction"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:222
+#: ../iroha/docs/source/core_concepts/glossary.rst:221
 msgid ""
 "An ordered set of `commands <#command>`__, which is applied to the ledger"
 " atomically. Any nonvalid command within a transaction leads to rejection"
 " of the whole transaction during the validation process."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:227
+#: ../iroha/docs/source/core_concepts/glossary.rst:226
 msgid "Transaction Structure"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:229
+#: ../iroha/docs/source/core_concepts/glossary.rst:228
 msgid "**Payload** stores all transaction fields, except signatures:"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:231
+#: ../iroha/docs/source/core_concepts/glossary.rst:230
 msgid "Time of creation (unix time, in milliseconds)"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:232
+#: ../iroha/docs/source/core_concepts/glossary.rst:231
 msgid "Account ID of transaction creator (username@domain)"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:233
+#: ../iroha/docs/source/core_concepts/glossary.rst:232
 msgid "Quorum field (indicates required number of signatures)"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:234
+#: ../iroha/docs/source/core_concepts/glossary.rst:233
 msgid ""
 "Repeated commands which are described in details in `commands section "
 "<../api/commands.html>`__"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:235
+#: ../iroha/docs/source/core_concepts/glossary.rst:234
 msgid ""
 "Batch meta information (optional part). See `Batch of Transactions`_ for "
 "details"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:238
+#: ../iroha/docs/source/core_concepts/glossary.rst:237
 msgid ""
 "**Signatures** contain one or many signatures (ed25519 public key + "
 "signature)"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:241
+#: ../iroha/docs/source/core_concepts/glossary.rst:240
 msgid "Reduced Transaction Hash"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:243
+#: ../iroha/docs/source/core_concepts/glossary.rst:242
 msgid ""
 "Reduced hash is calculated over transaction payload excluding batch meta "
 "information. Used in `Batch of Transactions`_."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:248
+#: ../iroha/docs/source/core_concepts/glossary.rst:247
 msgid "Transaction Statuses"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:250
+#: ../iroha/docs/source/core_concepts/glossary.rst:249
 msgid ""
 "Hyperledger Iroha supports both push and pull interaction mode with a "
 "client. A client that uses pull mode requests status updates about "
@@ -475,19 +473,33 @@ msgid ""
 "transaction statuses is the same:"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:259
+#: ../iroha/docs/source/core_concepts/glossary.rst:258
 msgid "Transaction Status Set"
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:261
+#: ../iroha/docs/source/core_concepts/glossary.rst:260
 msgid "NOT_RECEIVED: requested peer does not have this transaction."
 msgstr ""
 
+#: ../iroha/docs/source/core_concepts/glossary.rst:261
+msgid ""
+"ENOUGH_SIGNATURES_COLLECTED: this is a multisignature transaction which "
+"has enough signatures and is going to be validated by the peer."
+msgstr ""
+
 #: ../iroha/docs/source/core_concepts/glossary.rst:262
-msgid "MST_EXPIRED: this transactions is a part of MST pipeline and has expired."
+msgid ""
+"MST_PENDING: this transaction is a multisignature transaction which has "
+"to be signed by more keys (as requested in quorum field)."
 msgstr ""
 
 #: ../iroha/docs/source/core_concepts/glossary.rst:263
+msgid ""
+"MST_EXPIRED: this transaction is a multisignature transaction which is no"
+" longer valid and is going to be deleted by this peer."
+msgstr ""
+
+#: ../iroha/docs/source/core_concepts/glossary.rst:264
 msgid ""
 "STATELESS_VALIDATION_FAILED: the transaction was formed with some fields,"
 " not meeting stateless validation constraints. This status is returned to"
@@ -495,14 +507,14 @@ msgid ""
 "It would also return the reason — what rule was violated."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:264
+#: ../iroha/docs/source/core_concepts/glossary.rst:265
 msgid ""
 "STATELESS_VALIDATION_SUCCESS: the transaction has successfully passed "
 "stateless validation. This status is returned to a client, who formed "
 "transaction, right after the transaction was sent."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:265
+#: ../iroha/docs/source/core_concepts/glossary.rst:266
 msgid ""
 "STATEFUL_VALIDATION_FAILED: the transaction has commands, which violate "
 "validation rules, checking state of the chain (e.g. asset balance, "
@@ -510,23 +522,32 @@ msgid ""
 "was violated."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:266
+#: ../iroha/docs/source/core_concepts/glossary.rst:267
 msgid ""
 "STATEFUL_VALIDATION_SUCCESS: the transaction has successfully passed "
 "stateful validation."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:267
+#: ../iroha/docs/source/core_concepts/glossary.rst:268
 msgid ""
 "COMMITTED: the transaction is the part of a block, which gained enough "
 "votes and is in the block store at the moment."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:270
-msgid "Pending Transactions"
+#: ../iroha/docs/source/core_concepts/glossary.rst:269
+msgid ""
+"REJECTED: this exact transaction was rejected by the peer during stateful"
+" validation step in previous consensus rounds. Rejected transactions' "
+"hashes are stored in `block <#block>`__ store. This is required in order "
+"to prevent `replay attacks "
+"<https://en.wikipedia.org/wiki/Replay_attack>`__."
 msgstr ""
 
 #: ../iroha/docs/source/core_concepts/glossary.rst:272
+msgid "Pending Transactions"
+msgstr ""
+
+#: ../iroha/docs/source/core_concepts/glossary.rst:274
 msgid ""
 "Any transaction that has lesser signatures at the moment than `quorum`_ "
 "of transaction creator account is considered as pending. Pending "
@@ -535,19 +556,15 @@ msgid ""
 "required amount of signatures for quorum."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:275
+#: ../iroha/docs/source/core_concepts/glossary.rst:277
 msgid ""
 "Transaction that already has quorum of signatures can also be considered "
 "as pending in cases when the transaction is a part of `batch of "
 "transactions`_ and there is a not fully signed transaction."
 msgstr ""
 
-#: ../iroha/docs/source/core_concepts/glossary.rst:279
-msgid "Batch of Transactions"
-msgstr ""
-
 #: ../iroha/docs/source/core_concepts/glossary.rst:281
-msgid "*The feature is to be released.*"
+msgid "Batch of Transactions"
 msgstr ""
 
 #: ../iroha/docs/source/core_concepts/glossary.rst:283
@@ -667,4 +684,26 @@ msgstr ""
 #: ../iroha/docs/source/core_concepts/glossary.rst:348
 msgid "https://en.bitcoin.it/wiki/Block"
 msgstr ""
+
+#~ msgid "hash — SHA3-512 hash of block protobuf payload"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "body — transactions, which successfully "
+#~ "passed validation and consensus step"
+#~ msgstr ""
+
+#~ msgid "transactions quantity"
+#~ msgstr ""
+
+#~ msgid "previous hash of a block"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "MST_EXPIRED: this transactions is a part"
+#~ " of MST pipeline and has expired."
+#~ msgstr ""
+
+#~ msgid "*The feature is to be released.*"
+#~ msgstr ""
 

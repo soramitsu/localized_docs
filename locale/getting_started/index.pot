@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hyperledger Iroha \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-16 20:34+0300\n"
+"POT-Creation-Date: 2019-03-14 16:19+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -121,7 +121,7 @@ msgid "``--entrypoint=/bin/bash \\`` Because ``hyperledger/iroha`` has the custo
 msgstr ""
 
 #: ../iroha/docs/source/getting_started/index.rst:122
-msgid "``hyperledger/iroha:develop`` is the image which has the ``develop`` branch."
+msgid "``hyperledger/iroha:latest`` is the image which has the ``master`` branch."
 msgstr ""
 
 #: ../iroha/docs/source/getting_started/index.rst:126

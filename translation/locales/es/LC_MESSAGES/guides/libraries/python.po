@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Iroha 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-16 13:57+0300\n"
+"POT-Creation-Date: 2019-03-14 16:19+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,156 +27,147 @@ msgstr ""
 
 #: ../iroha/docs/source/guides/libraries/python.rst:7
 msgid ""
-"There are two ways to get Iroha library for Python: via pip and manual "
-"compilation from source code. The installation via pip do the same steps "
-"as manual compilation so for both of them you need to install all of the "
-"prerequisites."
+"A supported python library for Iroha is available at its `own Hyperledger"
+" iroha-python repo <https://github.com/hyperledger/iroha-python/>`__. "
+"Python 3+ is supported."
 msgstr ""
 
 #: ../iroha/docs/source/guides/libraries/python.rst:10
-#: ../iroha/docs/source/guides/libraries/python.rst:60
-msgid "Prerequisites"
+msgid "You can also install Python library via pip:"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:13
-msgid "CMake, git, g++, boost, swig, protobuf, python"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/python.rst:13
-#: ../iroha/docs/source/guides/libraries/python.rst:63
-msgid ""
-"Please refer to the page `Installing Dependencies <dependencies.html>`__ "
-"to get installation recipes for the tools."
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/python.rst:16
-msgid "Install Iroha Python Libraries"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/python.rst:18
-msgid "Via PIP"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/python.rst:24
-msgid "For the latest version"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/python.rst:30
-msgid "Source code"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/python.rst:37
-msgid ""
-"For the latest version checkout to develop branch by adding *-b develop* "
-"parameter."
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/python.rst:48
-msgid ""
-"After this you can find Iroha python library in "
-"**iroha/build/shared_model/bindings** folder, where you have previously "
-"cloned repository."
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/python.rst:51
-msgid "How to Use/Import"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/python.rst:54
-msgid "Compile Protobuf Modules of Iroha from Schema Files"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/python.rst:56
-msgid ""
-"Iroha communicates with users through protobuf messages. In order to send"
-" transactions and queries to Iroha node you need to get python module for"
-" generating protobuf messages. First of all you need to clone schema "
-"folder of Iroha repository. If you have already cloned Iroha repository "
-"in the previous step, just use schema folder from there."
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/python.rst:63
-msgid "protobuf, pip"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/python.rst:66
-msgid "Building Protobuf Files"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/python.rst:81
-msgid ""
-"Protobuf files can be found in **iroha-schema** folder ('\\*_pb2\\*.py' "
-"files)"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/python.rst:83
-msgid "In order to specify Iroha libraries location:"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/python.rst:91
-msgid "Import Iroha and all of the protobuf modules that you need:"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/python.rst:102
+#: ../iroha/docs/source/guides/libraries/python.rst:17
 msgid "Example Code"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:106
-msgid ""
-"Work with byte arrays is different in Python 2 and Python 3. Due to this "
-"fact, the work with hashes and blobs is different in the examples. Given "
-"examples work fine with both versions of Python."
-msgstr ""
+#~ msgid ""
+#~ "There are two ways to get Iroha"
+#~ " library for Python: via pip and "
+#~ "manual compilation from source code. The"
+#~ " installation via pip do the same "
+#~ "steps as manual compilation so for "
+#~ "both of them you need to install"
+#~ " all of the prerequisites."
+#~ msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:108
-msgid "Import Iroha and schema classes, generated from Iroha protobuf:"
-msgstr ""
+#~ msgid "Prerequisites"
+#~ msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:120
-msgid "Get Iroha objects:"
-msgstr ""
+#~ msgid "CMake, git, g++, boost, swig, protobuf, python"
+#~ msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:130
-msgid "Read public and private keys:"
-msgstr ""
+#~ msgid ""
+#~ "Please refer to the page `Installing "
+#~ "Dependencies <dependencies.html>`__ to get "
+#~ "installation recipes for the tools."
+#~ msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:138
-msgid "Print transaction status with synchronous simple call:"
-msgstr ""
+#~ msgid "Install Iroha Python Libraries"
+#~ msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:174
-msgid "Or streaming call:"
-msgstr ""
+#~ msgid "Via PIP"
+#~ msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:186
-msgid "Send transactions to Iroha:"
-msgstr ""
+#~ msgid "For the latest version"
+#~ msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:206
-msgid "Send query to Iroha and receive a responce:"
-msgstr ""
+#~ msgid "Source code"
+#~ msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:228
-msgid "Create domain and asset:"
-msgstr ""
+#~ msgid ""
+#~ "For the latest version checkout to "
+#~ "develop branch by adding *-b develop*"
+#~ " parameter."
+#~ msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:241
-msgid "Create asset quantity:"
-msgstr ""
+#~ msgid ""
+#~ "After this you can find Iroha "
+#~ "python library in "
+#~ "**iroha/build/shared_model/bindings** folder, where "
+#~ "you have previously cloned repository."
+#~ msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:253
-msgid "Create account:"
-msgstr ""
+#~ msgid "How to Use/Import"
+#~ msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:267
-msgid "Send asset:"
-msgstr ""
+#~ msgid "Compile Protobuf Modules of Iroha from Schema Files"
+#~ msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:279
-msgid "Get asset info:"
-msgstr ""
+#~ msgid ""
+#~ "Iroha communicates with users through "
+#~ "protobuf messages. In order to send "
+#~ "transactions and queries to Iroha node"
+#~ " you need to get python module "
+#~ "for generating protobuf messages. First "
+#~ "of all you need to clone schema"
+#~ " folder of Iroha repository. If you"
+#~ " have already cloned Iroha repository "
+#~ "in the previous step, just use "
+#~ "schema folder from there."
+#~ msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/python.rst:301
-msgid "Get account asset:"
-msgstr ""
+#~ msgid "protobuf, pip"
+#~ msgstr ""
+
+#~ msgid "Building Protobuf Files"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Protobuf files can be found in "
+#~ "**iroha-schema** folder ('\\*_pb2\\*.py' files)"
+#~ msgstr ""
+
+#~ msgid "In order to specify Iroha libraries location:"
+#~ msgstr ""
+
+#~ msgid "Import Iroha and all of the protobuf modules that you need:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Work with byte arrays is different "
+#~ "in Python 2 and Python 3. Due "
+#~ "to this fact, the work with hashes"
+#~ " and blobs is different in the "
+#~ "examples. Given examples work fine with"
+#~ " both versions of Python."
+#~ msgstr ""
+
+#~ msgid "Import Iroha and schema classes, generated from Iroha protobuf:"
+#~ msgstr ""
+
+#~ msgid "Get Iroha objects:"
+#~ msgstr ""
+
+#~ msgid "Read public and private keys:"
+#~ msgstr ""
+
+#~ msgid "Print transaction status with synchronous simple call:"
+#~ msgstr ""
+
+#~ msgid "Or streaming call:"
+#~ msgstr ""
+
+#~ msgid "Send transactions to Iroha:"
+#~ msgstr ""
+
+#~ msgid "Send query to Iroha and receive a responce:"
+#~ msgstr ""
+
+#~ msgid "Create domain and asset:"
+#~ msgstr ""
+
+#~ msgid "Create asset quantity:"
+#~ msgstr ""
+
+#~ msgid "Create account:"
+#~ msgstr ""
+
+#~ msgid "Send asset:"
+#~ msgstr ""
+
+#~ msgid "Get asset info:"
+#~ msgstr ""
+
+#~ msgid "Get account asset:"
+#~ msgstr ""
 

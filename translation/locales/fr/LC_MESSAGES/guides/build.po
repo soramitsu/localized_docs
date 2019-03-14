@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Iroha 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-16 20:34+0300\n"
+"POT-Creation-Date: 2019-03-14 16:19+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,8 +68,8 @@ msgstr ""
 #: ../iroha/docs/source/guides/build.rst:28
 msgid ""
 "First of all, you need to install ``docker`` and ``docker-compose``. You "
-"can read how to install it on a `Docker's website <https://www.docker.com"
-"/community-edition/>`_"
+"can read how to install it on the `Docker's website "
+"<https://www.docker.com/community-edition/>`_"
 msgstr ""
 
 #: ../iroha/docs/source/guides/build.rst:32
@@ -251,22 +251,22 @@ msgid "Main Parameters"
 msgstr ""
 
 #: ../iroha/docs/source/guides/build.rst:180
-#: ../iroha/docs/source/guides/build.rst:197
+#: ../iroha/docs/source/guides/build.rst:193
 msgid "Parameter"
 msgstr ""
 
 #: ../iroha/docs/source/guides/build.rst:180
-#: ../iroha/docs/source/guides/build.rst:197
+#: ../iroha/docs/source/guides/build.rst:193
 msgid "Possible values"
 msgstr ""
 
 #: ../iroha/docs/source/guides/build.rst:180
-#: ../iroha/docs/source/guides/build.rst:197
+#: ../iroha/docs/source/guides/build.rst:193
 msgid "Default"
 msgstr ""
 
 #: ../iroha/docs/source/guides/build.rst:180
-#: ../iroha/docs/source/guides/build.rst:197
+#: ../iroha/docs/source/guides/build.rst:193
 msgid "Description"
 msgstr ""
 
@@ -275,12 +275,12 @@ msgid "TESTING"
 msgstr ""
 
 #: ../iroha/docs/source/guides/build.rst:182
-#: ../iroha/docs/source/guides/build.rst:199
+#: ../iroha/docs/source/guides/build.rst:195
 msgid "ON/OFF"
 msgstr ""
 
 #: ../iroha/docs/source/guides/build.rst:182
-#: ../iroha/docs/source/guides/build.rst:199
+#: ../iroha/docs/source/guides/build.rst:195
 msgid "ON"
 msgstr ""
 
@@ -294,12 +294,10 @@ msgstr ""
 
 #: ../iroha/docs/source/guides/build.rst:184
 #: ../iroha/docs/source/guides/build.rst:186
-#: ../iroha/docs/source/guides/build.rst:188
-#: ../iroha/docs/source/guides/build.rst:190
+#: ../iroha/docs/source/guides/build.rst:197
+#: ../iroha/docs/source/guides/build.rst:199
 #: ../iroha/docs/source/guides/build.rst:201
 #: ../iroha/docs/source/guides/build.rst:203
-#: ../iroha/docs/source/guides/build.rst:205
-#: ../iroha/docs/source/guides/build.rst:207
 msgid "OFF"
 msgstr ""
 
@@ -315,81 +313,65 @@ msgstr ""
 msgid "Enables or disables lcov setting for code coverage generation"
 msgstr ""
 
-#: ../iroha/docs/source/guides/build.rst:188
-msgid "SWIG_PYTHON"
-msgstr ""
-
-#: ../iroha/docs/source/guides/build.rst:188
-msgid "Enables of disables the library building and Python bindings"
-msgstr ""
-
 #: ../iroha/docs/source/guides/build.rst:190
-msgid "SWIG_JAVA"
-msgstr ""
-
-#: ../iroha/docs/source/guides/build.rst:190
-msgid "Enables of disables the library building and Java bindings"
-msgstr ""
-
-#: ../iroha/docs/source/guides/build.rst:194
 msgid "Packaging Specific Parameters"
 msgstr ""
 
-#: ../iroha/docs/source/guides/build.rst:199
+#: ../iroha/docs/source/guides/build.rst:195
 msgid "ENABLE_LIBS_PACKAGING"
 msgstr ""
 
-#: ../iroha/docs/source/guides/build.rst:199
+#: ../iroha/docs/source/guides/build.rst:195
 msgid "Enables or disables all types of packaging"
 msgstr ""
 
-#: ../iroha/docs/source/guides/build.rst:201
+#: ../iroha/docs/source/guides/build.rst:197
 msgid "PACKAGE_ZIP"
 msgstr ""
 
-#: ../iroha/docs/source/guides/build.rst:201
+#: ../iroha/docs/source/guides/build.rst:197
 msgid "Enables or disables zip packaging"
 msgstr ""
 
-#: ../iroha/docs/source/guides/build.rst:203
+#: ../iroha/docs/source/guides/build.rst:199
 msgid "PACKAGE_TGZ"
 msgstr ""
 
-#: ../iroha/docs/source/guides/build.rst:203
+#: ../iroha/docs/source/guides/build.rst:199
 msgid "Enables or disables tar.gz packaging"
 msgstr ""
 
-#: ../iroha/docs/source/guides/build.rst:205
+#: ../iroha/docs/source/guides/build.rst:201
 msgid "PACKAGE_RPM"
 msgstr ""
 
-#: ../iroha/docs/source/guides/build.rst:205
+#: ../iroha/docs/source/guides/build.rst:201
 msgid "Enables or disables rpm packaging"
 msgstr ""
 
-#: ../iroha/docs/source/guides/build.rst:207
+#: ../iroha/docs/source/guides/build.rst:203
 msgid "PACKAGE_DEB"
 msgstr ""
 
-#: ../iroha/docs/source/guides/build.rst:207
+#: ../iroha/docs/source/guides/build.rst:203
 msgid "Enables or disables deb packaging"
 msgstr ""
 
-#: ../iroha/docs/source/guides/build.rst:211
+#: ../iroha/docs/source/guides/build.rst:207
 msgid "Running Tests (optional)"
 msgstr ""
 
-#: ../iroha/docs/source/guides/build.rst:213
+#: ../iroha/docs/source/guides/build.rst:209
 msgid ""
 "After building Iroha, it is a good idea to run tests to check the "
 "operability of the daemon. You can run tests with this code:"
 msgstr ""
 
-#: ../iroha/docs/source/guides/build.rst:220
+#: ../iroha/docs/source/guides/build.rst:216
 msgid "Alternatively, you can run following command in the ``build`` folder"
 msgstr ""
 
-#: ../iroha/docs/source/guides/build.rst:227
+#: ../iroha/docs/source/guides/build.rst:223
 msgid ""
 "Some of the tests will fail without PostgreSQL storage running, so if you"
 " are not using ``scripts/run-iroha-dev.sh`` script please run Docker "
@@ -434,5 +416,25 @@ msgstr ""
 #~ " system and filesystem, so use "
 #~ "``./bootstrap.sh --with-libraries=system,filesystem`` "
 #~ "when you are building the project."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "First of all, you need to install"
+#~ " ``docker`` and ``docker-compose``. You "
+#~ "can read how to install it on "
+#~ "a `Docker's website <https://www.docker.com"
+#~ "/community-edition/>`_"
+#~ msgstr ""
+
+#~ msgid "SWIG_PYTHON"
+#~ msgstr ""
+
+#~ msgid "Enables of disables the library building and Python bindings"
+#~ msgstr ""
+
+#~ msgid "SWIG_JAVA"
+#~ msgstr ""
+
+#~ msgid "Enables of disables the library building and Java bindings"
 #~ msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Iroha 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-16 13:57+0300\n"
+"POT-Creation-Date: 2019-03-14 16:19+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,23 +21,458 @@ msgstr ""
 msgid "Contribution"
 msgstr ""
 
-#: ../iroha/docs/source/contribution/index.rst:4
-msgid "Contents are missing for now."
+#: ../iroha/CONTRIBUTING.md:2
+msgid "First off, thanks for taking the time to contribute!"
 msgstr ""
 
-#: ../iroha/docs/source/contribution/index.rst:7
-msgid "Code of conduct"
+#: ../iroha/CONTRIBUTING.md:4
+msgid "The following is a short set of guidelines for contributing to Iroha."
 msgstr ""
 
-#: ../iroha/docs/source/contribution/index.rst:10
-msgid "Process"
+#: ../iroha/CONTRIBUTING.md:7
+msgid "Table Of Contents"
 msgstr ""
 
-#: ../iroha/docs/source/contribution/index.rst:13
-msgid "Communication"
+#: ../iroha/CONTRIBUTING.md:10
+msgid "`How Can I Contribute? <#how-can-i-contribute-1>`_"
 msgstr ""
 
-#: ../iroha/docs/source/contribution/index.rst:16
-msgid "Issue tracker"
+#: ../iroha/CONTRIBUTING.md:13
+msgid "`Reporting bugs <#reporting-bugs>`_"
 msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:14
+msgid "`Suggesting Improvements <#suggesting-improvements>`_"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:15
+msgid "`Asking Questions <#asking-questions>`_"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:16
+msgid "`Your First Code Contribution <#your-first-code-contribution>`_"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:17
+msgid "`Pull Requests <#pull-requests>`_"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:20
+msgid "`Styleguides <#styleguides-1>`_"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:23
+msgid "`Git Style Guide <#git-style-guide>`_"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:24
+msgid "`C++ Style Guide <#c-style-guide>`_"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:25
+msgid "`Documentation Styleguide <#documentation-styleguide>`_"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:28
+msgid "`Contact Developers <#places-where-community-is-active>`_"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:31
+msgid "How Can I Contribute?"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:34
+msgid "Reporting bugs"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:36
+msgid ""
+"*Bug* is an error, design flaw, failure or fault in Iroha that causes it "
+"to produce an incorrect or unexpected result, or to behave in unintended "
+"ways."
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:38
+msgid ""
+"Bugs are tracked as `JIRA issues "
+"<https://jira.hyperledger.org/projects/IR/issues/IR-275?filter=allopenissues&orderby=issuetype+ASC%2C+priority+DESC%2C+updated+DESC>`_"
+" in Hyperledger Jira."
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:40
+msgid ""
+"To submit a bug, `create new issue "
+"<https://jira.hyperledger.org/secure/CreateIssue.jspa>`_ and include "
+"these details:"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:45 ../iroha/CONTRIBUTING.md:71
+msgid "Field"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:46 ../iroha/CONTRIBUTING.md:72
+msgid "What to enter"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:47 ../iroha/CONTRIBUTING.md:73
+msgid "Project"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:48 ../iroha/CONTRIBUTING.md:74
+msgid "Iroha (IR)"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:49 ../iroha/CONTRIBUTING.md:75
+msgid "Issue Type"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:50
+msgid "Bug"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:51 ../iroha/CONTRIBUTING.md:77
+msgid "Summary"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:52
+msgid "Essence of the problem"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:53 ../iroha/CONTRIBUTING.md:79
+msgid "Description"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:54
+msgid "What the issue is about; if you have any logs, please provide them"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:55 ../iroha/CONTRIBUTING.md:81
+msgid "Priority"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:56
+msgid ""
+"You can use Medium though if you see the issue as a high priority, please"
+" choose that"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:57
+msgid "Environment"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:58
+msgid ""
+"Your OS, device's specs, Virtual Environment if you use one, version of "
+"Iroha etc."
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:62
+msgid "Suggesting Improvements"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:64
+msgid ""
+"An *improvement* is a code or idea, which makes **existing** code or "
+"design faster, more stable, portable, secure or better in any other way."
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:66
+#, python-format
+msgid ""
+"Improvements are tracked as `JIRA improvements "
+"<https://jira.hyperledger.org/browse/IR-184?jql=project%20%3D%20IR%20and%20issuetype%20%3D%20Improvement%20ORDER%20BY%20updated%20DESC>`_."
+" To submit new improvement, `create new issue "
+"<https://jira.hyperledger.org/secure/CreateIssue.jspa>`_ and include "
+"these details:"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:76
+msgid "Improvement"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:78
+msgid "Essence of the idea"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:80
+msgid ""
+"What the idea is about; if you have any code suggestions, you are welcome"
+" to add them here"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:82
+msgid "You can use Medium"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:83
+msgid "Assign"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:84
+msgid "You can assign the task to yourself if you are planning on working on it"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:88
+msgid "Asking Questions"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:90
+msgid ""
+"A *question* is any discussion that is typically neigher a bug, nor "
+"feature request or improvement. If you have a question like \"How do I do"
+" X?\" - this paragraph is for you."
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:92
+msgid ""
+"Please post your question in `your favourite messenger <#places-where-"
+"community-is-active>`_ so members of the community could help you. You "
+"can also help others!"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:95
+msgid "Your First Code Contribution"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:97
+#, python-format
+msgid ""
+"Read our `C++ Style Guide <#c-style-guide>`_ and start with beginner-"
+"friendly issues with JIRA label `\\ ``[good-first-issue]`` "
+"<https://jira.hyperledger.org/issues/?jql=project%20%3D%20IR%20and%20labels%20%3D"
+"%20good-first-issue%20ORDER%20BY%20updated%20DESC>`_ <- click here. "
+"Indicate somehow that you are working on this task: get in touch with "
+"maintainers team, community or simply assign this issue to yourself."
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:100
+msgid "Pull Requests"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:104
+msgid "Fill in `the required template <.github/PULL_REQUEST_TEMPLATE.md>`_"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:107
+msgid "End all files with a newline"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:110
+msgid ""
+"**Write tests** for new code. Test coverage for new code must be at least"
+" 70%"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:113
+msgid ""
+"Every pull request should be reviewed and **get at least two approvals "
+"from maintainers team**. Check who is a current maintainer in "
+"`MAINTAINERS.md "
+"<https://github.com/hyperledger/iroha/blob/master/MAINTAINERS.md>`_ file"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:116
+msgid ""
+"When you've finished work make sure that you've got all passing CI checks"
+" — after that **squash and merge** your pull request"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:119
+msgid "Follow the `C++ Style Guide <#c-style-guide>`_"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:122
+msgid "Follow the `Git Style Guide <#git-style-guide>`_"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:125
+msgid ""
+"**Document new code** based on the `Documentation Styleguide "
+"<#documentation-styleguide>`_"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:128
+msgid ""
+"When working with **PRs from forks** check `this manual "
+"<https://help.github.com/articles/checking-out-pull-requests-locally>`_"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:131
+msgid "Styleguides"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:134
+msgid "Git Style Guide"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:137
+msgid ""
+"**Sign-off every commit** with `DCO <https://github.com/apps/dco>`_\\ : "
+"``Signed-off-by: $NAME <$EMAIL>``. You can do it automatically using "
+"``git commit -s``"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:138
+msgid "**Use present tense** (\"Add feature\", not \"Added feature\")."
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:139
+msgid ""
+"**Use imperative mood** (\"Deploy docker to...\" not \"Deploys docker "
+"to...\")."
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:140
+msgid "Write meaningful commit message."
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:141
+msgid "Limit the first line of commit message to 50 characters or less"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:142
+msgid ""
+"First line of commit message must contain summary of work done, second "
+"line must contain empty line, third and other lines can contain list of "
+"commit changes"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:145
+msgid "C++ Style Guide"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:148
+#, python-format
+msgid ""
+"Use clang-format `settings "
+"<https://github.com/hyperledger/iroha/blob/master/.clang-format>`_ file. "
+"There are guides available on the internet (e.g. `Kratos wiki "
+"<https://github.com/KratosMultiphysics/Kratos/wiki/How-to-configure-"
+"clang%E2%80%90format>`_\\ )"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:149
+msgid ""
+"Follow `CppCoreGuidelines "
+"<http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines>`_ and `Cpp "
+"Best Practices <https://lefticus.gitbooks.io/cpp-best-practices>`_."
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:150
+msgid ""
+"Avoid `platform-dependent <https://stackoverflow.com/questions/1558194"
+"/learning-and-cross-platform-development-c>`_ code."
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:151
+msgid "Use `C++14 <https://en.wikipedia.org/wiki/C%2B%2B14>`_."
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:152
+msgid ""
+"Use `camelCase <https://en.wikipedia.org/wiki/Camel_case>`_ for class "
+"names and methods, use `snake_case "
+"<https://en.wikipedia.org/wiki/Snake_case>`_ for variables."
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:155
+msgid "Documentation Styleguide"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:158
+msgid ""
+"Use `Doxygen "
+"<http://www.stack.nl/~dimitri/doxygen/manual/docblocks.html>`_."
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:159
+msgid ""
+"Document all public API: methods, functions, members, templates, "
+"classes..."
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:162
+msgid "Places where community is active"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:164
+msgid "Our community members are active at:"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:169
+msgid "Service"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:170
+msgid "Link"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:171
+msgid "RocketChat"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:172
+msgid "https://chat.hyperledger.org/channel/iroha"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:173
+msgid "StackOverflow"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:174
+msgid "https://stackoverflow.com/questions/tagged/hyperledger-iroha"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:175
+msgid "Mailing List"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:176
+msgid ""
+"`hyperledger-iroha@lists.hyperledger.org <mailto:hyperledger-"
+"iroha@lists.hyperledger.org>`_"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:177
+msgid "Gitter"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:178
+msgid "https://gitter.im/hyperledger-iroha/Lobby"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:179
+msgid "Telegram"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:180
+msgid "https://t.me/hl_iroha"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:181
+msgid "YouTube"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:182
+msgid "https://www.youtube.com/channel/UCYlK9OrZo9hvNYFuf0vrwww"
+msgstr ""
+
+#: ../iroha/CONTRIBUTING.md:187
+msgid "Thank you for reading the document!"
+msgstr ""
+
+#~ msgid "Contents are missing for now."
+#~ msgstr ""
+
+#~ msgid "Code of conduct"
+#~ msgstr ""
+
+#~ msgid "Process"
+#~ msgstr ""
+
+#~ msgid "Communication"
+#~ msgstr ""
+
+#~ msgid "Issue tracker"
+#~ msgstr ""
 

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hyperledger Iroha \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-16 20:34+0300\n"
+"POT-Creation-Date: 2019-03-14 16:19+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,149 +22,167 @@ msgstr ""
 msgid "Java Library"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/java.rst:5
-#: ../iroha/docs/source/guides/libraries/java.rst:130
-msgid "Prerequisites"
+#: ../iroha/docs/source/guides/libraries/java.rst:4
+msgid "Client library of Iroha written completely in Java 8, which includes:"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/java.rst:7
-msgid "Java 6"
+#: ../iroha/docs/source/guides/libraries/java.rst:6
+msgid "SDK to work with Iroha API"
 msgstr ""
 
 #: ../iroha/docs/source/guides/libraries/java.rst:8
-msgid "Gradle"
+msgid "async wrapper over Iroha API"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/java.rst:11
-msgid "Build Process"
+#: ../iroha/docs/source/guides/libraries/java.rst:10
+msgid "`testcontainers` wrapper for convenient integration testing with Iroha"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/java.rst:13
-msgid "Clone Iroha repository"
+#: ../iroha/docs/source/guides/libraries/java.rst:12
+msgid "examples in Java and Groovy"
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/java.rst:14
+msgid ""
+"Both options are described in the following sections. Please check readme"
+" file in `project's repo <https://github.com/hyperledger/iroha-java>`__."
+msgstr ""
+
+#: ../iroha/docs/source/guides/libraries/java.rst:18
+msgid "How to use"
 msgstr ""
 
 #: ../iroha/docs/source/guides/libraries/java.rst:20
-msgid ""
-"For the latest version checkout a ``develop`` branch by adding ``-b "
-"develop`` parameter."
+msgid "`JitPack <https://jitpack.io/#hyperledger/iroha-java>`__"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/java.rst:23
-msgid ""
-"Now we need to build our Java native library. Run "
-"``example/java/build_library.sh``, which will take care of it."
+#: ../iroha/docs/source/guides/libraries/java.rst:21
+msgid "`GitHub <https://github.com/hyperledger/iroha>`__"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/java.rst:31
-msgid ""
-"``build_library.sh`` script creates a ``dist`` folder with files, needed "
-"in :ref:`java-how-to-use` section."
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/java.rst:37
-msgid "How to Use"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/java.rst:39
-msgid "There are two ways of adding the Java library to your project:"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/java.rst:41
-msgid "Import Java bindings through Maven Central"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/java.rst:42
-msgid "Compile Java bindings manually"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/java.rst:44
-msgid "Both options are described in the following sections."
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/java.rst:47
-msgid "Import Java Bindings from Maven Central"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/java.rst:49
-msgid ""
-"First of all, you need to copy ``example/java/dist/libirohajava.jnilib`` "
-"to the root folder of your project."
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/java.rst:56
-msgid ""
-"If you use **Gradle**, add the following line to your ``build.gradle`` "
-"file:"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/java.rst:58
-#: ../iroha/docs/source/guides/libraries/java.rst:98
-msgid "build.gradle"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/java.rst:65
-#: ../iroha/docs/source/guides/libraries/java.rst:114
-msgid "pom.xml"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/java.rst:75
-msgid ""
-"Set the latest version number from our `Maven repository "
-"<https://mvnrepository.com/artifact/jp.co.soramitsu/iroha>`_"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/java.rst:79
-msgid "Compiling Java Bindings Manually"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/java.rst:81
-msgid ""
-"Java bindings were compiled with ``example/java/build_library.sh`` in "
-"`Build Process` section. You need to copy "
-"``example/java/dist/libirohajava.jnilib`` to the root folder of your "
-"project:"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/java.rst:89
-msgid ""
-"If you use **Gradle**, you need to copy "
-"``example/java/dist/iroha_lib.jar`` to the ``libs`` folder of your "
-"project"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/java.rst:96
-msgid "Then please add the following to your ``build.gradle`` file:"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/java.rst:112
-msgid "After it please add this to your ``pom.xml``:"
-msgstr ""
-
-#: ../iroha/docs/source/guides/libraries/java.rst:125
+#: ../iroha/docs/source/guides/libraries/java.rst:24
 msgid "Example code"
 msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/java.rst:126
-msgid ""
-"Explore ``example/java/TransactionExample.java`` file to get an idea of "
-"how to work with a library."
-msgstr ""
+#~ msgid "Prerequisites"
+#~ msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/java.rst:131
-msgid ""
-"To run this example, you need an Iroha node up and running. Please check "
-"out :ref:`getting-started` if you want to learn how to start it."
-msgstr ""
+#~ msgid "Java 6"
+#~ msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/java.rst:135
-msgid "Running the Example"
-msgstr ""
+#~ msgid "Gradle"
+#~ msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/java.rst:136
-msgid "To start the example, you need to build the example:"
-msgstr ""
+#~ msgid "Build Process"
+#~ msgstr ""
 
-#: ../iroha/docs/source/guides/libraries/java.rst:143
-msgid "Now, to run this example please write:"
-msgstr ""
+#~ msgid "Clone Iroha repository"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For the latest version checkout a "
+#~ "``develop`` branch by adding ``-b "
+#~ "develop`` parameter."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Now we need to build our Java "
+#~ "native library. Run "
+#~ "``example/java/build_library.sh``, which will take"
+#~ " care of it."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``build_library.sh`` script creates a ``dist``"
+#~ " folder with files, needed in :ref"
+#~ ":`java-how-to-use` section."
+#~ msgstr ""
+
+#~ msgid "How to Use"
+#~ msgstr ""
+
+#~ msgid "There are two ways of adding the Java library to your project:"
+#~ msgstr ""
+
+#~ msgid "Import Java bindings through Maven Central"
+#~ msgstr ""
+
+#~ msgid "Compile Java bindings manually"
+#~ msgstr ""
+
+#~ msgid "Both options are described in the following sections."
+#~ msgstr ""
+
+#~ msgid "Import Java Bindings from Maven Central"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "First of all, you need to copy "
+#~ "``example/java/dist/libirohajava.jnilib`` to the "
+#~ "root folder of your project."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you use **Gradle**, add the "
+#~ "following line to your ``build.gradle`` "
+#~ "file:"
+#~ msgstr ""
+
+#~ msgid "build.gradle"
+#~ msgstr ""
+
+#~ msgid "pom.xml"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Set the latest version number from "
+#~ "our `Maven repository "
+#~ "<https://mvnrepository.com/artifact/jp.co.soramitsu/iroha>`_"
+#~ msgstr ""
+
+#~ msgid "Compiling Java Bindings Manually"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Java bindings were compiled with "
+#~ "``example/java/build_library.sh`` in `Build Process`"
+#~ " section. You need to copy "
+#~ "``example/java/dist/libirohajava.jnilib`` to the "
+#~ "root folder of your project:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you use **Gradle**, you need to"
+#~ " copy ``example/java/dist/iroha_lib.jar`` to the"
+#~ " ``libs`` folder of your project"
+#~ msgstr ""
+
+#~ msgid "Then please add the following to your ``build.gradle`` file:"
+#~ msgstr ""
+
+#~ msgid "After it please add this to your ``pom.xml``:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Explore ``example/java/TransactionExample.java`` file "
+#~ "to get an idea of how to "
+#~ "work with a library."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To run this example, you need an"
+#~ " Iroha node up and running. Please"
+#~ " check out :ref:`getting-started` if "
+#~ "you want to learn how to start "
+#~ "it."
+#~ msgstr ""
+
+#~ msgid "Running the Example"
+#~ msgstr ""
+
+#~ msgid "To start the example, you need to build the example:"
+#~ msgstr ""
+
+#~ msgid "Now, to run this example please write:"
+#~ msgstr ""
 

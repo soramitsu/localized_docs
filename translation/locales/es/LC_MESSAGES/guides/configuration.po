@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Iroha 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-16 20:34+0300\n"
+"POT-Creation-Date: 2019-03-14 16:19+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,11 +59,17 @@ msgid ""
 " username and password."
 msgstr ""
 
-#: ../iroha/docs/source/guides/configuration.rst:36
-msgid "Environment-specific parameters"
+#: ../iroha/docs/source/guides/configuration.rst:34
+msgid ""
+"``log`` is an optional parameter controlling log output verbosity and "
+"format (see below)."
 msgstr ""
 
 #: ../iroha/docs/source/guides/configuration.rst:38
+msgid "Environment-specific parameters"
+msgstr ""
+
+#: ../iroha/docs/source/guides/configuration.rst:40
 msgid ""
 "``max_proposal_size`` is the maximum amount of transactions that can be "
 "in one proposal, and as a result in a single block as well. So, by "
@@ -72,7 +78,7 @@ msgid ""
 "if you have a lot of transactions per second."
 msgstr ""
 
-#: ../iroha/docs/source/guides/configuration.rst:43
+#: ../iroha/docs/source/guides/configuration.rst:45
 msgid ""
 "``proposal_delay`` is a maximum waiting time in milliseconds before "
 "emitting a new proposal. Proposal is emitted if the ``max_proposal_size``"
@@ -83,7 +89,7 @@ msgid ""
 "be many proposals of small size."
 msgstr ""
 
-#: ../iroha/docs/source/guides/configuration.rst:50
+#: ../iroha/docs/source/guides/configuration.rst:52
 msgid ""
 "``vote_delay`` is a waiting time in milliseconds before sending vote to "
 "the next peer. Optimal value depends heavily on the amount of Iroha peers"
@@ -91,11 +97,75 @@ msgid ""
 "We recommend to start with 100-1000 milliseconds."
 msgstr ""
 
-#: ../iroha/docs/source/guides/configuration.rst:54
+#: ../iroha/docs/source/guides/configuration.rst:56
 msgid ""
 "``mst_enable`` enables or disables multisignature transaction support in "
 "Iroha. We recommend setting this parameter to ``false`` at the moment "
 "until you really need it."
+msgstr ""
+
+#: ../iroha/docs/source/guides/configuration.rst:61
+msgid "Logging"
+msgstr ""
+
+#: ../iroha/docs/source/guides/configuration.rst:63
+msgid ""
+"In Iroha logging can be adjusted as granularly as you want. Each "
+"component has its own logging configuration with properties inherited "
+"from its parent, able to be overridden through config file. This means "
+"all the component loggers are organized in a tree with a single root. The"
+" relevant section of the configuration file contains the overriding "
+"values:"
+msgstr ""
+
+#: ../iroha/docs/source/guides/configuration.rst:95
+msgid "Every part of this config section is optional."
+msgstr ""
+
+#: ../iroha/docs/source/guides/configuration.rst:97
+msgid ""
+"``level`` sets the verbosity. Available values are (in decreasing "
+"verbosity order):"
+msgstr ""
+
+#: ../iroha/docs/source/guides/configuration.rst:100
+msgid "``trace`` - print everything"
+msgstr ""
+
+#: ../iroha/docs/source/guides/configuration.rst:101
+msgid "``debug``"
+msgstr ""
+
+#: ../iroha/docs/source/guides/configuration.rst:102
+msgid "``info``"
+msgstr ""
+
+#: ../iroha/docs/source/guides/configuration.rst:103
+msgid "``warning``"
+msgstr ""
+
+#: ../iroha/docs/source/guides/configuration.rst:104
+msgid "``error``"
+msgstr ""
+
+#: ../iroha/docs/source/guides/configuration.rst:105
+msgid "``critical`` - print only critical messages"
+msgstr ""
+
+#: ../iroha/docs/source/guides/configuration.rst:107
+msgid ""
+"``patterns`` controls the formatting of each log string for different "
+"verbosity levels. Each value overrides the less verbose levels too. So in"
+" the example above, the \"don't panic\" pattern also applies to info and "
+"warning levels, and the trace level pattern is the only one that is not "
+"initialized in the config (it will be set to default hardcoded value)."
+msgstr ""
+
+#: ../iroha/docs/source/guides/configuration.rst:113
+msgid ""
+"``children`` describes the overrides of child nodes. The keys are the "
+"names of the components, and the values have the same syntax and "
+"semantics as the root log configuration."
 msgstr ""
 
 #~ msgid ""

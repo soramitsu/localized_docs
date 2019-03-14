@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Iroha 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-16 20:34+0300\n"
+"POT-Creation-Date: 2019-03-14 16:19+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,7 +45,6 @@ msgstr ""
 #: ../iroha/docs/source/guides/dependencies.rst:81
 #: ../iroha/docs/source/guides/dependencies.rst:124
 #: ../iroha/docs/source/guides/dependencies.rst:168
-#: ../iroha/docs/source/guides/dependencies.rst:191
 msgid "Installation on Ubuntu"
 msgstr ""
 
@@ -74,8 +73,7 @@ msgstr ""
 #: ../iroha/docs/source/guides/dependencies.rst:101
 #: ../iroha/docs/source/guides/dependencies.rst:144
 #: ../iroha/docs/source/guides/dependencies.rst:181
-#: ../iroha/docs/source/guides/dependencies.rst:205
-#: ../iroha/docs/source/guides/dependencies.rst:223
+#: ../iroha/docs/source/guides/dependencies.rst:192
 msgid "Installation on macOS"
 msgstr ""
 
@@ -109,11 +107,7 @@ msgstr ""
 msgid "Boost"
 msgstr ""
 
-#: ../iroha/docs/source/guides/dependencies.rst:188
-msgid "SWIG"
-msgstr ""
-
-#: ../iroha/docs/source/guides/dependencies.rst:220
+#: ../iroha/docs/source/guides/dependencies.rst:189
 msgid "Protobuf"
 msgstr ""
 
@@ -122,5 +116,8 @@ msgstr ""
 #~ "we recommend to install the latest "
 #~ "available version (3.10.3 at the "
 #~ "moment)."
+#~ msgstr ""
+
+#~ msgid "SWIG"
 #~ msgstr ""
 

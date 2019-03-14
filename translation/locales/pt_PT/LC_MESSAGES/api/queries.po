@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hyperledger Iroha \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-16 20:34+0300\n"
+"POT-Creation-Date: 2019-03-14 16:19+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,16 +68,18 @@ msgid "Get Account"
 msgstr ""
 
 #: ../iroha/docs/source/api/queries.rst:22
-#: ../iroha/docs/source/api/queries.rst:78
-#: ../iroha/docs/source/api/queries.rst:122
-#: ../iroha/docs/source/api/queries.rst:166
-#: ../iroha/docs/source/api/queries.rst:204
-#: ../iroha/docs/source/api/queries.rst:265
-#: ../iroha/docs/source/api/queries.rst:328
-#: ../iroha/docs/source/api/queries.rst:379
-#: ../iroha/docs/source/api/queries.rst:530
-#: ../iroha/docs/source/api/queries.rst:583
-#: ../iroha/docs/source/api/queries.rst:617
+#: ../iroha/docs/source/api/queries.rst:88
+#: ../iroha/docs/source/api/queries.rst:143
+#: ../iroha/docs/source/api/queries.rst:197
+#: ../iroha/docs/source/api/queries.rst:253
+#: ../iroha/docs/source/api/queries.rst:300
+#: ../iroha/docs/source/api/queries.rst:374
+#: ../iroha/docs/source/api/queries.rst:451
+#: ../iroha/docs/source/api/queries.rst:512
+#: ../iroha/docs/source/api/queries.rst:673
+#: ../iroha/docs/source/api/queries.rst:736
+#: ../iroha/docs/source/api/queries.rst:780
+#: ../iroha/docs/source/api/queries.rst:838
 msgid "Purpose"
 msgstr ""
 
@@ -86,28 +88,31 @@ msgid "Purpose of get account query is to get the state of an account."
 msgstr ""
 
 #: ../iroha/docs/source/api/queries.rst:27
-#: ../iroha/docs/source/api/queries.rst:83
-#: ../iroha/docs/source/api/queries.rst:127
-#: ../iroha/docs/source/api/queries.rst:172
-#: ../iroha/docs/source/api/queries.rst:210
-#: ../iroha/docs/source/api/queries.rst:271
-#: ../iroha/docs/source/api/queries.rst:333
-#: ../iroha/docs/source/api/queries.rst:399
-#: ../iroha/docs/source/api/queries.rst:535
-#: ../iroha/docs/source/api/queries.rst:588
-#: ../iroha/docs/source/api/queries.rst:622
+#: ../iroha/docs/source/api/queries.rst:93
+#: ../iroha/docs/source/api/queries.rst:148
+#: ../iroha/docs/source/api/queries.rst:203
+#: ../iroha/docs/source/api/queries.rst:259
+#: ../iroha/docs/source/api/queries.rst:307
+#: ../iroha/docs/source/api/queries.rst:381
+#: ../iroha/docs/source/api/queries.rst:456
+#: ../iroha/docs/source/api/queries.rst:532
+#: ../iroha/docs/source/api/queries.rst:678
+#: ../iroha/docs/source/api/queries.rst:741
+#: ../iroha/docs/source/api/queries.rst:785
+#: ../iroha/docs/source/api/queries.rst:843
 msgid "Request Schema"
 msgstr ""
 
 #: ../iroha/docs/source/api/queries.rst:36
-#: ../iroha/docs/source/api/queries.rst:92
-#: ../iroha/docs/source/api/queries.rst:136
-#: ../iroha/docs/source/api/queries.rst:227
-#: ../iroha/docs/source/api/queries.rst:289
-#: ../iroha/docs/source/api/queries.rst:342
-#: ../iroha/docs/source/api/queries.rst:419
-#: ../iroha/docs/source/api/queries.rst:544
-#: ../iroha/docs/source/api/queries.rst:631
+#: ../iroha/docs/source/api/queries.rst:103
+#: ../iroha/docs/source/api/queries.rst:157
+#: ../iroha/docs/source/api/queries.rst:212
+#: ../iroha/docs/source/api/queries.rst:324
+#: ../iroha/docs/source/api/queries.rst:399
+#: ../iroha/docs/source/api/queries.rst:465
+#: ../iroha/docs/source/api/queries.rst:552
+#: ../iroha/docs/source/api/queries.rst:687
+#: ../iroha/docs/source/api/queries.rst:794
 msgid "Request Structure"
 msgstr ""
 
@@ -124,6 +129,7 @@ msgid "Constraint"
 msgstr ""
 
 #: ../iroha/docs/source/api/queries.rst:1
+#: ../iroha/docs/source/api/queries.rst:882
 msgid "Example"
 msgstr ""
 
@@ -144,30 +150,34 @@ msgid "alex@morgan"
 msgstr ""
 
 #: ../iroha/docs/source/api/queries.rst:45
-#: ../iroha/docs/source/api/queries.rst:101
-#: ../iroha/docs/source/api/queries.rst:145
-#: ../iroha/docs/source/api/queries.rst:180
-#: ../iroha/docs/source/api/queries.rst:238
-#: ../iroha/docs/source/api/queries.rst:301
-#: ../iroha/docs/source/api/queries.rst:351
-#: ../iroha/docs/source/api/queries.rst:430
-#: ../iroha/docs/source/api/queries.rst:554
-#: ../iroha/docs/source/api/queries.rst:596
-#: ../iroha/docs/source/api/queries.rst:640
+#: ../iroha/docs/source/api/queries.rst:112
+#: ../iroha/docs/source/api/queries.rst:166
+#: ../iroha/docs/source/api/queries.rst:221
+#: ../iroha/docs/source/api/queries.rst:267
+#: ../iroha/docs/source/api/queries.rst:335
+#: ../iroha/docs/source/api/queries.rst:411
+#: ../iroha/docs/source/api/queries.rst:474
+#: ../iroha/docs/source/api/queries.rst:563
+#: ../iroha/docs/source/api/queries.rst:697
+#: ../iroha/docs/source/api/queries.rst:749
+#: ../iroha/docs/source/api/queries.rst:803
+#: ../iroha/docs/source/api/queries.rst:849
 msgid "Response Schema"
 msgstr ""
 
 #: ../iroha/docs/source/api/queries.rst:63
-#: ../iroha/docs/source/api/queries.rst:110
-#: ../iroha/docs/source/api/queries.rst:154
-#: ../iroha/docs/source/api/queries.rst:189
-#: ../iroha/docs/source/api/queries.rst:251
-#: ../iroha/docs/source/api/queries.rst:314
-#: ../iroha/docs/source/api/queries.rst:365
-#: ../iroha/docs/source/api/queries.rst:439
-#: ../iroha/docs/source/api/queries.rst:569
-#: ../iroha/docs/source/api/queries.rst:605
-#: ../iroha/docs/source/api/queries.rst:649
+#: ../iroha/docs/source/api/queries.rst:121
+#: ../iroha/docs/source/api/queries.rst:175
+#: ../iroha/docs/source/api/queries.rst:230
+#: ../iroha/docs/source/api/queries.rst:276
+#: ../iroha/docs/source/api/queries.rst:360
+#: ../iroha/docs/source/api/queries.rst:424
+#: ../iroha/docs/source/api/queries.rst:488
+#: ../iroha/docs/source/api/queries.rst:572
+#: ../iroha/docs/source/api/queries.rst:722
+#: ../iroha/docs/source/api/queries.rst:758
+#: ../iroha/docs/source/api/queries.rst:812
+#: ../iroha/docs/source/api/queries.rst:863
 msgid "Response Structure"
 msgstr ""
 
@@ -224,10 +234,154 @@ msgid "{ genesis: {name: alex} }"
 msgstr ""
 
 #: ../iroha/docs/source/api/queries.rst:75
+#: ../iroha/docs/source/api/queries.rst:130
+#: ../iroha/docs/source/api/queries.rst:184
+#: ../iroha/docs/source/api/queries.rst:239
+#: ../iroha/docs/source/api/queries.rst:287
+#: ../iroha/docs/source/api/queries.rst:348
+#: ../iroha/docs/source/api/queries.rst:435
+#: ../iroha/docs/source/api/queries.rst:499
+#: ../iroha/docs/source/api/queries.rst:581
+#: ../iroha/docs/source/api/queries.rst:712
+#: ../iroha/docs/source/api/queries.rst:767
+#: ../iroha/docs/source/api/queries.rst:821
+#: ../iroha/docs/source/api/queries.rst:872
+msgid "Possible Stateful Validation Errors"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Code"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Error Name"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "How to solve"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "1"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Could not get account"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Internal error happened"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Try again or contact developers"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "2"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "No such permissions"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Query's creator does not have any of the permissions to get account"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Grant the necessary permission: individual, global or domain one"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "3"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Invalid signatures"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Signatures of this query did not pass validation"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid ""
+"Add more signatures and make sure query's signatures are a subset of "
+"account's signatories"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:85
+msgid "Get Block"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:90
+msgid ""
+"Purpose of get block query is to get a specific block, using its height "
+"as an identifier"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Height"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "height of the block to be retrieved"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "0 < height < 2^64"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "42"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Block"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "the retrieved block"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "block structure"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "block"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Could not get block"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Query's creator does not have a permission to get block"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Grant the necessary permission"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Invalid height"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Supplied height is not uint_64 or greater than the ledger's height"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Check the height and try again"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:140
 msgid "Get Signatories"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:80
+#: ../iroha/docs/source/api/queries.rst:145
 msgid ""
 "Purpose of get signatories query is to get signatories, which act as an "
 "identity of the account."
@@ -253,14 +407,24 @@ msgstr ""
 msgid "292a8714694095edce6be799398ed5d6244cd7be37eb813106b217d850d261f2"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:119
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Could not get signatories"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Query's creator does not have any of the permissions to get signatories"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:194
 msgid "Get Transactions"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:124
+#: ../iroha/docs/source/api/queries.rst:199
 msgid ""
 "GetTransactions is used for retrieving information about transactions, "
-"based on their hashes."
+"based on their hashes. .. note:: This query is valid if and only if all "
+"the requested hashes are correct: corresponding transactions exist, and "
+"the user has a permission to retrieve them"
 msgstr ""
 
 #: ../iroha/docs/source/api/queries.rst:1
@@ -295,11 +459,38 @@ msgstr ""
 msgid "{tx1, tx2…}"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:163
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Could not get transactions"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Query's creator does not have any of the permissions to get transactions"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "4"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Invalid hash"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid ""
+"At least one of the supplied hashes either does not exist in user's "
+"transaction list or creator of the query does not have permissions to see"
+" it"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Check the supplied hashes and try again"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:250
 msgid "Get Pending Transactions"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:168
+#: ../iroha/docs/source/api/queries.rst:255
 msgid ""
 "GetPendingTransactions is used for retrieving a list of pending (not "
 "fully signed) `multisignature transactions "
@@ -308,7 +499,7 @@ msgid ""
 "transactions>`__ issued by account of query creator."
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:191
+#: ../iroha/docs/source/api/queries.rst:278
 msgid ""
 "The response contains a list of `pending transactions "
 "<../core_concepts/glossary.html#pending-transactions>`_."
@@ -322,15 +513,30 @@ msgstr ""
 msgid "Pending transactions"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:201
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Could not get pending transactions"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid ""
+"Query's creator does not have any of the permissions to get pending "
+"transactions"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:297
 msgid "Get Account Transactions"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:206
+#: ../iroha/docs/source/api/queries.rst:302
 msgid ""
 "In a case when a list of transactions per account is needed, "
-"`GetAccountTransactions` query can be formed. .. note:: This query uses "
-"pagination for query responses."
+"`GetAccountTransactions` query can be formed."
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:304
+msgid ""
+"This query uses pagination for quicker and more convenient query "
+"responses."
 msgstr ""
 
 #: ../iroha/docs/source/api/queries.rst:1
@@ -375,6 +581,40 @@ msgid "bddd58404d1315e0eb27902c5d7c8eb0602c16238f005773df406bc191308929"
 msgstr ""
 
 #: ../iroha/docs/source/api/queries.rst:1
+msgid "Could not get account transactions"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid ""
+"Query's creator does not have any of the permissions to get account "
+"transactions"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Invalid pagination hash"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Supplied hash does not appear in any of the user's transactions"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Make sure hash is correct and try again"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Invalid account id"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "User with such account id does not exist"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Make sure account id is correct"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
 msgid "an array of transactions for given account"
 msgstr ""
 
@@ -400,15 +640,18 @@ msgid ""
 "page. Empty if a page contains the last transaction for the given account"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:262
+#: ../iroha/docs/source/api/queries.rst:371
 msgid "Get Account Asset Transactions"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:267
+#: ../iroha/docs/source/api/queries.rst:376
 msgid ""
 "`GetAccountAssetTransactions` query returns all transactions associated "
-"with given account and asset. .. note:: This query uses pagination for "
-"query responses."
+"with given account and asset."
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:378
+msgid "This query uses pagination for query responses."
 msgstr ""
 
 #: ../iroha/docs/source/api/queries.rst:1
@@ -442,11 +685,37 @@ msgid ""
 " asset"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:325
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Could not get account asset transactions"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid ""
+"Query's creator does not have any of the permissions to get account asset"
+" transactions"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "6"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Invalid asset id"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Asset with such asset id does not exist"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Make sure asset id is correct"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:448
 msgid "Get Account Assets"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:330
+#: ../iroha/docs/source/api/queries.rst:453
 msgid ""
 "To get the state of all assets in an account (a balance), "
 "`GetAccountAssets` query can be used."
@@ -473,26 +742,34 @@ msgid "balance of the asset"
 msgstr ""
 
 #: ../iroha/docs/source/api/queries.rst:1
-msgid "Not less than 0"
+msgid "No less than 0"
 msgstr ""
 
 #: ../iroha/docs/source/api/queries.rst:1
 msgid "200.20"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:376
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Could not get account assets"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Query's creator does not have any of the permissions to get account assets"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:509
 msgid "Get Account Detail"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:381
+#: ../iroha/docs/source/api/queries.rst:514
 msgid ""
 "To get details of the account, `GetAccountDetail` query can be used. "
 "Account details are key-value pairs, splitted into writers categories. "
-"Writers are accounts, which added the corresponding account detail. "
+"Writers are accounts, that added the corresponding account detail. "
 "Example of such structure is:"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:396
+#: ../iroha/docs/source/api/queries.rst:529
 msgid ""
 "Here, one can see four account details - \"age\", \"hobbies\" and "
 "\"sports\" - added by two writers - \"account@a_domain\" and "
@@ -500,7 +777,7 @@ msgid ""
 " account."
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:416
+#: ../iroha/docs/source/api/queries.rst:549
 msgid ""
 "Pay attention, that all fields are optional. Reasons will be described "
 "later."
@@ -550,94 +827,105 @@ msgstr ""
 msgid "see below"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:448
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Could not get account detail"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Query's creator does not have any of the permissions to get account detail"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:591
 msgid "Usage Examples"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:450
+#: ../iroha/docs/source/api/queries.rst:593
 msgid ""
-"Let's again consider the example of details from the beginning and see, "
+"Again, let's consider the example of details from the beginning and see "
 "how different variants of `GetAccountDetail` queries will change the "
 "resulting response."
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:465
+#: ../iroha/docs/source/api/queries.rst:608
 msgid "**account_id is not set**"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:467
+#: ../iroha/docs/source/api/queries.rst:610
 msgid ""
 "If account_id is not set - other fields can be empty or not - it will "
 "automatically be substituted with query creator's account, which will "
 "lead to one of the next cases."
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:469
+#: ../iroha/docs/source/api/queries.rst:612
 msgid "**only account_id is set**"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:471
+#: ../iroha/docs/source/api/queries.rst:614
 msgid ""
 "In this case, all details about that account are going to be returned, "
 "leading to the following response:"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:486
+#: ../iroha/docs/source/api/queries.rst:629
 msgid "**account_id and key are set**"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:488
+#: ../iroha/docs/source/api/queries.rst:631
 msgid ""
 "Here, details added by all writers under the key are going to be "
 "returned. For example, if we asked for the key \"age\", that's the "
 "response we would get:"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:501
+#: ../iroha/docs/source/api/queries.rst:644
 msgid "**account_id and writer are set**"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:503
+#: ../iroha/docs/source/api/queries.rst:646
 msgid ""
 "Now, the response will contain all details about this account, added by "
 "one specific writer. For example, if we asked for writer "
 "\"account@b_domain\", we would get:"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:514
+#: ../iroha/docs/source/api/queries.rst:657
 msgid "**account_id, key and writer are set**"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:516
+#: ../iroha/docs/source/api/queries.rst:659
 msgid ""
-"Lastly, if all three field are set, result will contain details, added "
+"Finally, if all three field are set, result will contain details, added "
 "the specific writer and under the specific key, for example, if we asked "
 "for key \"age\" and writer \"account@a_domain\", we would get:"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:527
+#: ../iroha/docs/source/api/queries.rst:670
 msgid "Get Asset Info"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:532
+#: ../iroha/docs/source/api/queries.rst:675
 msgid ""
-"In order to know precision for given asset, and other related info in the"
-" future, such as a description of the asset, etc. user can send "
-"`GetAssetInfo` query."
+"In order to get information on the given asset (as for now - its "
+"precision), user can send `GetAssetInfo` query."
 msgstr ""
 
 #: ../iroha/docs/source/api/queries.rst:1
 msgid "asset id to know related information"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:565
+#: ../iroha/docs/source/api/queries.rst:708
 msgid ""
 "Please note that due to a known issue you would not get any exception if "
 "you pass invalid precision value. Valid range is: 0 <= precision <= 255"
 msgstr ""
 
 #: ../iroha/docs/source/api/queries.rst:1
-msgid "jpy"
+msgid "Could not get asset info"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Query's creator does not have any of the permissions to get asset info"
 msgstr ""
 
 #: ../iroha/docs/source/api/queries.rst:1
@@ -660,15 +948,11 @@ msgstr ""
 msgid "0 <= precision <= 255"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:1
-msgid "2"
-msgstr ""
-
-#: ../iroha/docs/source/api/queries.rst:580
+#: ../iroha/docs/source/api/queries.rst:733
 msgid "Get Roles"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:585
+#: ../iroha/docs/source/api/queries.rst:738
 msgid ""
 "To get existing roles in the system, a user can send `GetRoles` query to "
 "Iroha network."
@@ -690,11 +974,19 @@ msgstr ""
 msgid "{MoneyCreator, User, Admin, …}"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:614
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Could not get roles"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Query's creator does not have any of the permissions to get roles"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:777
 msgid "Get Role Permissions"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:619
+#: ../iroha/docs/source/api/queries.rst:782
 msgid ""
 "To get available permissions per role in the system, a user can send "
 "`GetRolePermissions` query to Iroha network."
@@ -732,11 +1024,127 @@ msgstr ""
 msgid "{can_add_asset_qty, …}"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:657
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Could not get role permissions"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid ""
+"Query's creator does not have any of the permissions to get role "
+"permissions"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:830
 msgid "https://www.ietf.org/rfc/rfc1035.txt"
 msgstr ""
 
-#: ../iroha/docs/source/api/queries.rst:658
+#: ../iroha/docs/source/api/queries.rst:831
 msgid "https://www.ietf.org/rfc/rfc1123.txt"
 msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:835
+msgid "FetchCommits"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:840
+msgid ""
+"To get new blocks as soon as they are committed, a user can invoke "
+"`FetchCommits` RPC call to Iroha network."
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:845
+msgid "No request arguments are needed"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:860
+msgid "Please note that it returns a stream of `BlockQueryResponse`."
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Iroha block"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "only committed blocks"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "{ 'block_v1': ....}"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Could not get block streaming"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:1
+msgid "Query's creator does not have any of the permissions to get blocks"
+msgstr ""
+
+#: ../iroha/docs/source/api/queries.rst:883
+msgid ""
+"You can check an example how to use this query here: "
+"https://github.com/x3medima17/twitter"
+msgstr ""
+
+#~ msgid ""
+#~ "GetTransactions is used for retrieving "
+#~ "information about transactions, based on "
+#~ "their hashes."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In a case when a list of "
+#~ "transactions per account is needed, "
+#~ "`GetAccountTransactions` query can be formed."
+#~ " .. note:: This query uses pagination"
+#~ " for query responses."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`GetAccountAssetTransactions` query returns all "
+#~ "transactions associated with given account "
+#~ "and asset. .. note:: This query "
+#~ "uses pagination for query responses."
+#~ msgstr ""
+
+#~ msgid "Not less than 0"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To get details of the account, "
+#~ "`GetAccountDetail` query can be used. "
+#~ "Account details are key-value pairs, "
+#~ "splitted into writers categories. Writers "
+#~ "are accounts, which added the "
+#~ "corresponding account detail. Example of "
+#~ "such structure is:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Let's again consider the example of "
+#~ "details from the beginning and see, "
+#~ "how different variants of `GetAccountDetail`"
+#~ " queries will change the resulting "
+#~ "response."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Lastly, if all three field are "
+#~ "set, result will contain details, added"
+#~ " the specific writer and under the"
+#~ " specific key, for example, if we "
+#~ "asked for key \"age\" and writer "
+#~ "\"account@a_domain\", we would get:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In order to know precision for "
+#~ "given asset, and other related info "
+#~ "in the future, such as a "
+#~ "description of the asset, etc. user "
+#~ "can send `GetAssetInfo` query."
+#~ msgstr ""
+
+#~ msgid "jpy"
+#~ msgstr ""
 

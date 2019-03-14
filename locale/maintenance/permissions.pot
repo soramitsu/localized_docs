@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hyperledger Iroha \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-16 20:34+0300\n"
+"POT-Creation-Date: 2019-03-14 16:19+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,7 +62,7 @@ msgstr ""
 #: ../iroha/docs/source/maintenance/permissions.rst:128
 #: ../iroha/docs/source/maintenance/permissions.rst:131
 #: ../iroha/docs/source/maintenance/permissions.rst:189
-#: ../iroha/docs/source/maintenance/permissions.rst:790
+#: ../iroha/docs/source/maintenance/permissions.rst:709
 msgid "Account"
 msgstr ""
 
@@ -113,8 +113,8 @@ msgstr ""
 #: ../iroha/docs/source/maintenance/permissions.rst:50
 #: ../iroha/docs/source/maintenance/permissions.rst:53
 #: ../iroha/docs/source/maintenance/permissions.rst:161
-#: ../iroha/docs/source/maintenance/permissions.rst:260
-#: ../iroha/docs/source/maintenance/permissions.rst:1132
+#: ../iroha/docs/source/maintenance/permissions.rst:251
+#: ../iroha/docs/source/maintenance/permissions.rst:1006
 msgid "Asset"
 msgstr ""
 
@@ -138,7 +138,7 @@ msgstr ""
 #: ../iroha/docs/source/maintenance/permissions.rst:59
 #: ../iroha/docs/source/maintenance/permissions.rst:62
 #: ../iroha/docs/source/maintenance/permissions.rst:65
-#: ../iroha/docs/source/maintenance/permissions.rst:346
+#: ../iroha/docs/source/maintenance/permissions.rst:325
 msgid "Asset Quantity"
 msgstr ""
 
@@ -159,7 +159,7 @@ msgid "`can_create_domain`_"
 msgstr ""
 
 #: ../iroha/docs/source/maintenance/permissions.rst:68
-#: ../iroha/docs/source/maintenance/permissions.rst:427
+#: ../iroha/docs/source/maintenance/permissions.rst:394
 msgid "Domain"
 msgstr ""
 
@@ -172,7 +172,7 @@ msgstr ""
 #: ../iroha/docs/source/maintenance/permissions.rst:77
 #: ../iroha/docs/source/maintenance/permissions.rst:80
 #: ../iroha/docs/source/maintenance/permissions.rst:83
-#: ../iroha/docs/source/maintenance/permissions.rst:450
+#: ../iroha/docs/source/maintenance/permissions.rst:414
 msgid "Grant"
 msgstr ""
 
@@ -197,7 +197,7 @@ msgid "`can_add_peer`_"
 msgstr ""
 
 #: ../iroha/docs/source/maintenance/permissions.rst:86
-#: ../iroha/docs/source/maintenance/permissions.rst:553
+#: ../iroha/docs/source/maintenance/permissions.rst:502
 msgid "Peer"
 msgstr ""
 
@@ -209,8 +209,8 @@ msgstr ""
 #: ../iroha/docs/source/maintenance/permissions.rst:92
 #: ../iroha/docs/source/maintenance/permissions.rst:95
 #: ../iroha/docs/source/maintenance/permissions.rst:167
-#: ../iroha/docs/source/maintenance/permissions.rst:578
-#: ../iroha/docs/source/maintenance/permissions.rst:1167
+#: ../iroha/docs/source/maintenance/permissions.rst:524
+#: ../iroha/docs/source/maintenance/permissions.rst:1034
 msgid "Role"
 msgstr ""
 
@@ -235,8 +235,8 @@ msgstr ""
 #: ../iroha/docs/source/maintenance/permissions.rst:170
 #: ../iroha/docs/source/maintenance/permissions.rst:173
 #: ../iroha/docs/source/maintenance/permissions.rst:176
-#: ../iroha/docs/source/maintenance/permissions.rst:648
-#: ../iroha/docs/source/maintenance/permissions.rst:1191
+#: ../iroha/docs/source/maintenance/permissions.rst:585
+#: ../iroha/docs/source/maintenance/permissions.rst:1055
 msgid "Signatory"
 msgstr ""
 
@@ -317,7 +317,7 @@ msgstr ""
 #: ../iroha/docs/source/maintenance/permissions.rst:134
 #: ../iroha/docs/source/maintenance/permissions.rst:137
 #: ../iroha/docs/source/maintenance/permissions.rst:140
-#: ../iroha/docs/source/maintenance/permissions.rst:925
+#: ../iroha/docs/source/maintenance/permissions.rst:826
 msgid "Account Asset"
 msgstr ""
 
@@ -336,7 +336,7 @@ msgstr ""
 #: ../iroha/docs/source/maintenance/permissions.rst:143
 #: ../iroha/docs/source/maintenance/permissions.rst:146
 #: ../iroha/docs/source/maintenance/permissions.rst:149
-#: ../iroha/docs/source/maintenance/permissions.rst:994
+#: ../iroha/docs/source/maintenance/permissions.rst:886
 msgid "Account Asset Transaction"
 msgstr ""
 
@@ -355,7 +355,7 @@ msgstr ""
 #: ../iroha/docs/source/maintenance/permissions.rst:152
 #: ../iroha/docs/source/maintenance/permissions.rst:155
 #: ../iroha/docs/source/maintenance/permissions.rst:158
-#: ../iroha/docs/source/maintenance/permissions.rst:1063
+#: ../iroha/docs/source/maintenance/permissions.rst:946
 msgid "Account Transaction"
 msgstr ""
 
@@ -376,7 +376,7 @@ msgid "`can_get_blocks`_"
 msgstr ""
 
 #: ../iroha/docs/source/maintenance/permissions.rst:164
-#: ../iroha/docs/source/maintenance/permissions.rst:1155
+#: ../iroha/docs/source/maintenance/permissions.rst:1026
 msgid "Block Stream"
 msgstr ""
 
@@ -402,7 +402,7 @@ msgstr ""
 
 #: ../iroha/docs/source/maintenance/permissions.rst:179
 #: ../iroha/docs/source/maintenance/permissions.rst:182
-#: ../iroha/docs/source/maintenance/permissions.rst:1254
+#: ../iroha/docs/source/maintenance/permissions.rst:1109
 msgid "Transaction"
 msgstr ""
 
@@ -426,1266 +426,862 @@ msgstr ""
 msgid "Related API method: `Create Account <../api/commands.html#create-account>`__"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:197
-msgid "Usage in Java bindings: ``Role.kCreateAccount``"
-msgstr ""
-
 #: ../iroha/docs/source/maintenance/permissions.rst:198
-msgid "Usage in Python bindings: ``Role_kCreateAccount``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:201
-#: ../iroha/docs/source/maintenance/permissions.rst:225
-#: ../iroha/docs/source/maintenance/permissions.rst:249
-#: ../iroha/docs/source/maintenance/permissions.rst:272
-#: ../iroha/docs/source/maintenance/permissions.rst:292
-#: ../iroha/docs/source/maintenance/permissions.rst:335
-#: ../iroha/docs/source/maintenance/permissions.rst:360
-#: ../iroha/docs/source/maintenance/permissions.rst:382
-#: ../iroha/docs/source/maintenance/permissions.rst:439
-#: ../iroha/docs/source/maintenance/permissions.rst:462
-#: ../iroha/docs/source/maintenance/permissions.rst:482
-#: ../iroha/docs/source/maintenance/permissions.rst:502
-#: ../iroha/docs/source/maintenance/permissions.rst:522
-#: ../iroha/docs/source/maintenance/permissions.rst:542
-#: ../iroha/docs/source/maintenance/permissions.rst:567
-#: ../iroha/docs/source/maintenance/permissions.rst:592
+#: ../iroha/docs/source/maintenance/permissions.rst:219
+#: ../iroha/docs/source/maintenance/permissions.rst:240
+#: ../iroha/docs/source/maintenance/permissions.rst:260
+#: ../iroha/docs/source/maintenance/permissions.rst:277
+#: ../iroha/docs/source/maintenance/permissions.rst:314
+#: ../iroha/docs/source/maintenance/permissions.rst:336
+#: ../iroha/docs/source/maintenance/permissions.rst:355
+#: ../iroha/docs/source/maintenance/permissions.rst:403
+#: ../iroha/docs/source/maintenance/permissions.rst:423
+#: ../iroha/docs/source/maintenance/permissions.rst:440
+#: ../iroha/docs/source/maintenance/permissions.rst:457
+#: ../iroha/docs/source/maintenance/permissions.rst:474
+#: ../iroha/docs/source/maintenance/permissions.rst:491
+#: ../iroha/docs/source/maintenance/permissions.rst:513
+#: ../iroha/docs/source/maintenance/permissions.rst:535
+#: ../iroha/docs/source/maintenance/permissions.rst:555
+#: ../iroha/docs/source/maintenance/permissions.rst:574
+#: ../iroha/docs/source/maintenance/permissions.rst:596
 #: ../iroha/docs/source/maintenance/permissions.rst:615
-#: ../iroha/docs/source/maintenance/permissions.rst:637
-#: ../iroha/docs/source/maintenance/permissions.rst:662
-#: ../iroha/docs/source/maintenance/permissions.rst:684
-#: ../iroha/docs/source/maintenance/permissions.rst:708
-#: ../iroha/docs/source/maintenance/permissions.rst:730
-#: ../iroha/docs/source/maintenance/permissions.rst:754
-#: ../iroha/docs/source/maintenance/permissions.rst:776
-#: ../iroha/docs/source/maintenance/permissions.rst:802
-#: ../iroha/docs/source/maintenance/permissions.rst:826
-#: ../iroha/docs/source/maintenance/permissions.rst:846
-#: ../iroha/docs/source/maintenance/permissions.rst:870
-#: ../iroha/docs/source/maintenance/permissions.rst:890
-#: ../iroha/docs/source/maintenance/permissions.rst:914
-#: ../iroha/docs/source/maintenance/permissions.rst:939
-#: ../iroha/docs/source/maintenance/permissions.rst:961
-#: ../iroha/docs/source/maintenance/permissions.rst:983
-#: ../iroha/docs/source/maintenance/permissions.rst:1008
-#: ../iroha/docs/source/maintenance/permissions.rst:1030
-#: ../iroha/docs/source/maintenance/permissions.rst:1052
-#: ../iroha/docs/source/maintenance/permissions.rst:1077
-#: ../iroha/docs/source/maintenance/permissions.rst:1099
-#: ../iroha/docs/source/maintenance/permissions.rst:1121
-#: ../iroha/docs/source/maintenance/permissions.rst:1144
-#: ../iroha/docs/source/maintenance/permissions.rst:1180
-#: ../iroha/docs/source/maintenance/permissions.rst:1203
-#: ../iroha/docs/source/maintenance/permissions.rst:1223
-#: ../iroha/docs/source/maintenance/permissions.rst:1243
-#: ../iroha/docs/source/maintenance/permissions.rst:1266
-#: ../iroha/docs/source/maintenance/permissions.rst:1286
+#: ../iroha/docs/source/maintenance/permissions.rst:636
+#: ../iroha/docs/source/maintenance/permissions.rst:655
+#: ../iroha/docs/source/maintenance/permissions.rst:676
+#: ../iroha/docs/source/maintenance/permissions.rst:695
+#: ../iroha/docs/source/maintenance/permissions.rst:718
+#: ../iroha/docs/source/maintenance/permissions.rst:739
+#: ../iroha/docs/source/maintenance/permissions.rst:756
+#: ../iroha/docs/source/maintenance/permissions.rst:777
+#: ../iroha/docs/source/maintenance/permissions.rst:794
+#: ../iroha/docs/source/maintenance/permissions.rst:815
+#: ../iroha/docs/source/maintenance/permissions.rst:837
+#: ../iroha/docs/source/maintenance/permissions.rst:856
+#: ../iroha/docs/source/maintenance/permissions.rst:875
+#: ../iroha/docs/source/maintenance/permissions.rst:897
+#: ../iroha/docs/source/maintenance/permissions.rst:916
+#: ../iroha/docs/source/maintenance/permissions.rst:935
+#: ../iroha/docs/source/maintenance/permissions.rst:957
+#: ../iroha/docs/source/maintenance/permissions.rst:976
+#: ../iroha/docs/source/maintenance/permissions.rst:995
+#: ../iroha/docs/source/maintenance/permissions.rst:1015
+#: ../iroha/docs/source/maintenance/permissions.rst:1044
+#: ../iroha/docs/source/maintenance/permissions.rst:1064
+#: ../iroha/docs/source/maintenance/permissions.rst:1081
+#: ../iroha/docs/source/maintenance/permissions.rst:1098
+#: ../iroha/docs/source/maintenance/permissions.rst:1118
+#: ../iroha/docs/source/maintenance/permissions.rst:1135
 msgid "**Example**"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:203
+#: ../iroha/docs/source/maintenance/permissions.rst:200
 msgid "Admin creates domain \"test\" that contains only can_create_account permission and Alice account in that domain. Alice can create Bob account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:212
+#: ../iroha/docs/source/maintenance/permissions.rst:209
 msgid "can_set_detail"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:214
+#: ../iroha/docs/source/maintenance/permissions.rst:211
 msgid "Allows setting `account <../core_concepts/glossary.html#account>`__ detail."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:216
+#: ../iroha/docs/source/maintenance/permissions.rst:213
 msgid "The `permission <../core_concepts/glossary.html#permission>`__ allows setting details to other accounts. Another way to set detail without can_set_detail permission is to grant `can_set_my_account_detail`_ permission to someone. In order to grant, `transaction <../core_concepts/glossary.html#transaction>`__ creator should have `can_grant_can_set_my_account_detail`_ permission."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:218
+#: ../iroha/docs/source/maintenance/permissions.rst:215
 msgid "Transaction creator can always set detail for own account even without that permission."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:220
-#: ../iroha/docs/source/maintenance/permissions.rst:244
+#: ../iroha/docs/source/maintenance/permissions.rst:217
+#: ../iroha/docs/source/maintenance/permissions.rst:238
 msgid "Related API method: `Set Account Detail <../api/commands.html#set-account-detail>`__"
 msgstr ""
 
 #: ../iroha/docs/source/maintenance/permissions.rst:221
-msgid "Usage in Java bindings: ``Role.kSetDetail``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:222
-msgid "Usage in Python bindings: ``Role_kSetDetail``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:227
 msgid "Admin creates domain \"test\" that contains only can_set_detail permission and Alice account in that domain. Alice can set detail for Admin account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:236
+#: ../iroha/docs/source/maintenance/permissions.rst:230
 msgid "can_set_my_account_detail"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:238
-#: ../iroha/docs/source/maintenance/permissions.rst:324
-#: ../iroha/docs/source/maintenance/permissions.rst:653
-#: ../iroha/docs/source/maintenance/permissions.rst:697
-#: ../iroha/docs/source/maintenance/permissions.rst:743
+#: ../iroha/docs/source/maintenance/permissions.rst:232
+#: ../iroha/docs/source/maintenance/permissions.rst:306
+#: ../iroha/docs/source/maintenance/permissions.rst:590
+#: ../iroha/docs/source/maintenance/permissions.rst:628
+#: ../iroha/docs/source/maintenance/permissions.rst:668
 msgid "This is a grantable permission."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:240
+#: ../iroha/docs/source/maintenance/permissions.rst:234
 msgid "`Permission <../core_concepts/glossary.html#permission>`__ that allows a specified `account <../core_concepts/glossary.html#account>`__ to set details for the another specified account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:242
+#: ../iroha/docs/source/maintenance/permissions.rst:236
 msgid "To grant the permission an account should already have a role with `can_grant_can_set_my_account_detail`_ permission."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:245
-msgid "Usage in Java bindings: ``Grantable.kSetMyAccountDetail``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:246
-msgid "Usage in Python bindings: ``Grantable_kSetMyAccountDetail``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:251
+#: ../iroha/docs/source/maintenance/permissions.rst:242
 msgid "Admin creates domain \"test\" that contains only can_grant_can_set_my_account_detail permission and two accounts for Alice and Bob in that domain. Alice grants to Bob can_set_my_account_detail permission. Bob can set detail for Alice account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:263
+#: ../iroha/docs/source/maintenance/permissions.rst:254
 msgid "can_create_asset"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:265
+#: ../iroha/docs/source/maintenance/permissions.rst:256
 msgid "Allows creating new `assets <../core_concepts/glossary.html#asset>`__."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:267
+#: ../iroha/docs/source/maintenance/permissions.rst:258
 msgid "Related API method: `Create Asset <../api/commands.html#create-asset>`__"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:268
-msgid "Usage in Java bindings: ``Role.kCreateAsset``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:269
-msgid "Usage in Python bindings: ``Role_kCreateAsset``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:274
+#: ../iroha/docs/source/maintenance/permissions.rst:262
 msgid "Admin creates domain \"test\" that contains only can_create_asset permission and Alice account in that domain. Alice can create new assets."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:283
+#: ../iroha/docs/source/maintenance/permissions.rst:271
 msgid "can_receive"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:285
+#: ../iroha/docs/source/maintenance/permissions.rst:273
 msgid "Allows `account <../core_concepts/glossary.html#account>`__ receive `assets <../core_concepts/glossary.html#asset>`__."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:287
-#: ../iroha/docs/source/maintenance/permissions.rst:311
-#: ../iroha/docs/source/maintenance/permissions.rst:330
+#: ../iroha/docs/source/maintenance/permissions.rst:275
+#: ../iroha/docs/source/maintenance/permissions.rst:296
+#: ../iroha/docs/source/maintenance/permissions.rst:312
 msgid "Related API method: `Transfer Asset <../api/commands.html#transfer-asset>`__"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:288
-msgid "Usage in Java bindings: ``Role.kReceive``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:289
-msgid "Usage in Python bindings: ``Role_kReceive``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:294
+#: ../iroha/docs/source/maintenance/permissions.rst:279
 msgid "Admin creates domain \"test\" that contains can_receive and can_transfer permissions and two accounts for Alice and Bob. Admin creates \"coin\" asset, adds some quantity of it and transfers the asset to Alice. Alice can transfer assets to Bob (Alice has can_transfer permission and Bob has can_receive permission)."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:303
+#: ../iroha/docs/source/maintenance/permissions.rst:288
 msgid "can_transfer"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:305
+#: ../iroha/docs/source/maintenance/permissions.rst:290
 msgid "Allows sending `assets <../core_concepts/glossary.html#asset>`__ from an `account <../core_concepts/glossary.html#account>`__ of `transaction <../core_concepts/glossary.html#transaction>`__ creator."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:307
+#: ../iroha/docs/source/maintenance/permissions.rst:292
 msgid "You can transfer an asset from one `domain <../core_concepts/glossary.html#domain>`__ to another, even if the other domain does not have an asset with the same name."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:309
+#: ../iroha/docs/source/maintenance/permissions.rst:294
 msgid "Destination account should have `can_receive`_ permission."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:312
-msgid "Usage in Java bindings: ``Role.kTransfer``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:313
-msgid "Usage in Python bindings: ``Role_kTransfer``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:322
+#: ../iroha/docs/source/maintenance/permissions.rst:304
 msgid "can_transfer_my_assets"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:326
+#: ../iroha/docs/source/maintenance/permissions.rst:308
 msgid "`Permission <../core_concepts/glossary.html#permission>`__ that allows a specified `account <../core_concepts/glossary.html#account>`__ to transfer `assets <../core_concepts/glossary.html#asset>`__ of another specified account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:328
-#: ../iroha/docs/source/maintenance/permissions.rst:701
+#: ../iroha/docs/source/maintenance/permissions.rst:310
+#: ../iroha/docs/source/maintenance/permissions.rst:632
 msgid "See the example (to be done) for the usage details."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:331
-msgid "Usage in Java bindings: ``Grantable.kTransferMyAssets``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:332
-msgid "Usage in Python bindings: ``Grantable_kTransferMyAssets``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:337
+#: ../iroha/docs/source/maintenance/permissions.rst:316
 msgid "Admin creates domain \"test\" that contains can_grant_can_transfer_my_assets, can_receive, can_transfer permissions and two accounts for Alice and Bob in that domain. Admin issues some amount of \"coin\" asset and transfers it to Alice. Alice grants to Bob can_transfer_my_assets permission. Bob can transfer Alice's assets to any account that has can_receive permission, for example, to Admin."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:349
+#: ../iroha/docs/source/maintenance/permissions.rst:328
 msgid "can_add_asset_qty"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:351
+#: ../iroha/docs/source/maintenance/permissions.rst:330
 msgid "Allows issuing `assets <../core_concepts/glossary.html#asset>`__."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:353
-#: ../iroha/docs/source/maintenance/permissions.rst:375
+#: ../iroha/docs/source/maintenance/permissions.rst:332
+#: ../iroha/docs/source/maintenance/permissions.rst:351
 msgid "The corresponding `command <../core_concepts/glossary.html#command>`__ can be executed only for an `account <../core_concepts/glossary.html#account>`__ of `transaction <../core_concepts/glossary.html#transaction>`__ creator and only if that account has a `role <../core_concepts/glossary.html#role>`__ with the `permission <../core_concepts/glossary.html#permission>`__."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:355
-#: ../iroha/docs/source/maintenance/permissions.rst:399
+#: ../iroha/docs/source/maintenance/permissions.rst:334
+#: ../iroha/docs/source/maintenance/permissions.rst:372
 msgid "Related API method: `Add Asset Quantity <../api/commands.html#add-asset-quantity>`__"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:356
-msgid "Usage in Java bindings: ``Role.kAddAssetQty``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:357
-msgid "Usage in Python bindings: ``Role_kAddAssetQty``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:362
+#: ../iroha/docs/source/maintenance/permissions.rst:338
 msgid "Admin creates domain \"test\" that contains only can_add_asset_qty permission and Alice account in that domain. Admin craetes \"coin\" asset. Alice can add to own account any amount of any asset (e.g. \"coin\" asset)."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:371
+#: ../iroha/docs/source/maintenance/permissions.rst:347
 msgid "can_subtract_asset_qty"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:373
+#: ../iroha/docs/source/maintenance/permissions.rst:349
 msgid "Allows burning `assets <../core_concepts/glossary.html#asset>`__."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:377
-#: ../iroha/docs/source/maintenance/permissions.rst:416
+#: ../iroha/docs/source/maintenance/permissions.rst:353
+#: ../iroha/docs/source/maintenance/permissions.rst:386
 msgid "Related API method: `Subtract Asset Quantity <../api/commands.html#subtract-asset-quantity>`__"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:378
-msgid "Usage in Java bindings: ``Role.kSubtractAssetQty``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:379
-msgid "Usage in Python bindings: ``Role_kSubtractAssetQty``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:384
+#: ../iroha/docs/source/maintenance/permissions.rst:357
 msgid "Admin creates domain \"test\" that contains only can_subtract_asset_qty permission and Alice account in that domain. Admin issues some amount of \"coin\" asset and transfers some amount of \"coin\" asset to Alice. Alice can burn any amount of \"coin\" assets."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:393
+#: ../iroha/docs/source/maintenance/permissions.rst:366
 msgid "can_add_domain_asset_qty"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:395
+#: ../iroha/docs/source/maintenance/permissions.rst:368
 msgid "Allows issuing `assets <../core_concepts/glossary.html#asset>`__ only in own `domain <../core_concepts/glossary.html#domain>`__."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:397
-#: ../iroha/docs/source/maintenance/permissions.rst:414
+#: ../iroha/docs/source/maintenance/permissions.rst:370
+#: ../iroha/docs/source/maintenance/permissions.rst:384
 msgid "The corresponding `command <../core_concepts/glossary.html#command>`__ can be executed only for an `account <../core_concepts/glossary.html#account>`__ of `transaction <../core_concepts/glossary.html#transaction>`__ creator and only if that account has a `role <../core_concepts/glossary.html#role>`__ with the `permission <../core_concepts/glossary.html#permission>`__ and only for assets in creator’s domain."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:400
-msgid "Usage in Java bindings: ``Role.kAddDomainAssetQty``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:401
-msgid "Usage in Python bindings: ``Role_kAddDomainAssetQty``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:410
+#: ../iroha/docs/source/maintenance/permissions.rst:380
 msgid "can_subtract_domain_asset_qty"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:412
+#: ../iroha/docs/source/maintenance/permissions.rst:382
 msgid "Allows burning `assets <../core_concepts/glossary.html#asset>`__ only in own `domain <../core_concepts/glossary.html#domain>`__."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:417
-msgid "Usage in Java bindings: ``Role.kSubtractDomainAssetQty``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:418
-msgid "Usage in Python bindings: ``Role_kSubtractDomainAssetQty``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:430
+#: ../iroha/docs/source/maintenance/permissions.rst:397
 msgid "can_create_domain"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:432
+#: ../iroha/docs/source/maintenance/permissions.rst:399
 msgid "Allows creating new `domains <../core_concepts/glossary.html#domain>`__ within the system."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:434
+#: ../iroha/docs/source/maintenance/permissions.rst:401
 msgid "Related API method: `Create Domain <../api/commands.html#create-domain>`__"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:435
-msgid "Usage in Java bindings: ``Role.kCreateDomain``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:436
-msgid "Usage in Python bindings: ``Role_kCreateDomain``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:441
+#: ../iroha/docs/source/maintenance/permissions.rst:405
 msgid "Admin creates domain that contains only can_create_domain permission and Alice account in that domain. Alice can create new domains."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:453
+#: ../iroha/docs/source/maintenance/permissions.rst:417
 msgid "can_grant_can_add_my_signatory"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:455
+#: ../iroha/docs/source/maintenance/permissions.rst:419
 msgid "Allows `role <../core_concepts/glossary.html#role>`__ owners grant `can_add_my_signatory`_ `permission <../core_concepts/glossary.html#permission>`__."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:457
-#: ../iroha/docs/source/maintenance/permissions.rst:477
-#: ../iroha/docs/source/maintenance/permissions.rst:497
-#: ../iroha/docs/source/maintenance/permissions.rst:517
-#: ../iroha/docs/source/maintenance/permissions.rst:537
+#: ../iroha/docs/source/maintenance/permissions.rst:421
+#: ../iroha/docs/source/maintenance/permissions.rst:438
+#: ../iroha/docs/source/maintenance/permissions.rst:455
+#: ../iroha/docs/source/maintenance/permissions.rst:472
+#: ../iroha/docs/source/maintenance/permissions.rst:489
 msgid "Related API methods: `Grant Permission <../api/commands.html#grant-permission>`__, `Revoke Permission <../api/commands.html#revoke-permission>`__"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:458
-msgid "Usage in Java bindings: ``Role.kAddMySignatory``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:459
-msgid "Usage in Python bindings: ``Role_kAddMySignatory``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:464
+#: ../iroha/docs/source/maintenance/permissions.rst:425
 msgid "Admin creates domain that contains only can_grant_can_add_my_signatory permission and two accounts for Alice and Bob in that domain. Alice can grant to Bob and revoke can_add_my_signatory permission."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:473
+#: ../iroha/docs/source/maintenance/permissions.rst:434
 msgid "can_grant_can_remove_my_signatory"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:475
+#: ../iroha/docs/source/maintenance/permissions.rst:436
 msgid "Allows `role <../core_concepts/glossary.html#role>`__ owners grant `can_remove_my_signatory`_ `permission <../core_concepts/glossary.html#permission>`__."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:478
-msgid "Usage in Java bindings: ``Role.kRemoveMySignatory``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:479
-msgid "Usage in Python bindings: ``Role_kRemoveMySignatory``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:484
+#: ../iroha/docs/source/maintenance/permissions.rst:442
 msgid "Admin creates domain that contains only can_grant_can_remove_my_signatory permission and two accounts for Alice and Bob in that domain. Alice can grant to Bob and revoke can_remove_my_signatory permission."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:493
+#: ../iroha/docs/source/maintenance/permissions.rst:451
 msgid "can_grant_can_set_my_account_detail"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:495
+#: ../iroha/docs/source/maintenance/permissions.rst:453
 msgid "Allows `role <../core_concepts/glossary.html#role>`__ owners grant `can_set_my_account_detail`_ `permission <../core_concepts/glossary.html#permission>`__."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:498
-msgid "Usage in Java bindings: ``Role.kSetMyAccountDetail``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:499
-msgid "Usage in Python bindings: ``Role_kSetMyAccountDetail``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:504
+#: ../iroha/docs/source/maintenance/permissions.rst:459
 msgid "Admin creates domain that contains only can_grant_can_set_my_account_detail permission and two accounts for Alice and Bob in that domain. Alice can grant to Bob and revoke can_set_my_account_detail permission."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:513
+#: ../iroha/docs/source/maintenance/permissions.rst:468
 msgid "can_grant_can_set_my_quorum"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:515
+#: ../iroha/docs/source/maintenance/permissions.rst:470
 msgid "Allows `role <../core_concepts/glossary.html#role>`__ owners grant `can_set_my_quorum`_ `permission <../core_concepts/glossary.html#permission>`__."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:518
-msgid "Usage in Java bindings: ``Role.kSetMyQuorum``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:519
-msgid "Usage in Python bindings: ``Role_kSetMyQuorum``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:524
+#: ../iroha/docs/source/maintenance/permissions.rst:476
 msgid "Admin creates domain that contains only can_grant_can_set_my_quorum permission and two accounts for Alice and Bob in that domain. Alice can grant to Bob and revoke can_set_my_quorum permission."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:533
+#: ../iroha/docs/source/maintenance/permissions.rst:485
 msgid "can_grant_can_transfer_my_assets"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:535
+#: ../iroha/docs/source/maintenance/permissions.rst:487
 msgid "Allows `role <../core_concepts/glossary.html#role>`__ owners grant `can_transfer_my_assets`_ `permission <../core_concepts/glossary.html#permission>`__."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:538
-msgid "Usage in Java bindings: ``Role.kTransferMyAssets``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:539
-msgid "Usage in Python bindings: ``Role_kTransferMyAssets``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:544
+#: ../iroha/docs/source/maintenance/permissions.rst:493
 msgid "Admin creates domain that contains only can_grant_can_transfer_my_assets permission and two accounts for Alice and Bob in that domain. Alice can grant to Bob and revoke can_transfer_my_assets permission."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:556
+#: ../iroha/docs/source/maintenance/permissions.rst:505
 msgid "can_add_peer"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:558
+#: ../iroha/docs/source/maintenance/permissions.rst:507
 msgid "Allows adding `peers <../core_concepts/glossary.html#peer>`__ to the network."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:560
+#: ../iroha/docs/source/maintenance/permissions.rst:509
 msgid "A new peer will be a valid participant in the next `consensus <../core_concepts/glossary.html#consensus>`__ round after an agreement on `transaction <../core_concepts/glossary.html#transaction>`__ containing \"addPeer\" `command <../core_concepts/glossary.html#command>`__."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:562
+#: ../iroha/docs/source/maintenance/permissions.rst:511
 msgid "Related API method: `Add Peer <../api/commands.html#add-peer>`__"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:563
-msgid "Usage in Java bindings: ``Role.kAddPeer``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:564
-msgid "Usage in Python bindings: ``Role_kAddPeer``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:569
+#: ../iroha/docs/source/maintenance/permissions.rst:515
 msgid "Admin creates domain that contains only can_add_peer permission and Alice account in that domain. Alice can add new peers."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:581
+#: ../iroha/docs/source/maintenance/permissions.rst:527
 msgid "can_append_role"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:583
+#: ../iroha/docs/source/maintenance/permissions.rst:529
 msgid "Allows appending `roles <../core_concepts/glossary.html#role>`__ to another `account <../core_concepts/glossary.html#account>`__."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:585
+#: ../iroha/docs/source/maintenance/permissions.rst:531
 msgid "You can append only that role that has lesser or the same set of privileges as `transaction <../core_concepts/glossary.html#transaction>`__ creator."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:587
+#: ../iroha/docs/source/maintenance/permissions.rst:533
 msgid "Related API method: `Append Role <../api/commands.html#append-role>`__"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:588
-msgid "Usage in Java bindings: ``Role.kAppendRole``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:589
-msgid "Usage in Python bindings: ``Role_kAppendRole``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:594
+#: ../iroha/docs/source/maintenance/permissions.rst:537
 msgid "Admin creates domian that contains can_append_role and can_add_peer permissions and two accounts for Alice and Bob in that domain. Admin creates the second role that contains only can_add_peer permission. Alice can append role to Bob."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:603
+#: ../iroha/docs/source/maintenance/permissions.rst:546
 msgid "can_create_role"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:605
+#: ../iroha/docs/source/maintenance/permissions.rst:548
 msgid "Allows creating a new `role <../core_concepts/glossary.html#role>`__ within a system."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:607
+#: ../iroha/docs/source/maintenance/permissions.rst:550
 msgid "Possible set of `permissions <../core_concepts/glossary.html#permission>`__ for a new role is limited to those permissions that `transaction <../core_concepts/glossary.html#transaction>`__ creator has."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:610
+#: ../iroha/docs/source/maintenance/permissions.rst:553
 msgid "Related API method: `Create Role <../api/commands.html#create-role>`__"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:611
-msgid "Usage in Java bindings: ``Role.kCreateRole``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:612
-msgid "Usage in Python bindings: ``Role_kCreateRole``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:617
+#: ../iroha/docs/source/maintenance/permissions.rst:557
 msgid "Admin creates domain that contains only can_create_role permission and Alice account in that domain. Alice can create new roles."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:626
+#: ../iroha/docs/source/maintenance/permissions.rst:566
 msgid "can_detach_role"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:628
+#: ../iroha/docs/source/maintenance/permissions.rst:568
 msgid "Allows revoking a `role <../core_concepts/glossary.html#role>`__ from a user."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:630
+#: ../iroha/docs/source/maintenance/permissions.rst:570
 msgid "Due to a known issue the permission allows to detach any role without limitations https://soramitsu.atlassian.net/browse/IR-1468"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:632
+#: ../iroha/docs/source/maintenance/permissions.rst:572
 msgid "Related API method: `Detach Role <../api/commands.html#detach-role>`__"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:633
-msgid "Usage in Java bindings: ``Role.kDetachRole``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:634
-msgid "Usage in Python bindings: ``Role_kDetachRole``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:639
+#: ../iroha/docs/source/maintenance/permissions.rst:576
 msgid "Admin creates domain that contains only can_detach_role permission and creates Alice account in that domain. Admin has two roles test_role and admin_role. Alice can detach test_role from Admin account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:651
+#: ../iroha/docs/source/maintenance/permissions.rst:588
 msgid "can_add_my_signatory"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:655
+#: ../iroha/docs/source/maintenance/permissions.rst:592
 msgid "`Permission <../core_concepts/glossary.html#permission>`__ that allows a specified `account <../core_concepts/glossary.html#account>`__ to add an extra public key to the another specified account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:657
-#: ../iroha/docs/source/maintenance/permissions.rst:679
+#: ../iroha/docs/source/maintenance/permissions.rst:594
+#: ../iroha/docs/source/maintenance/permissions.rst:613
 msgid "Related API method: `Add Signatory <../api/commands.html#add-signatory>`__"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:658
-msgid "Usage in Java bindings: ``Grantable.kAddMySignatory``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:659
-msgid "Usage in Python bindings: ``Grantable_kAddMySignatory``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:664
+#: ../iroha/docs/source/maintenance/permissions.rst:598
 msgid "Admin creates domain that contains only can_grant_can_add_my_signatory permission and two accounts for Alice and Bob in that domain. Alice can grant to Bob can_add_my_signatory permission. Bob can add an extra key to Alice account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:673
+#: ../iroha/docs/source/maintenance/permissions.rst:607
 msgid "can_add_signatory"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:675
+#: ../iroha/docs/source/maintenance/permissions.rst:609
 msgid "Allows linking additional public keys to `account <../core_concepts/glossary.html#account>`__."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:677
-#: ../iroha/docs/source/maintenance/permissions.rst:723
+#: ../iroha/docs/source/maintenance/permissions.rst:611
+#: ../iroha/docs/source/maintenance/permissions.rst:651
 msgid "The corresponding `command <../core_concepts/glossary.html#command>`__ can be executed only for an account of `transaction <../core_concepts/glossary.html#transaction>`__ creator and only if that account has a `role <../core_concepts/glossary.html#role>`__ with the `permission <../core_concepts/glossary.html#permission>`__."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:680
-msgid "Usage in Java bindings: ``Role.kAddSignatory``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:681
-msgid "Usage in Python bindings: ``Role_kAddSignatory``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:686
+#: ../iroha/docs/source/maintenance/permissions.rst:617
 msgid "Admin creates domain that contains only can_add_signatory permission and Alice account in that domain. Alice can add to own account additional keys."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:695
+#: ../iroha/docs/source/maintenance/permissions.rst:626
 msgid "can_remove_my_signatory"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:699
+#: ../iroha/docs/source/maintenance/permissions.rst:630
 msgid "`Permission <../core_concepts/glossary.html#permission>`__ that allows a specified `account <../core_concepts/glossary.html#account>`__ remove public key from the another specified account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:703
-#: ../iroha/docs/source/maintenance/permissions.rst:725
+#: ../iroha/docs/source/maintenance/permissions.rst:634
+#: ../iroha/docs/source/maintenance/permissions.rst:653
 msgid "Related API method: `Remove Signatory <../api/commands.html#remove-signatory>`__"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:704
-msgid "Usage in Java bindings: ``Grantable.kRemoveMySignatory``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:705
-msgid "Usage in Python bindings: ``Grantable_kRemoveMySignatory``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:710
+#: ../iroha/docs/source/maintenance/permissions.rst:638
 msgid "Admin creates domain that contains can_add_signatory and can_grant_can_remove_my_signatory permissions and two accounts for Alice and Bob. Alice grants can_remove_my_signatory permission to Bob and adds additional key to own account. Bob can remove one of Alice's keys."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:719
+#: ../iroha/docs/source/maintenance/permissions.rst:647
 msgid "can_remove_signatory"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:721
+#: ../iroha/docs/source/maintenance/permissions.rst:649
 msgid "Allows unlinking additional public keys from an `account <../core_concepts/glossary.html#account>`__."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:726
-msgid "Usage in Java bindings: ``Role.kRemoveSignatory``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:727
-msgid "Usage in Python bindings: ``Role_kRemoveSignatory``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:732
+#: ../iroha/docs/source/maintenance/permissions.rst:657
 msgid "Admin creates domian that contains can_remove_signatory permission and Alice account in that domain. Admin adds an extra key to Alice account. Alice can remove one of the keys."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:741
+#: ../iroha/docs/source/maintenance/permissions.rst:666
 msgid "can_set_my_quorum"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:745
+#: ../iroha/docs/source/maintenance/permissions.rst:670
 msgid "`Permission <../core_concepts/glossary.html#permission>`__ that allows a specified `account <../core_concepts/glossary.html#account>`__ to set `quorum <../core_concepts/glossary.html#quorum>`__ for the another specified account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:747
+#: ../iroha/docs/source/maintenance/permissions.rst:672
 msgid "Account should have greater or equal amount of keys than quorum."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:749
-#: ../iroha/docs/source/maintenance/permissions.rst:771
+#: ../iroha/docs/source/maintenance/permissions.rst:674
+#: ../iroha/docs/source/maintenance/permissions.rst:693
 msgid "Related API method: `Set Account Quorum <../api/commands.html#set-account-quorum>`__"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:750
-msgid "Usage in Java bindings: ``Grantable.kSetMyQuorum``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:751
-msgid "Usage in Python bindings: ``Grantable_kSetMyQuorum``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:756
+#: ../iroha/docs/source/maintenance/permissions.rst:678
 msgid "Admin creates domain that contains can_grant_can_set_my_quorum and can_add_signatory permissions and create two accounts for Alice and Bob in that domain. Alice grants to Bob can_set_my_qourum permission and adds an extra key to account. Bob can set quorum for Alice."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:765
+#: ../iroha/docs/source/maintenance/permissions.rst:687
 msgid "can_set_quorum"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:767
+#: ../iroha/docs/source/maintenance/permissions.rst:689
 msgid "Allows setting `quorum <../core_concepts/glossary.html#quorum>`__."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:769
+#: ../iroha/docs/source/maintenance/permissions.rst:691
 msgid "At least the same number (or more) of public keys should be already linked to an `account <../core_concepts/glossary.html#account>`__."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:772
-msgid "Usage in Java bindings: ``Role.kSetQuorum``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:773
-msgid "Usage in Python bindings: ``Role_kSetQuorum``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:778
+#: ../iroha/docs/source/maintenance/permissions.rst:697
 msgid "Admin creates domain that contains only can_set_quorum permission and creates Alice account in that domain. Admin adds an extra key for Alice account. Alice can set quorum equals two."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:787
+#: ../iroha/docs/source/maintenance/permissions.rst:706
 msgid "Query-related permissions"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:793
+#: ../iroha/docs/source/maintenance/permissions.rst:712
 msgid "can_get_all_acc_detail"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:795
+#: ../iroha/docs/source/maintenance/permissions.rst:714
 msgid "Allows getting all the details set to any `account <../core_concepts/glossary.html#account>`__ within the system."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:797
-#: ../iroha/docs/source/maintenance/permissions.rst:841
-#: ../iroha/docs/source/maintenance/permissions.rst:885
+#: ../iroha/docs/source/maintenance/permissions.rst:716
+#: ../iroha/docs/source/maintenance/permissions.rst:754
+#: ../iroha/docs/source/maintenance/permissions.rst:792
 msgid "Related API method: `Get Account Detail <../api/queries.html#get-account-detail>`__"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:798
-msgid "Usage in Java bindings: ``Role.kGetAllAccDetail``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:799
-msgid "Usage in Python bindings: ``Role_kGetAllAccDetail``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:804
+#: ../iroha/docs/source/maintenance/permissions.rst:720
 msgid "Admin creates Alice account in a diffrerent domain that has only can_get_all_acc_detail permission. Alice can access details set to Admin account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:813
+#: ../iroha/docs/source/maintenance/permissions.rst:729
 msgid "can_get_all_accounts"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:815
-#: ../iroha/docs/source/maintenance/permissions.rst:859
-#: ../iroha/docs/source/maintenance/permissions.rst:903
+#: ../iroha/docs/source/maintenance/permissions.rst:731
+#: ../iroha/docs/source/maintenance/permissions.rst:769
+#: ../iroha/docs/source/maintenance/permissions.rst:807
 msgid "Allows getting `account <../core_concepts/glossary.html#account>`__ information: `quorum <../core_concepts/glossary.html#quorum>`__ and all the details related to the account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:817
+#: ../iroha/docs/source/maintenance/permissions.rst:733
 msgid "With this `permission <../core_concepts/glossary.html#permission>`__, `query <../core_concepts/glossary.html#query>`__ creator can get information about any account within a system."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:819
-#: ../iroha/docs/source/maintenance/permissions.rst:863
-#: ../iroha/docs/source/maintenance/permissions.rst:907
+#: ../iroha/docs/source/maintenance/permissions.rst:735
+#: ../iroha/docs/source/maintenance/permissions.rst:773
+#: ../iroha/docs/source/maintenance/permissions.rst:811
 msgid "All the details (set by the account owner or owners of other accounts) will be returned."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:821
-#: ../iroha/docs/source/maintenance/permissions.rst:865
-#: ../iroha/docs/source/maintenance/permissions.rst:909
+#: ../iroha/docs/source/maintenance/permissions.rst:737
+#: ../iroha/docs/source/maintenance/permissions.rst:775
+#: ../iroha/docs/source/maintenance/permissions.rst:813
 msgid "Related API method: `Get Account <../api/queries.html#get-account>`__"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:822
-msgid "Usage in Java bindings: ``Role.kGetAllAccounts``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:823
-msgid "Usage in Python bindings: ``Role_kGetAllAccounts``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:828
+#: ../iroha/docs/source/maintenance/permissions.rst:741
 msgid "Admin creates Alice account in a different domain that has only can_get_all_accounts permission. Alice can access account information of Admin."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:837
+#: ../iroha/docs/source/maintenance/permissions.rst:750
 msgid "can_get_domain_acc_detail"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:839
+#: ../iroha/docs/source/maintenance/permissions.rst:752
 msgid "Allows getting all the details set to any `account <../core_concepts/glossary.html#account>`__ within the same `domain <../core_concepts/glossary.html#domain>`__ as a domain of `query <../core_concepts/glossary.html#query>`__ creator account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:842
-msgid "Usage in Java bindings: ``Role.kGetDomainAccDetail``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:843
-msgid "Usage in Python bindings: ``Role_kGetDomainAccDetail``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:848
+#: ../iroha/docs/source/maintenance/permissions.rst:758
 msgid "Admin creates Alice account in the same domain that has only can_get_domain_acc_detail permission. Alice can get details set to Admin account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:857
+#: ../iroha/docs/source/maintenance/permissions.rst:767
 msgid "can_get_domain_accounts"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:861
+#: ../iroha/docs/source/maintenance/permissions.rst:771
 msgid "With this `permission <../core_concepts/glossary.html#permission>`__, `query <../core_concepts/glossary.html#query>`__ creator can get information only about accounts from the same `domain <../core_concepts/glossary.html#domain>`__."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:866
-msgid "Usage in Java bindings: ``Role.kGetDomainAccounts``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:867
-msgid "Usage in Python bindings: ``Role_kGetDomainAccounts``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:872
+#: ../iroha/docs/source/maintenance/permissions.rst:779
 msgid "Admin creates Alice account in the same domain that has only can_get_domain_accounts. Alice can access account information of Admin."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:881
+#: ../iroha/docs/source/maintenance/permissions.rst:788
 msgid "can_get_my_acc_detail"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:883
+#: ../iroha/docs/source/maintenance/permissions.rst:790
 msgid "Allows getting all the details set to the `account <../core_concepts/glossary.html#account>`__ of `query <../core_concepts/glossary.html#query>`__ creator."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:886
-msgid "Usage in Java bindings: ``Role.kGetMyAccDetail``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:887
-msgid "Usage in Python bindings: ``Role_kGetMyAccDetail``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:892
+#: ../iroha/docs/source/maintenance/permissions.rst:796
 msgid "Admin creates Alice account in the domain that has only can_get_my_acc_detail permission. Alice can get details set to own account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:901
+#: ../iroha/docs/source/maintenance/permissions.rst:805
 msgid "can_get_my_account"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:905
+#: ../iroha/docs/source/maintenance/permissions.rst:809
 msgid "With this `permission <../core_concepts/glossary.html#permission>`__, `query <../core_concepts/glossary.html#query>`__ creator can get information only about own account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:910
-msgid "Usage in Java bindings: ``Role.kGetMyAccount``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:911
-msgid "Usage in Python bindings: ``Role_kGetMyAccount``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:916
+#: ../iroha/docs/source/maintenance/permissions.rst:817
 msgid "Admin creates Alice account in the domain that has only can_get_my_account permission. Alice can access own account information."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:928
+#: ../iroha/docs/source/maintenance/permissions.rst:829
 msgid "can_get_all_acc_ast"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:930
+#: ../iroha/docs/source/maintenance/permissions.rst:831
 msgid "Allows getting a balance of `assets <../core_concepts/glossary.html#asset>`__ on any `account <../core_concepts/glossary.html#account>`__ within the system."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:932
+#: ../iroha/docs/source/maintenance/permissions.rst:833
 msgid "`Query <../core_concepts/glossary.html#query>`__ response will contain information about all the assets that ever been assigned to an account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:934
-#: ../iroha/docs/source/maintenance/permissions.rst:956
-#: ../iroha/docs/source/maintenance/permissions.rst:978
+#: ../iroha/docs/source/maintenance/permissions.rst:835
+#: ../iroha/docs/source/maintenance/permissions.rst:854
+#: ../iroha/docs/source/maintenance/permissions.rst:873
 msgid "Related API method: `Get Account Assets <../api/queries.html#get-account-assets>`__"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:935
-msgid "Usage in Java bindings: ``Role.kGetAllAccAst``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:936
-msgid "Usage in Python bindings: ``Role_kGetAllAccAst``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:941
+#: ../iroha/docs/source/maintenance/permissions.rst:839
 msgid "Admin creates Alice account in a different domain that has only can_get_all_acc_ast permission. Alice can access assets balance on Admin account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:950
+#: ../iroha/docs/source/maintenance/permissions.rst:848
 msgid "can_get_domain_acc_ast"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:952
+#: ../iroha/docs/source/maintenance/permissions.rst:850
 msgid "Allows getting a balance of specified `asset <../core_concepts/glossary.html#asset>`__ on any `account <../core_concepts/glossary.html#account>`__ within the same `domain <../core_concepts/glossary.html#domain>`__ as a domain of `query <../core_concepts/glossary.html#query>`__ creator account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:954
-#: ../iroha/docs/source/maintenance/permissions.rst:976
+#: ../iroha/docs/source/maintenance/permissions.rst:852
+#: ../iroha/docs/source/maintenance/permissions.rst:871
 msgid "Query response will contain information about all the assets that ever been assigned to an account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:957
-msgid "Usage in Java bindings: ``Role.kGetDomainAccAst``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:958
-msgid "Usage in Python bindings: ``Role_kGetDomainAccAst``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:963
+#: ../iroha/docs/source/maintenance/permissions.rst:858
 msgid "Admin creates Alice account in the same domain that has only can_get_domain_acc_ast permission. Alice can access assets balance on Admin account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:972
+#: ../iroha/docs/source/maintenance/permissions.rst:867
 msgid "can_get_my_acc_ast"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:974
+#: ../iroha/docs/source/maintenance/permissions.rst:869
 msgid "Allows getting a balance of specified `asset <../core_concepts/glossary.html#asset>`__ on `account <../core_concepts/glossary.html#account>`__ of `query <../core_concepts/glossary.html#query>`__ creator."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:979
-msgid "Usage in Java bindings: ``Role.kGetMyAccAst``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:980
-msgid "Usage in Python bindings: ``Role_kGetMyAccAst``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:985
+#: ../iroha/docs/source/maintenance/permissions.rst:877
 msgid "Admin creates Alice account in a domain that has only can_get_my_acc_ast permission. Alice can access assets balance on own account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:997
+#: ../iroha/docs/source/maintenance/permissions.rst:889
 msgid "can_get_all_acc_ast_txs"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:999
+#: ../iroha/docs/source/maintenance/permissions.rst:891
 msgid "Allows getting `transactions <../core_concepts/glossary.html#transaction>`__ associated with a specified `asset <../core_concepts/glossary.html#asset>`__ and any `account <../core_concepts/glossary.html#account>`__ within the system."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1001
-#: ../iroha/docs/source/maintenance/permissions.rst:1023
-#: ../iroha/docs/source/maintenance/permissions.rst:1045
+#: ../iroha/docs/source/maintenance/permissions.rst:893
+#: ../iroha/docs/source/maintenance/permissions.rst:912
+#: ../iroha/docs/source/maintenance/permissions.rst:931
 msgid "Incoming asset transfers will also appear in the query response."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1003
-#: ../iroha/docs/source/maintenance/permissions.rst:1025
-#: ../iroha/docs/source/maintenance/permissions.rst:1047
+#: ../iroha/docs/source/maintenance/permissions.rst:895
+#: ../iroha/docs/source/maintenance/permissions.rst:914
+#: ../iroha/docs/source/maintenance/permissions.rst:933
 msgid "Related API method: `Get Account Asset Transactions <../api/queries.html#get-account-asset-transactions>`__"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1004
-msgid "Usage in Java bindings: ``Role.kGetAllAccAstTxs``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:1005
-msgid "Usage in Python bindings: ``Role_kGetAllAccAstTxs``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:1010
+#: ../iroha/docs/source/maintenance/permissions.rst:899
 msgid "Admin creates Alice account in a different domain that has can_get_all_acc_ast_txs, can_receive and can_transfer permissions. Admin issues some amount of coins and transfers them to Alice. Alice can query all transactions related to coins and Admin account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1019
+#: ../iroha/docs/source/maintenance/permissions.rst:908
 msgid "can_get_domain_acc_ast_txs"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1021
+#: ../iroha/docs/source/maintenance/permissions.rst:910
 msgid "Allows getting `transactions <../core_concepts/glossary.html#transaction>`__ associated with a specified `asset <../core_concepts/glossary.html#asset>`__ and an `account <../core_concepts/glossary.html#account>`__ from the same `domain <../core_concepts/glossary.html#domain>`__ as `query <../core_concepts/glossary.html#query>`__ creator."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1026
-msgid "Usage in Java bindings: ``Role.kGetDomainAccAstTxs``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:1027
-msgid "Usage in Python bindings: ``Role_kGetDomainAccAstTxs``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:1032
+#: ../iroha/docs/source/maintenance/permissions.rst:918
 msgid "Admin creates Alice in the same domain that has only can_get_domain_acc_ast_txs permission. Admin issues some amount of coins and transfers them to Alice. Alice can query all transactions related to coins and Admin account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1041
+#: ../iroha/docs/source/maintenance/permissions.rst:927
 msgid "can_get_my_acc_ast_txs"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1043
+#: ../iroha/docs/source/maintenance/permissions.rst:929
 msgid "Allows getting `transactions <../core_concepts/glossary.html#transaction>`__ associated with the `account <../core_concepts/glossary.html#account>`__ of `query <../core_concepts/glossary.html#query>`__ creator and specified `asset <../core_concepts/glossary.html#asset>`__."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1048
-msgid "Usage in Java bindings: ``Role.kGetMyAccAstTxs``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:1049
-msgid "Usage in Python bindings: ``Role_kGetMyAccAstTxs``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:1054
+#: ../iroha/docs/source/maintenance/permissions.rst:937
 msgid "Admin creates Alice account in a domain that has only can_get_my_acc_ast_txs permission. Admin issues some amount of coins and transfers them to Alice. Alice can query all transactions related to coins and own account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1066
+#: ../iroha/docs/source/maintenance/permissions.rst:949
 msgid "can_get_all_acc_txs"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1068
+#: ../iroha/docs/source/maintenance/permissions.rst:951
 msgid "Allows getting all `transactions <../core_concepts/glossary.html#transaction>`__ issued by any `account <../core_concepts/glossary.html#account>`__ within the system."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1070
-#: ../iroha/docs/source/maintenance/permissions.rst:1092
-#: ../iroha/docs/source/maintenance/permissions.rst:1114
+#: ../iroha/docs/source/maintenance/permissions.rst:953
+#: ../iroha/docs/source/maintenance/permissions.rst:972
+#: ../iroha/docs/source/maintenance/permissions.rst:991
 msgid "Incoming asset transfer inside a transaction would NOT lead to an appearance of the transaction in the command output."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1072
-#: ../iroha/docs/source/maintenance/permissions.rst:1094
-#: ../iroha/docs/source/maintenance/permissions.rst:1116
+#: ../iroha/docs/source/maintenance/permissions.rst:955
+#: ../iroha/docs/source/maintenance/permissions.rst:974
+#: ../iroha/docs/source/maintenance/permissions.rst:993
 msgid "Related API method: `Get Account Transactions <../api/queries.html#get-account-transactions>`__"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1073
-msgid "Usage in Java bindings: ``Role.kGetAllAccTxs``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:1074
-msgid "Usage in Python bindings: ``Role_kGetAllAccTxs``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:1079
+#: ../iroha/docs/source/maintenance/permissions.rst:959
 msgid "Admin creates Alice account in a different domain that has only can_get_all_acc_txs permiison. Alice can request all the transactions issues by Admin."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1088
+#: ../iroha/docs/source/maintenance/permissions.rst:968
 msgid "can_get_domain_acc_txs"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1090
+#: ../iroha/docs/source/maintenance/permissions.rst:970
 msgid "Allows getting all `transactions <../core_concepts/glossary.html#transaction>`__ issued by any `account <../core_concepts/glossary.html#account>`__ from the same `domain <../core_concepts/glossary.html#domain>`__ as `query <../core_concepts/glossary.html#query>`__ creator."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1095
-msgid "Usage in Java bindings: ``Role.kGetDomainAccTxs``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:1096
-msgid "Usage in Python bindings: ``Role_kGetDomainAccTxs``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:1101
+#: ../iroha/docs/source/maintenance/permissions.rst:978
 msgid "Admin creates Alice account in the same domain that has only can_get_domain_acc_txs permission. Alice can request all the transactions issued by Admin."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1110
+#: ../iroha/docs/source/maintenance/permissions.rst:987
 msgid "can_get_my_acc_txs"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1112
+#: ../iroha/docs/source/maintenance/permissions.rst:989
 msgid "Allows getting all `transactions <../core_concepts/glossary.html#transaction>`__ issued by an `account <../core_concepts/glossary.html#account>`__ of `query <../core_concepts/glossary.html#query>`__ creator."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1117
-msgid "Usage in Java bindings: ``Role.kGetMyAccTxs``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:1118
-msgid "Usage in Python bindings: ``Role_kGetMyAccTxs``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:1123
+#: ../iroha/docs/source/maintenance/permissions.rst:997
 msgid "Admin creates Alice account in a domain that has only can_get_my_acc_txs permission. Alice can get all transactions issued by own account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1135
+#: ../iroha/docs/source/maintenance/permissions.rst:1009
 msgid "can_read_assets"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1137
+#: ../iroha/docs/source/maintenance/permissions.rst:1011
 msgid "Allows getting information about `asset <../core_concepts/glossary.html#asset>`__ precision."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1139
+#: ../iroha/docs/source/maintenance/permissions.rst:1013
 msgid "Related API method: `Get Asset Info <../api/queries.html#get-asset-info>`__"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1140
-msgid "Usage in Java bindings: ``Role.kReadAssets``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:1141
-msgid "Usage in Python bindings: ``Role_kReadAssets``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:1146
+#: ../iroha/docs/source/maintenance/permissions.rst:1017
 msgid "Admin creates Alice account in a domain that has can_read_assets permissions. Alice can query information about any asset."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1158
+#: ../iroha/docs/source/maintenance/permissions.rst:1029
 msgid "can_get_blocks"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1160
+#: ../iroha/docs/source/maintenance/permissions.rst:1031
 msgid "Allows subscription to the stream of accepted `blocks <../core_concepts/glossary.html#block>`__."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1162
-msgid "Usage in Java bindings: ``Role.kGetBlocks``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:1163
-msgid "Usage in Python bindings: ``Role_kGetBlocks``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:1170
+#: ../iroha/docs/source/maintenance/permissions.rst:1037
 msgid "can_get_roles"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1172
+#: ../iroha/docs/source/maintenance/permissions.rst:1039
 msgid "Allows getting a list of `roles <../core_concepts/glossary.html#role>`__ within the system. Allows getting a list of `permissions <../core_concepts/glossary.html#permission>`__ associated with a role."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1175
+#: ../iroha/docs/source/maintenance/permissions.rst:1042
 msgid "Related API methods: `Get Roles <../api/queries.html#get-roles>`__, `Get Role Permissions <../api/queries.html#get-role-permissions>`__"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1176
-msgid "Usage in Java bindings: ``Role.kGetRoles``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:1177
-msgid "Usage in Python bindings: ``Role_kGetRoles``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:1182
+#: ../iroha/docs/source/maintenance/permissions.rst:1046
 msgid "Admin creates Alice account in a domain that has can_get_roles permission. Alice can query list of all existing roles. Alice can query list of permissions contained in any role."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1194
+#: ../iroha/docs/source/maintenance/permissions.rst:1058
 msgid "can_get_all_signatories"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1196
+#: ../iroha/docs/source/maintenance/permissions.rst:1060
 msgid "Allows getting a list of public keys linked to an `account <../core_concepts/glossary.html#account>`__ within the system."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1198
-#: ../iroha/docs/source/maintenance/permissions.rst:1218
-#: ../iroha/docs/source/maintenance/permissions.rst:1238
+#: ../iroha/docs/source/maintenance/permissions.rst:1062
+#: ../iroha/docs/source/maintenance/permissions.rst:1079
+#: ../iroha/docs/source/maintenance/permissions.rst:1096
 msgid "Related API method: `Get Signatories <../api/queries.html#get-signatories>`__"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1199
-msgid "Usage in Java bindings: ``Role.kGetAllSignatories``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:1200
-msgid "Usage in Python bindings: ``Role_kGetAllSignatories``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:1205
+#: ../iroha/docs/source/maintenance/permissions.rst:1066
 msgid "Admin creates Alice account in a different domain that has only can_get_all_signatories permission. Alice can query a list of public keys related to Admin account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1214
+#: ../iroha/docs/source/maintenance/permissions.rst:1075
 msgid "can_get_domain_signatories"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1216
+#: ../iroha/docs/source/maintenance/permissions.rst:1077
 msgid "Allows getting a list of public keys of any `account <../core_concepts/glossary.html#account>`__ within the same `domain <../core_concepts/glossary.html#domain>`__ as the domain of `query <../core_concepts/glossary.html#query>`__ creator account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1219
-msgid "Usage in Java bindings: ``Role.kGetDomainSignatories``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:1220
-msgid "Usage in Python bindings: ``Role_kGetDomainSignatories``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:1225
+#: ../iroha/docs/source/maintenance/permissions.rst:1083
 msgid "Admin creates Alice account in the same domain that has only can_get_domain_signatories permission. Alice can query a list of public keys related to Admin account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1234
+#: ../iroha/docs/source/maintenance/permissions.rst:1092
 msgid "can_get_my_signatories"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1236
+#: ../iroha/docs/source/maintenance/permissions.rst:1094
 msgid "Allows getting a list of public keys of `query <../core_concepts/glossary.html#query>`__ creator `account <../core_concepts/glossary.html#account>`__."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1239
-msgid "Usage in Java bindings: ``Role.kGetMySignatories``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:1240
-msgid "Usage in Python bindings: ``Role_kGetMySignatories``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:1245
+#: ../iroha/docs/source/maintenance/permissions.rst:1100
 msgid "Admin creates Alice account in a domain that has only can_get_my_signatories permission. Alice can query a list of public keys related to own account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1257
+#: ../iroha/docs/source/maintenance/permissions.rst:1112
 msgid "can_get_all_txs"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1259
+#: ../iroha/docs/source/maintenance/permissions.rst:1114
 msgid "Allows getting any `transaction <../core_concepts/glossary.html#transaction>`__ by hash."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1261
-#: ../iroha/docs/source/maintenance/permissions.rst:1281
+#: ../iroha/docs/source/maintenance/permissions.rst:1116
+#: ../iroha/docs/source/maintenance/permissions.rst:1133
 msgid "Related API method: `Get Transactions <../api/queries.html#get-transactions>`__"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1262
-msgid "Usage in Java bindings: ``Role.kGetAllTxs``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:1263
-msgid "Usage in Python bindings: ``Role_kGetAllTxs``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:1268
+#: ../iroha/docs/source/maintenance/permissions.rst:1120
 msgid "Admin issues several transactions and creates Alice account in a different domain that has only can_get_all_txs permission. Alice (knowing transactions hashes) can query transactions issued by Admin Account."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1277
+#: ../iroha/docs/source/maintenance/permissions.rst:1129
 msgid "can_get_my_txs"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1279
+#: ../iroha/docs/source/maintenance/permissions.rst:1131
 msgid "Allows getting `transaction <../core_concepts/glossary.html#transaction>`__ (that was issued by `query <../core_concepts/glossary.html#query>`__ creator) by hash."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1282
-msgid "Usage in Java bindings: ``Role.kGetMyTxs``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:1283
-msgid "Usage in Python bindings: ``Role_kGetMyTxs``"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:1288
+#: ../iroha/docs/source/maintenance/permissions.rst:1137
 msgid "Admin creates Alice account in a different domain. Alice (knowing transactions hashes) issues several transactions. Alice can query own transactions."
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1297
+#: ../iroha/docs/source/maintenance/permissions.rst:1146
 msgid "Supplementary Sources"
 msgstr ""
 
-#: ../iroha/docs/source/maintenance/permissions.rst:1299
+#: ../iroha/docs/source/maintenance/permissions.rst:1148
 msgid "commons.py"
-msgstr ""
-
-#: ../iroha/docs/source/maintenance/permissions.rst:1304
-msgid "consts.py"
 msgstr ""
 
