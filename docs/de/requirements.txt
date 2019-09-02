@@ -18,7 +18,7 @@ port-for==0.3.1
 protobuf==3.5.1
 Pygments==2.2.0
 pytz==2017.3
-PyYAML==3.13
+PyYAML==5.1
 requests==2.20.1
 restructuredtext-lint==1.1.2
 singledispatch==3.4.0.3
